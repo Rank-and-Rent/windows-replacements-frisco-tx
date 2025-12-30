@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600&family=Inter:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --copper-primary: #8B5A2B;
+  --copper-dark: #6B4423;
+  --copper-light: #A67C52;
+  --navy-dark: #0F2A3D;
+  --navy-medium: #1A3A4A;
+  --slate-blue: #4A6B7C;
+  --light-blue: #E8F1F5;
+  --cream-bg: #FAFAFA;
+  --cream-warm: #F5F3F0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Inter', system-ui, sans-serif;
+  background-color: #FAFAFA;
+  color: #1a1a1a;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-weight: 500;
+  line-height: 1.1;
+}
+
+/* Navigation link styling */
+.nav-link {
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 13px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+.nav-link::after {
+  content: '';
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 0;
+  height: 1px;
+  background-color: currentColor;
+  transition: width 0.3s ease;
+}
+
+.nav-link:hover::after {
+  width: 100%;
+}
+
+/* Custom scrollbar - minimal */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f5f5f5;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #c4c4c4;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #999;
+}
+
+/* Hero section styling */
+.hero-gradient {
+  background: linear-gradient(
+    135deg,
+    rgba(15, 42, 61, 0.6) 0%,
+    rgba(15, 42, 61, 0.3) 50%,
+    rgba(15, 42, 61, 0.1) 100%
+  );
+}
+
+/* Service card with gradient overlay */
+.service-card {
+  position: relative;
+  overflow: hidden;
+}
+
+.service-card::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to top,
+    rgba(15, 42, 61, 0.85) 0%,
+    rgba(15, 42, 61, 0.4) 40%,
+    transparent 70%
+  );
+  transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.service-card:hover::before {
+  background: linear-gradient(
+    to top,
+    rgba(15, 42, 61, 0.9) 0%,
+    rgba(15, 42, 61, 0.5) 50%,
+    rgba(15, 42, 61, 0.2) 100%
+  );
+}
+
+/* Accent blocks in different colors */
+.accent-block-blue {
+  background-color: #E8F1F5;
+}
+
+.accent-block-copper {
+  background-color: #8B5A2B;
+}
+
+.accent-block-gold {
+  background-color: #D4AF37;
+}
+
+.accent-block-navy {
+  background-color: #0F2A3D;
+}
+
+.accent-block-slate {
+  background-color: #4A6B7C;
+}
+
+/* Button styles - outlined elegant */
+.btn-outline {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 14px 32px;
+  border: 1px solid #1a1a1a;
+  background: transparent;
+  color: #1a1a1a;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.btn-outline:hover {
+  background: #1a1a1a;
+  color: #fff;
+}
+
+.btn-outline-light {
+  border-color: rgba(255, 255, 255, 0.6);
+  color: #fff;
+}
+
+.btn-outline-light:hover {
+  background: #fff;
+  color: #1a1a1a;
+  border-color: #fff;
+}
+
+/* Copper accent variant */
+.btn-outline-copper {
+  border-color: var(--slate-blue);
+  color: var(--slate-blue);
+}
+
+.btn-outline-copper:hover {
+  background: var(--slate-blue);
+  color: #fff;
+}
+
+/* Section divider - copper gradient like Adler's blue bar */
+.section-divider {
+  height: 5px;
+  background: linear-gradient(90deg, var(--slate-blue) 0%, var(--navy-dark) 100%);
+}
+
+/* Elegant prose styling */
+.prose-elegant p {
+  font-size: 17px;
+  line-height: 1.8;
+  color: #4a4a4a;
+}
+
+.prose-elegant strong {
+  font-weight: 600;
+  color: #1a1a1a;
+}
+
+/* Image hover zoom */
+.img-zoom {
+  overflow: hidden;
+}
+
+.img-zoom img,
+.img-zoom > div {
+  transition: transform 0.7s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.img-zoom:hover img,
+.img-zoom:hover > div {
+  transform: scale(1.05);
+}
+
+/* Fade in animation classes */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in-up {
+  animation: fadeInUp 0.8s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+}
+
+/* Stagger delays */
+.delay-100 { animation-delay: 0.1s; }
+.delay-200 { animation-delay: 0.2s; }
+.delay-300 { animation-delay: 0.3s; }
+.delay-400 { animation-delay: 0.4s; }
+.delay-500 { animation-delay: 0.5s; }
