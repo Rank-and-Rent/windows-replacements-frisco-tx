@@ -1,57 +1,53 @@
-# Window Replacements of Frisco
+# Window and Door Replacement Services - Frisco, TX
 
-Premium window replacement website for Frisco, Texas. Featuring Andersen, Pella, and Jeld-Wen windows.
+This site connects Frisco, TX property owners with professional window and door installation contractors.
 
-## Tech Stack
+## Data Taxonomy Rationale
 
-- **Framework**: Next.js 14 (App Router)
-- **Styling**: Tailwind CSS
-- **Animations**: Framer Motion
-- **TypeScript**: Strict mode enabled
+The services taxonomy covers 56+ window and door services organized into logical categories: Window Installation (10 types), Specialty Windows (5 types), Window Replacement (4 types), Energy Efficient options (4 types), Door Installation (9 types), Door Replacement (3 types), Commercial Services (4 types), Repair Services (8 types), and Specialty Services (9 types). This comprehensive structure ensures we can match property owners with contractors for any window or door need, from basic double-hung window replacement to custom pivot doors and commercial storefront systems.
 
-## Getting Started
+The locations taxonomy includes 35+ service areas within 30 miles of Frisco, TX, covering major nearby cities (Fort Worth, Grand Prairie, Mansfield, Irving), smaller suburbs (Euless, Bedford, Hurst, Grapevine, Colleyville, Southlake), and Frisco neighborhoods and districts. This geographic coverage ensures we can connect property owners throughout the Dallas-Fort Worth metroplex with qualified local contractors.
 
-1. Install dependencies:
-```bash
-pnpm install
-```
-
-2. Run the development server:
-```bash
-pnpm dev
-```
-
-3. Open [http://localhost:3000](http://localhost:3000) in your browser.
+The brands taxonomy features the four premium window and door manufacturers most requested by Frisco homeowners: Andersen Windows & Doors (known for Fibrex technology and 120+ years of quality), Pella Windows & Doors (recognized for energy efficiency and customization), JELD-WEN Windows & Doors (offering value and reliability), and Marvin Windows & Doors (premium custom craftsmanship). Each brand page provides detailed information to help property owners make informed decisions.
 
 ## Project Structure
 
-```
-src/
-├── app/
-│   ├── globals.css      # Global styles and Tailwind imports
-│   ├── layout.tsx       # Root layout with metadata
-│   └── page.tsx         # Homepage
-├── components/
-│   ├── header.tsx       # Navigation header
-│   ├── hero.tsx         # Hero section with image slider
-│   ├── window-types.tsx # Window styles grid section
-│   ├── brands.tsx       # Brand showcase (Andersen, Pella, Jeld-Wen)
-│   ├── seo-content.tsx  # SEO-rich content sections
-│   └── footer.tsx       # Footer with contact info
-```
+- `/data` - TypeScript data files for services, locations, brands, resources, and layouts
+- `/data/batches` - Batch content data organized for content generation
+- `/prompts` - Batch prompt files for content generation
+- `/src/app` - Next.js app directory with pages and routes
+- `/src/components` - Reusable React components
 
-## Features
+## Technology Stack
 
-- **8 Window Types**: Double-Hung, Single-Hung, Casement, Awning, Sliding, Picture, Bay & Bow, Special Shape
-- **3 Premium Brands**: Andersen, Pella, Jeld-Wen
-- **Rich SEO Content**: Optimized for local Frisco, TX searches
-- **Responsive Design**: Mobile-first approach
-- **Smooth Animations**: Framer Motion powered transitions
+- **Framework**: Next.js 14 with App Router
+- **Language**: TypeScript
+- **Styling**: CSS Modules
+- **Animation**: Framer Motion
+- **CMS**: Sanity (for blog content)
+- **Analytics**: Vercel Analytics
+- **Forms**: SendGrid + Cloudflare Turnstile + Zapier
 
-## Contact
+## Key Features
 
-Window Replacements of Frisco
-- **Address**: 1125 Legacy Dr #230, Frisco, TX 75034
-- **Phone**: (469) 908-2440
-- **Website**: windowreplacementfrisco.com
+- 56+ window and door services
+- 35+ service area locations
+- 4 premium brand showcases (Andersen, Pella, JELD-WEN, Marvin)
+- Blog with Sanity CMS
+- Contact form with anti-spam protection
+- SEO optimized with JSON-LD schema
+- Responsive design
+- Accessibility focused
 
+## Rank and Rent Compliance
+
+This site follows rank and rent best practices. See `RANK-AND-RENT-COMPLIANCE.md` for detailed guidelines.
+
+## Local Resources
+
+The site links to relevant local resources including:
+- City of Frisco building permits and contractor registration
+- Texas Residential Code and building standards
+- ENERGY STAR window ratings
+- NFRC energy performance ratings
+- Industry standards (AAMA, WDMA, IRC)

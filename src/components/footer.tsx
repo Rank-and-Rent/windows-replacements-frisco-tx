@@ -71,8 +71,8 @@ export default function Footer() {
                   <a href="tel:469-908-2440" className="block text-sm text-white/70 hover:text-white transition-colors">
                     (469) 908-2440
                   </a>
-                  <a href="mailto:info@windowreplacementfrisco.com" className="block text-sm text-white/70 hover:text-white transition-colors">
-                    info@windowreplacementfrisco.com
+                  <a href="mailto:hello@windowreplacementfrisco.com" className="block text-sm text-white/70 hover:text-white transition-colors">
+                    hello@windowreplacementfrisco.com
                   </a>
                 </div>
               </div>
