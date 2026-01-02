@@ -46,7 +46,46 @@ export default function Brands() {
   return (
     <section ref={sectionRef} className="relative bg-white py-24 lg:py-32 overflow-hidden">
       <div className="max-w-[1400px] mx-auto px-6 lg:px-10">
-        
+
+        {/* Brand Logos Row */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={isInView ? { opacity: 1, y: 0 } : {}}
+          transition={{ duration: 0.6 }}
+          className="mb-20"
+        >
+          <div className="flex flex-wrap justify-center items-center gap-8 lg:gap-12 max-w-6xl mx-auto">
+            <Link href="/brands/andersen-windows-doors" className="hover:opacity-80 transition-opacity">
+              <img
+                src="/andersen-windows-and-doors-logo.png"
+                alt="Andersen Windows & Doors"
+                className="h-16 lg:h-20 w-auto"
+              />
+            </Link>
+            <Link href="/brands/pella-windows-doors" className="hover:opacity-80 transition-opacity">
+              <img
+                src="/Pella-Corp-Windows-Doors-Logo-2x1-1.png"
+                alt="Pella Windows & Doors"
+                className="h-16 lg:h-20 w-auto"
+              />
+            </Link>
+            <Link href="/brands/jeld-wen-windows-doors" className="hover:opacity-80 transition-opacity">
+              <img
+                src="/jeld-wen-windows-and-doors-logo.png"
+                alt="Jeld-Wen Windows & Doors"
+                className="h-16 lg:h-20 w-auto"
+              />
+            </Link>
+            <Link href="/brands/marvin-windows-doors" className="hover:opacity-80 transition-opacity">
+              <img
+                src="/Marvin-LOCKUP-CMYK-898x301.png"
+                alt="Marvin Windows & Doors"
+                className="h-16 lg:h-20 w-auto"
+              />
+            </Link>
+          </div>
+        </motion.div>
+
         {/* Section Header */}
         <div className="max-w-3xl mb-20">
           <motion.span 

@@ -49,6 +49,43 @@ export default function Hero() {
 
   return (
     <section className="relative h-screen min-h-[700px] max-h-[900px] overflow-hidden">
+      {/* Brand Logos Banner - positioned below fixed header */}
+      <div className="absolute top-[80px] left-0 right-0 z-20 bg-white/90 backdrop-blur-sm border-b border-gray-200/20">
+        <div className="max-w-[1400px] mx-auto px-4 lg:px-10 py-3 lg:py-4">
+          <div className="flex items-center justify-center gap-3 sm:gap-4 lg:gap-8">
+            <span className="hidden sm:inline text-sm font-medium text-gray-700 mr-2 lg:mr-4">Trusted Brands:</span>
+            <Link href="/brands/andersen-windows-doors" className="hover:opacity-80 transition-opacity flex-shrink-0">
+              <img
+                src="/andersen-windows-and-doors-logo.png"
+                alt="Andersen Windows & Doors"
+                className="h-6 sm:h-8 lg:h-10 w-auto"
+              />
+            </Link>
+            <Link href="/brands/pella-windows-doors" className="hover:opacity-80 transition-opacity flex-shrink-0">
+              <img
+                src="/Pella-Corp-Windows-Doors-Logo-2x1-1.png"
+                alt="Pella Windows & Doors"
+                className="h-6 sm:h-8 lg:h-10 w-auto"
+              />
+            </Link>
+            <Link href="/brands/jeld-wen-windows-doors" className="hover:opacity-80 transition-opacity flex-shrink-0">
+              <img
+                src="/jeld-wen-windows-and-doors-logo.png"
+                alt="Jeld-Wen Windows & Doors"
+                className="h-6 sm:h-8 lg:h-10 w-auto"
+              />
+            </Link>
+            <Link href="/brands/marvin-windows-doors" className="hover:opacity-80 transition-opacity flex-shrink-0">
+              <img
+                src="/Marvin-LOCKUP-CMYK-898x301.png"
+                alt="Marvin Windows & Doors"
+                className="h-6 sm:h-8 lg:h-10 w-auto"
+              />
+            </Link>
+          </div>
+        </div>
+      </div>
+
       {/* Background Images with Ken Burns effect */}
       <AnimatePresence mode="wait">
         <motion.div
@@ -72,7 +109,7 @@ export default function Hero() {
       </AnimatePresence>
 
       {/* Content */}
-      <div className="relative z-10 h-full flex items-center">
+      <div className="relative z-10 h-full flex items-center pt-40">
         <div className="max-w-[1400px] mx-auto px-6 lg:px-10 w-full">
           <AnimatePresence mode="wait">
             <motion.div
