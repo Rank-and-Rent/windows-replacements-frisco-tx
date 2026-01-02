@@ -236,3 +236,16 @@ h1, h2, h3, h4, h5, h6 {
 .delay-300 { animation-delay: 0.3s; }
 .delay-400 { animation-delay: 0.4s; }
 .delay-500 { animation-delay: 0.5s; }
+
+/* Mobile bottom padding for sticky call button */
+@media (max-width: 1024px) {
+  main {
+    padding-bottom: 80px;
+  }
+}
+
+/* Prevent header from cutting off hero sections */
+main section:first-child,
+.hero-section {
+  padding-top: 140px;
+}
