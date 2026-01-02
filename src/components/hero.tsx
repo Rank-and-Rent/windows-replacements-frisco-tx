@@ -6,15 +6,15 @@ import Link from 'next/link'
 
 const slides = [
   {
-    image: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=2070&auto=format&fit=crop',
+    image: '/windows/double-hung-windows-frisco-tx.jpg',
     title: "Frisco's Premier Window\nReplacement Company.",
   },
   {
-    image: 'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?q=80&w=2053&auto=format&fit=crop',
+    image: '/windows/casement-windows-frisco-tx.webp',
     title: "Energy Efficient Windows\nfor Texas Homes.",
   },
   {
-    image: 'https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?q=80&w=2070&auto=format&fit=crop',
+    image: '/windows/picture-windows-frisco-tx.webp',
     title: "Expert Installation.\nLifetime Warranty.",
   }
 ]

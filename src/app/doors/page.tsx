@@ -14,37 +14,37 @@ const doorServices = [
     name: 'Entry Doors',
     href: '/doors/entry-door-installation',
     description: 'Make a stunning first impression with a beautiful, secure entry door that enhances curb appeal and home security.',
-    image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?q=80&w=800',
+    image: '/windows/double-hung-windows-frisco-tx.jpg',
   },
   {
     name: 'Patio Doors',
     href: '/doors/patio-door-installation',
     description: 'Create seamless indoor-outdoor living with sliding or hinged patio doors that flood your home with natural light.',
-    image: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=800',
+    image: '/windows/double-hung-windows-frisco-tx.jpg',
   },
   {
     name: 'French Doors',
     href: '/doors/french-door-installation',
     description: 'Add elegance and sophistication with classic French doors featuring beautiful glass panels and timeless design.',
-    image: 'https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?q=80&w=800',
+    image: '/windows/double-hung-windows-frisco-tx.jpg',
   },
   {
     name: 'Sliding Glass Doors',
     href: '/doors/sliding-glass-door-installation',
     description: 'Maximize space and views with smooth-operating sliding glass doors that bring the outdoors in.',
-    image: 'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?q=80&w=800',
+    image: '/windows/double-hung-windows-frisco-tx.jpg',
   },
   {
     name: 'Storm Doors',
     href: '/doors/storm-door-installation',
     description: 'Protect your entry while improving energy efficiency with durable, weather-resistant storm doors.',
-    image: 'https://images.unsplash.com/photo-1600585154526-990dced4db0d?q=80&w=800',
+    image: '/windows/double-hung-windows-frisco-tx.jpg',
   },
   {
     name: 'Custom Doors',
     href: '/doors/custom-door-installation',
     description: 'Design the perfect door for your unique style with fully customizable options in materials, finishes, and hardware.',
-    image: 'https://images.unsplash.com/photo-1600573472550-8090b5e0745e?q=80&w=800',
+    image: '/windows/double-hung-windows-frisco-tx.jpg',
   },
 ]
 

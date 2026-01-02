@@ -19,7 +19,7 @@ export default function FlowerMoundPage() {
           <div className="max-w-3xl">
             <h1 className="font-serif text-4xl lg:text-6xl text-white mb-6 leading-tight">Window Services in Flower Mound, Texas</h1>
             <p className="text-lg lg:text-xl text-white/90 leading-relaxed mb-8">
-              Window Replacements of Frisco serves Flower Mound with expert window installation and replacement services. Quality windows for residential and commercial properties throughout Flower Mound.
+              Window Replacements of Frisco serves Flower Mound with expert window installation and replacement services. Quality windows for residential properties throughout Flower Mound.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link href="/contact" className="btn-outline-light px-8 py-4 text-center">Get Free Estimate</Link>
@@ -35,15 +35,15 @@ export default function FlowerMoundPage() {
             Flower Mound&apos;s beautiful neighborhoods deserve quality window services. We provide professional installation and replacement that enhances your home&apos;s comfort, efficiency, and value.
           </p>
           <div className="grid md:grid-cols-3 gap-8">
-            <Link href="/services/window-replacement" className="bg-white p-8 hover:shadow-lg transition-shadow">
+            <Link href="/windows" className="bg-white p-8 hover:shadow-lg transition-shadow">
               <h3 className="font-serif text-xl text-navy-600 mb-3">Window Replacement</h3>
               <p className="text-gray-600">Replace old windows with modern energy-efficient models.</p>
             </Link>
-            <Link href="/services/energy-efficient-windows" className="bg-white p-8 hover:shadow-lg transition-shadow">
+            <Link href="/windows" className="bg-white p-8 hover:shadow-lg transition-shadow">
               <h3 className="font-serif text-xl text-navy-600 mb-3">Energy Efficiency</h3>
               <p className="text-gray-600">Reduce cooling costs with high-performance windows.</p>
             </Link>
-            <Link href="/services/window-installation" className="bg-white p-8 hover:shadow-lg transition-shadow">
+            <Link href="/windows" className="bg-white p-8 hover:shadow-lg transition-shadow">
               <h3 className="font-serif text-xl text-navy-600 mb-3">New Installation</h3>
               <p className="text-gray-600">Professional installation for new construction.</p>
             </Link>

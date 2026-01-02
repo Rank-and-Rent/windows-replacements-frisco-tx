@@ -112,7 +112,7 @@ export default function McKinneyPage() {
               <p className="text-gray-600 leading-relaxed mb-6">
                 We specialize in creating custom windows that replicate historic profiles, muntin patterns, and hardware while incorporating modern energy-efficient glass. Whether you need true divided lites for authenticity or simulated muntins for easier maintenance, we deliver windows that honor your home&apos;s heritage.
               </p>
-              <Link href="/services/custom-windows" className="text-slate-blue hover:text-navy-600 font-medium inline-flex items-center gap-2">
+              <Link href="/windows/special-shape-windows" className="text-slate-blue hover:text-navy-600 font-medium inline-flex items-center gap-2">
                 Learn About Custom Historic Windows
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
@@ -139,34 +139,29 @@ export default function McKinneyPage() {
             Complete Window Services in McKinney
           </h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <Link href="/services/window-replacement" className="bg-white p-8 hover:shadow-xl transition-shadow">
+            <Link href="/windows" className="bg-white p-8 hover:shadow-xl transition-shadow">
               <h3 className="font-serif text-xl text-navy-600 mb-3">Window Replacement</h3>
               <p className="text-gray-600 mb-4">Replace failing windows in your McKinney home with energy-efficient modern units.</p>
               <span className="text-slate-blue text-sm font-medium">Learn More →</span>
             </Link>
-            <Link href="/services/window-installation" className="bg-white p-8 hover:shadow-xl transition-shadow">
+            <Link href="/windows" className="bg-white p-8 hover:shadow-xl transition-shadow">
               <h3 className="font-serif text-xl text-navy-600 mb-3">New Installation</h3>
               <p className="text-gray-600 mb-4">Professional installation for new McKinney construction and home additions.</p>
               <span className="text-slate-blue text-sm font-medium">Learn More →</span>
             </Link>
-            <Link href="/services/custom-windows" className="bg-white p-8 hover:shadow-xl transition-shadow">
+            <Link href="/windows/special-shape-windows" className="bg-white p-8 hover:shadow-xl transition-shadow">
               <h3 className="font-serif text-xl text-navy-600 mb-3">Historic Restoration</h3>
               <p className="text-gray-600 mb-4">Custom windows that preserve McKinney&apos;s historic architecture authentically.</p>
               <span className="text-slate-blue text-sm font-medium">Learn More →</span>
             </Link>
-            <Link href="/services/energy-efficient-windows" className="bg-white p-8 hover:shadow-xl transition-shadow">
+            <Link href="/windows" className="bg-white p-8 hover:shadow-xl transition-shadow">
               <h3 className="font-serif text-xl text-navy-600 mb-3">Energy Efficiency</h3>
               <p className="text-gray-600 mb-4">High-performance windows that dramatically reduce McKinney energy costs.</p>
               <span className="text-slate-blue text-sm font-medium">Learn More →</span>
             </Link>
-            <Link href="/services/window-repair" className="bg-white p-8 hover:shadow-xl transition-shadow">
+            <Link href="/windows" className="bg-white p-8 hover:shadow-xl transition-shadow">
               <h3 className="font-serif text-xl text-navy-600 mb-3">Window Repair</h3>
               <p className="text-gray-600 mb-4">Expert repairs for glass, hardware, seals, and operational problems.</p>
-              <span className="text-slate-blue text-sm font-medium">Learn More →</span>
-            </Link>
-            <Link href="/services/commercial-windows" className="bg-white p-8 hover:shadow-xl transition-shadow">
-              <h3 className="font-serif text-xl text-navy-600 mb-3">Commercial Projects</h3>
-              <p className="text-gray-600 mb-4">Window solutions for McKinney businesses and commercial properties.</p>
               <span className="text-slate-blue text-sm font-medium">Learn More →</span>
             </Link>
           </div>

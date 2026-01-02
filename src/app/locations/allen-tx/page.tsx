@@ -115,17 +115,17 @@ export default function AllenPage() {
         <div className="max-w-[1200px] mx-auto px-6 lg:px-10">
           <h2 className="font-serif text-3xl lg:text-5xl text-navy-600 text-center mb-16">Our Allen Window Services</h2>
           <div className="grid md:grid-cols-3 gap-8">
-            <Link href="/services/window-replacement" className="bg-cream-100 p-8 hover:shadow-lg transition-shadow">
+            <Link href="/windows" className="bg-cream-100 p-8 hover:shadow-lg transition-shadow">
               <h3 className="font-serif text-xl text-navy-600 mb-3">Window Replacement</h3>
               <p className="text-gray-600 mb-4">Replace outdated windows with modern energy-efficient models throughout your Allen home.</p>
               <span className="text-slate-blue text-sm font-medium">Learn More →</span>
             </Link>
-            <Link href="/services/energy-efficient-windows" className="bg-cream-100 p-8 hover:shadow-lg transition-shadow">
+            <Link href="/windows" className="bg-cream-100 p-8 hover:shadow-lg transition-shadow">
               <h3 className="font-serif text-xl text-navy-600 mb-3">Energy Efficiency</h3>
               <p className="text-gray-600 mb-4">High-performance windows that reduce Allen summer cooling costs significantly.</p>
               <span className="text-slate-blue text-sm font-medium">Learn More →</span>
             </Link>
-            <Link href="/services/window-repair" className="bg-cream-100 p-8 hover:shadow-lg transition-shadow">
+            <Link href="/windows" className="bg-cream-100 p-8 hover:shadow-lg transition-shadow">
               <h3 className="font-serif text-xl text-navy-600 mb-3">Window Repair</h3>
               <p className="text-gray-600 mb-4">Fast, reliable repairs for broken glass, hardware, and seal failures.</p>
               <span className="text-slate-blue text-sm font-medium">Learn More →</span>

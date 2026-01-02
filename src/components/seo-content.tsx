@@ -56,7 +56,7 @@ export default function SeoContent() {
               <div className="relative aspect-[4/3] overflow-hidden">
                 <div 
                   className="absolute inset-0 bg-cover bg-center"
-                  style={{ backgroundImage: 'url(https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?q=80&w=2070&auto=format&fit=crop)' }}
+                  style={{ backgroundImage: 'url(/windows/double-hung-windows-frisco-tx.jpg' }}
                 />
               </div>
             </motion.div>
@@ -68,7 +68,7 @@ export default function SeoContent() {
       <section className="relative py-24 lg:py-32 overflow-hidden">
         <div 
           className="absolute inset-0 bg-cover bg-center"
-          style={{ backgroundImage: 'url(https://images.unsplash.com/photo-1600585154526-990dced4db0d?q=80&w=2070&auto=format&fit=crop)' }}
+          style={{ backgroundImage: 'url(/windows/double-hung-windows-frisco-tx.jpg' }}
         />
         <div className="absolute inset-0 bg-navy-600/80" />
         

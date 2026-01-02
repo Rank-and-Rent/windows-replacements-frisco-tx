@@ -212,7 +212,7 @@ export default function Footer() {
       <div className="border-t border-white/10 py-8">
         <div className="max-w-[1400px] mx-auto px-6 lg:px-10">
           <p className="text-xs text-white/50 text-center max-w-3xl mx-auto leading-relaxed">
-            This site routes inquiries to our chosen fulfillment partner for window and door contractor matching and project coordination support.
+            Our platform facilitates connections with licensed window and door professionals through our trusted fulfillment partners, ensuring quality craftsmanship and reliable project management.
           </p>
         </div>
       </div>

@@ -19,7 +19,7 @@ export default function DallasPage() {
           <div className="max-w-3xl">
             <h1 className="font-serif text-4xl lg:text-6xl text-white mb-6 leading-tight">Window Services in North Dallas</h1>
             <p className="text-lg lg:text-xl text-white/90 leading-relaxed mb-8">
-              Window Replacements of Frisco extends expert window services to North Dallas and surrounding areas. We provide professional installation, replacement, and repair for residential and commercial properties.
+              Window Replacements of Frisco extends expert window services to North Dallas and surrounding areas. We provide professional installation, replacement, and repair for residential properties.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link href="/contact" className="btn-outline-light px-8 py-4 text-center">Get Free Estimate</Link>
@@ -34,16 +34,12 @@ export default function DallasPage() {
           <p className="text-lg text-gray-600 text-center max-w-3xl mx-auto mb-12">
             From established North Dallas neighborhoods to newer developments, we provide window solutions that enhance comfort, reduce energy costs, and increase property value throughout the Dallas area.
           </p>
-          <div className="grid md:grid-cols-3 gap-8">
-            <Link href="/services/window-replacement" className="bg-white p-8 hover:shadow-lg transition-shadow">
+          <div className="grid md:grid-cols-2 gap-8 max-w-2xl mx-auto">
+            <Link href="/windows" className="bg-white p-8 hover:shadow-lg transition-shadow">
               <h3 className="font-serif text-xl text-navy-600 mb-3">Window Replacement</h3>
               <p className="text-gray-600">Replace old windows with energy-efficient models.</p>
             </Link>
-            <Link href="/services/commercial-windows" className="bg-white p-8 hover:shadow-lg transition-shadow">
-              <h3 className="font-serif text-xl text-navy-600 mb-3">Commercial Windows</h3>
-              <p className="text-gray-600">Solutions for Dallas area businesses.</p>
-            </Link>
-            <Link href="/services/energy-efficient-windows" className="bg-white p-8 hover:shadow-lg transition-shadow">
+            <Link href="/windows" className="bg-white p-8 hover:shadow-lg transition-shadow">
               <h3 className="font-serif text-xl text-navy-600 mb-3">Energy Efficiency</h3>
               <p className="text-gray-600">High-performance windows for Dallas climate.</p>
             </Link>

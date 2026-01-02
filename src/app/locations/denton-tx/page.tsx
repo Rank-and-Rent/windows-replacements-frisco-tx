@@ -20,7 +20,7 @@ export default function DentonPage() {
           <div className="max-w-3xl">
             <h1 className="font-serif text-4xl lg:text-6xl text-white mb-6 leading-tight">Window Services in Denton, Texas</h1>
             <p className="text-lg lg:text-xl text-white/90 leading-relaxed mb-8">
-              Window Replacements of Frisco extends expert window services to Denton and Denton County. We provide professional installation, replacement, and repair for residential and commercial properties throughout the area.
+              Window Replacements of Frisco extends expert window services to Denton and Denton County. We provide professional installation, replacement, and repair for residential properties throughout the area.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link href="/contact" className="btn-outline-light px-8 py-4 text-center">Get Free Estimate</Link>

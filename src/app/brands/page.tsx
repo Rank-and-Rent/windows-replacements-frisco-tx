@@ -15,28 +15,28 @@ const brands = [
     slug: 'andersen-windows-doors',
     description: 'America\'s most trusted window brand with over 120 years of innovation. Known for energy efficiency and durability.',
     features: ['Fibrex composite material', 'Energy Star certified', '120+ years of innovation', 'Limited lifetime warranty'],
-    image: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=800',
+    image: '/windows/double-hung-windows-frisco-tx.jpg',
   },
   {
     name: 'Pella Windows & Doors',
     slug: 'pella-windows-doors',
     description: 'Industry leader in window innovation since 1925. Premium quality with extensive customization options.',
     features: ['InsulShield glass technology', 'Between-the-glass blinds', 'Extensive color options', 'Premium warranties'],
-    image: 'https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?q=80&w=800',
+    image: '/windows/double-hung-windows-frisco-tx.jpg',
   },
   {
     name: 'JELD-WEN Windows & Doors',
     slug: 'jeld-wen-windows-doors',
     description: 'Global leader offering reliable, affordable windows and doors. Excellent value without compromising quality.',
     features: ['AuraLast wood protection', 'Wide product selection', 'Competitive pricing', 'Energy efficient options'],
-    image: 'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?q=80&w=800',
+    image: '/windows/double-hung-windows-frisco-tx.jpg',
   },
   {
     name: 'Marvin Windows & Doors',
     slug: 'marvin-windows-doors',
     description: 'Premium custom windows and doors since 1912. Family-owned with unmatched craftsmanship and customization.',
     features: ['Made-to-order customization', 'Premium wood interiors', 'Ultrex fiberglass exteriors', 'Architectural distinction'],
-    image: 'https://images.unsplash.com/photo-600585154526-990dced4db0d?q=80&w=800',
+    image: '/windows/double-hung-windows-frisco-tx.jpg',
   },
 ]
 

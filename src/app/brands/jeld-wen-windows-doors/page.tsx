@@ -31,7 +31,7 @@ export default function JeldWenPage() {
         <section className="relative bg-navy-600 py-20 lg:py-32">
           <div 
             className="absolute inset-0 bg-cover bg-center opacity-20"
-            style={{ backgroundImage: 'url(https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?q=80&w=2000)' }}
+            style={{ backgroundImage: 'url(/windows/double-hung-windows-frisco-tx.jpg' }}
           />
           <div className="relative max-w-[1400px] mx-auto px-6 lg:px-10">
             <div className="max-w-3xl">
@@ -123,24 +123,25 @@ export default function JeldWenPage() {
               <div className="bg-stone-50 p-8 rounded-lg">
                 <h3 className="text-xl font-serif text-navy-600 mb-4">Windows</h3>
                 <ul className="space-y-2 text-gray-600">
-                  <li>Double-Hung Windows</li>
-                  <li>Casement Windows</li>
-                  <li>Awning Windows</li>
-                  <li>Sliding Windows</li>
-                  <li>Picture Windows</li>
-                  <li>Bay and Bow Windows</li>
-                  <li>Specialty Shape Windows</li>
+                  <li><Link href="/windows/double-hung-windows" className="hover:text-blue-600 transition-colors">Double-Hung Windows</Link></li>
+                  <li><Link href="/windows/single-hung-windows" className="hover:text-blue-600 transition-colors">Single-Hung Windows</Link></li>
+                  <li><Link href="/windows/casement-windows" className="hover:text-blue-600 transition-colors">Casement Windows</Link></li>
+                  <li><Link href="/windows/awning-windows" className="hover:text-blue-600 transition-colors">Awning Windows</Link></li>
+                  <li><Link href="/windows/sliding-windows" className="hover:text-blue-600 transition-colors">Sliding Windows</Link></li>
+                  <li><Link href="/windows/picture-windows" className="hover:text-blue-600 transition-colors">Picture Windows</Link></li>
+                  <li><Link href="/windows/bay-bow-windows" className="hover:text-blue-600 transition-colors">Bay and Bow Windows</Link></li>
+                  <li><Link href="/windows/special-shape-windows" className="hover:text-blue-600 transition-colors">Specialty Shape Windows</Link></li>
                 </ul>
               </div>
               <div className="bg-stone-50 p-8 rounded-lg">
                 <h3 className="text-xl font-serif text-navy-600 mb-4">Doors</h3>
                 <ul className="space-y-2 text-gray-600">
-                  <li>Entry Doors (Fiberglass, Steel, Wood)</li>
-                  <li>Patio Doors</li>
-                  <li>French Doors</li>
-                  <li>Sliding Glass Doors</li>
-                  <li>Storm Doors</li>
-                  <li>Interior Doors</li>
+                  <li><Link href="/doors/entry-door-installation" className="hover:text-blue-600 transition-colors">Entry Doors</Link></li>
+                  <li><Link href="/doors/patio-door-installation" className="hover:text-blue-600 transition-colors">Patio Doors</Link></li>
+                  <li><Link href="/doors/french-door-installation" className="hover:text-blue-600 transition-colors">French Doors</Link></li>
+                  <li><Link href="/doors/sliding-glass-door-installation" className="hover:text-blue-600 transition-colors">Sliding Glass Doors</Link></li>
+                  <li><Link href="/doors/storm-door-installation" className="hover:text-blue-600 transition-colors">Storm Doors</Link></li>
+                  <li><Link href="/doors/custom-door-installation" className="hover:text-blue-600 transition-colors">Custom Doors</Link></li>
                 </ul>
               </div>
             </div>

@@ -55,7 +55,7 @@ export default function CarrolltonPage() {
               </div>
               <div className="bg-white p-8">
                 <h3 className="font-serif text-xl text-navy-600 mb-4">Why Choose Us</h3>
-                <p className="text-gray-600">Licensed, insured, and trusted by Carrollton homeowners. Fast response, quality work, lifetime warranties.</p>
+                <p className="text-gray-600">Trusted by Carrollton homeowners. Fast response, quality work, lifetime warranties.</p>
               </div>
             </div>
           </div>

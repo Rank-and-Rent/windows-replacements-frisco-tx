@@ -8,27 +8,27 @@ const windowTypes = [
   {
     name: 'Double-Hung',
     slug: 'double-hung',
-    image: 'https://images.unsplash.com/photo-1600585154526-990dced4db0d?q=80&w=987&auto=format&fit=crop',
+    image: '/windows/double-hung-windows-frisco-tx.jpg',
   },
   {
     name: 'Casement',
     slug: 'casement',
-    image: 'https://images.unsplash.com/photo-1600566752355-35792bedcfea?q=80&w=987&auto=format&fit=crop',
+    image: '/windows/double-hung-windows-frisco-tx.jpg',
   },
   {
     name: 'Sliding',
     slug: 'sliding',
-    image: 'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?q=80&w=987&auto=format&fit=crop',
+    image: '/windows/double-hung-windows-frisco-tx.jpg',
   },
   {
     name: 'Bay & Bow',
     slug: 'bay-bow',
-    image: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=987&auto=format&fit=crop',
+    image: '/windows/double-hung-windows-frisco-tx.jpg',
   },
   {
     name: 'Picture',
     slug: 'picture',
-    image: 'https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?q=80&w=987&auto=format&fit=crop',
+    image: '/windows/double-hung-windows-frisco-tx.jpg',
   },
 ]
 

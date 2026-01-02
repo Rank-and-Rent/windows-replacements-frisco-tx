@@ -62,7 +62,7 @@ export default function PlanoPage() {
                   <svg className="w-6 h-6 text-slate-blue flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
-                  <span className="text-gray-600">Licensed and insured with comprehensive warranty coverage</span>
+                  <span className="text-gray-600">Professional installation with comprehensive warranty coverage</span>
                 </div>
                 <div className="flex items-start gap-3">
                   <svg className="w-6 h-6 text-slate-blue flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -112,7 +112,7 @@ export default function PlanoPage() {
               <p className="text-gray-600 leading-relaxed mb-6">
                 We specialize in energy-efficient windows with Low-E coatings optimized for our climate. These advanced glass packages block solar heat gain while allowing natural light, keeping your Plano home comfortable year-round. Many homeowners see 25-30% reductions in cooling costs after upgrading.
               </p>
-              <Link href="/services/energy-efficient-windows" className="text-slate-blue hover:text-navy-600 font-medium inline-flex items-center gap-2">
+              <Link href="/windows" className="text-slate-blue hover:text-navy-600 font-medium inline-flex items-center gap-2">
                 Learn About Energy-Efficient Windows
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
@@ -139,34 +139,29 @@ export default function PlanoPage() {
             Our Plano Window Services
           </h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <Link href="/services/window-replacement" className="bg-white p-8 hover:shadow-xl transition-shadow">
+            <Link href="/windows" className="bg-white p-8 hover:shadow-xl transition-shadow">
               <h3 className="font-serif text-xl text-navy-600 mb-3">Window Replacement</h3>
               <p className="text-gray-600 mb-4">Replace aging, inefficient windows throughout your Plano home with modern energy-efficient models.</p>
               <span className="text-slate-blue text-sm font-medium">Learn More →</span>
             </Link>
-            <Link href="/services/window-installation" className="bg-white p-8 hover:shadow-xl transition-shadow">
+            <Link href="/windows" className="bg-white p-8 hover:shadow-xl transition-shadow">
               <h3 className="font-serif text-xl text-navy-600 mb-3">New Installation</h3>
               <p className="text-gray-600 mb-4">Professional installation for new construction and home additions in Plano neighborhoods.</p>
               <span className="text-slate-blue text-sm font-medium">Learn More →</span>
             </Link>
-            <Link href="/services/window-repair" className="bg-white p-8 hover:shadow-xl transition-shadow">
+            <Link href="/windows" className="bg-white p-8 hover:shadow-xl transition-shadow">
               <h3 className="font-serif text-xl text-navy-600 mb-3">Window Repair</h3>
               <p className="text-gray-600 mb-4">Expert repairs for broken glass, faulty hardware, seal failures, and operational issues.</p>
               <span className="text-slate-blue text-sm font-medium">Learn More →</span>
             </Link>
-            <Link href="/services/energy-efficient-windows" className="bg-white p-8 hover:shadow-xl transition-shadow">
+            <Link href="/windows" className="bg-white p-8 hover:shadow-xl transition-shadow">
               <h3 className="font-serif text-xl text-navy-600 mb-3">Energy Efficiency</h3>
               <p className="text-gray-600 mb-4">High-performance windows that dramatically reduce Plano summer cooling costs.</p>
               <span className="text-slate-blue text-sm font-medium">Learn More →</span>
             </Link>
-            <Link href="/services/custom-windows" className="bg-white p-8 hover:shadow-xl transition-shadow">
+            <Link href="/windows/special-shape-windows" className="bg-white p-8 hover:shadow-xl transition-shadow">
               <h3 className="font-serif text-xl text-navy-600 mb-3">Custom Windows</h3>
               <p className="text-gray-600 mb-4">Special shapes, oversized units, and architectural windows for unique Plano homes.</p>
-              <span className="text-slate-blue text-sm font-medium">Learn More →</span>
-            </Link>
-            <Link href="/services/commercial-windows" className="bg-white p-8 hover:shadow-xl transition-shadow">
-              <h3 className="font-serif text-xl text-navy-600 mb-3">Commercial Projects</h3>
-              <p className="text-gray-600 mb-4">Large-scale window solutions for Plano offices and commercial properties.</p>
               <span className="text-slate-blue text-sm font-medium">Learn More →</span>
             </Link>
           </div>

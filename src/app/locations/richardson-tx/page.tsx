@@ -35,15 +35,15 @@ export default function RichardsonPage() {
             Richardson&apos;s diverse housing stock requires experienced window professionals. We provide solutions for every home style and era, from vintage properties to modern construction.
           </p>
           <div className="grid md:grid-cols-3 gap-8">
-            <Link href="/services/window-replacement" className="bg-white p-8 hover:shadow-lg transition-shadow">
+            <Link href="/windows" className="bg-white p-8 hover:shadow-lg transition-shadow">
               <h3 className="font-serif text-xl text-navy-600 mb-3">Window Replacement</h3>
               <p className="text-gray-600">Replace aging windows with energy-efficient models.</p>
             </Link>
-            <Link href="/services/energy-efficient-windows" className="bg-white p-8 hover:shadow-lg transition-shadow">
+            <Link href="/windows" className="bg-white p-8 hover:shadow-lg transition-shadow">
               <h3 className="font-serif text-xl text-navy-600 mb-3">Energy Efficiency</h3>
               <p className="text-gray-600">Reduce Richardson cooling costs significantly.</p>
             </Link>
-            <Link href="/services/window-repair" className="bg-white p-8 hover:shadow-lg transition-shadow">
+            <Link href="/windows" className="bg-white p-8 hover:shadow-lg transition-shadow">
               <h3 className="font-serif text-xl text-navy-600 mb-3">Window Repair</h3>
               <p className="text-gray-600">Expert repairs for all window types.</p>
             </Link>

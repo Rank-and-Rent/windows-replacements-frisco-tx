@@ -55,7 +55,7 @@ const locations = [
   {
     city: 'Lewisville',
     distance: '11 miles',
-    description: 'Expert window replacement for Lewisville homes and commercial properties.',
+    description: 'Expert window replacement for Lewisville homes.',
     href: '/locations/lewisville-tx'
   },
   {
@@ -79,7 +79,7 @@ const locations = [
   {
     city: 'Addison',
     distance: '12 miles',
-    description: 'Commercial and residential window services in Addison.',
+    description: 'Residential window services in Addison.',
     href: '/locations/addison-tx'
   },
   {
@@ -97,7 +97,7 @@ const locations = [
   {
     city: 'Flower Mound',
     distance: '14 miles',
-    description: 'Premium window solutions for Flower Mound homes and businesses.',
+    description: 'Premium window solutions for Flower Mound homes.',
     href: '/locations/flower-mound-tx'
   }
 ]

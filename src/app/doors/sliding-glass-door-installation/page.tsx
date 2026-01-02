@@ -31,7 +31,7 @@ export default function SlidingGlassDoorPage() {
         <section className="relative bg-navy-600 py-20 lg:py-32">
           <div 
             className="absolute inset-0 bg-cover bg-center opacity-20"
-            style={{ backgroundImage: 'url(https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?q=80&w=2000)' }}
+            style={{ backgroundImage: 'url(/windows/double-hung-windows-frisco-tx.jpg' }}
           />
           <div className="relative max-w-[1400px] mx-auto px-6 lg:px-10">
             <div className="max-w-3xl">

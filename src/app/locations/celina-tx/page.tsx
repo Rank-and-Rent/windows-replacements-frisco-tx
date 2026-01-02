@@ -73,15 +73,15 @@ export default function CelinaPage() {
         <div className="max-w-[1200px] mx-auto px-6 lg:px-10">
           <h2 className="font-serif text-3xl lg:text-5xl text-navy-600 text-center mb-16">Window Services in Celina</h2>
           <div className="grid md:grid-cols-3 gap-8">
-            <Link href="/services/window-installation" className="bg-cream-100 p-8 hover:shadow-lg transition-shadow">
+            <Link href="/windows" className="bg-cream-100 p-8 hover:shadow-lg transition-shadow">
               <h3 className="font-serif text-xl text-navy-600 mb-3">New Construction</h3>
               <p className="text-gray-600">Expert installation for new Celina home builds.</p>
             </Link>
-            <Link href="/services/window-replacement" className="bg-cream-100 p-8 hover:shadow-lg transition-shadow">
+            <Link href="/windows" className="bg-cream-100 p-8 hover:shadow-lg transition-shadow">
               <h3 className="font-serif text-xl text-navy-600 mb-3">Window Replacement</h3>
               <p className="text-gray-600">Upgrade builder-grade windows for better performance.</p>
             </Link>
-            <Link href="/services/energy-efficient-windows" className="bg-cream-100 p-8 hover:shadow-lg transition-shadow">
+            <Link href="/windows" className="bg-cream-100 p-8 hover:shadow-lg transition-shadow">
               <h3 className="font-serif text-xl text-navy-600 mb-3">Energy Efficiency</h3>
               <p className="text-gray-600">High-performance windows for Celina's climate.</p>
             </Link>

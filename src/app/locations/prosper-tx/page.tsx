@@ -75,15 +75,15 @@ export default function ProsperPage() {
         <div className="max-w-[1200px] mx-auto px-6 lg:px-10">
           <h2 className="font-serif text-3xl lg:text-5xl text-navy-600 text-center mb-16">Prosper Window Services</h2>
           <div className="grid md:grid-cols-3 gap-8">
-            <Link href="/services/custom-windows" className="bg-cream-100 p-8 hover:shadow-lg transition-shadow">
+            <Link href="/windows/special-shape-windows" className="bg-cream-100 p-8 hover:shadow-lg transition-shadow">
               <h3 className="font-serif text-xl text-navy-600 mb-3">Custom Windows</h3>
               <p className="text-gray-600">Architectural windows for Prosper's distinctive luxury homes.</p>
             </Link>
-            <Link href="/services/energy-efficient-windows" className="bg-cream-100 p-8 hover:shadow-lg transition-shadow">
+            <Link href="/windows" className="bg-cream-100 p-8 hover:shadow-lg transition-shadow">
               <h3 className="font-serif text-xl text-navy-600 mb-3">Energy Efficiency</h3>
               <p className="text-gray-600">Premium performance windows that reduce energy costs.</p>
             </Link>
-            <Link href="/services/window-installation" className="bg-cream-100 p-8 hover:shadow-lg transition-shadow">
+            <Link href="/windows" className="bg-cream-100 p-8 hover:shadow-lg transition-shadow">
               <h3 className="font-serif text-xl text-navy-600 mb-3">New Construction</h3>
               <p className="text-gray-600">Expert installation for new Prosper home builds.</p>
             </Link>

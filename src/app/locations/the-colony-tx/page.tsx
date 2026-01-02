@@ -62,15 +62,15 @@ export default function TheColonyPage() {
         <div className="max-w-[1200px] mx-auto px-6 lg:px-10">
           <h2 className="font-serif text-3xl lg:text-5xl text-navy-600 text-center mb-16">Window Services in The Colony</h2>
           <div className="grid md:grid-cols-3 gap-8">
-            <Link href="/services/window-replacement" className="bg-cream-100 p-8">
+            <Link href="/windows" className="bg-cream-100 p-8">
               <h3 className="font-serif text-xl text-navy-600 mb-3">Window Replacement</h3>
               <p className="text-gray-600">Replace old windows with weather-resistant models built for Colony conditions.</p>
             </Link>
-            <Link href="/services/energy-efficient-windows" className="bg-cream-100 p-8">
+            <Link href="/windows" className="bg-cream-100 p-8">
               <h3 className="font-serif text-xl text-navy-600 mb-3">Energy Efficiency</h3>
               <p className="text-gray-600">High-performance windows that handle sun reflection and lake humidity.</p>
             </Link>
-            <Link href="/services/custom-windows" className="bg-cream-100 p-8">
+            <Link href="/windows/special-shape-windows" className="bg-cream-100 p-8">
               <h3 className="font-serif text-xl text-navy-600 mb-3">Lake View Windows</h3>
               <p className="text-gray-600">Large picture windows and specialty units that showcase lake views.</p>
             </Link>
