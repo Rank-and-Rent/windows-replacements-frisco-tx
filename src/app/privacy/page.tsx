@@ -123,7 +123,7 @@ export default function PrivacyPage() {
                   1125 Legacy Dr #230<br />
                   Frisco, TX 75034<br />
                   Phone: <a href="tel:469-908-2440" className="text-slate-blue hover:text-navy-600">(469) 908-2440</a><br />
-                  Email: <a href="mailto:info@friscowindowreplacements.com" className="text-slate-blue hover:text-navy-600">info@friscowindowreplacements.com</a>
+                  Email: <a href="mailto:hello@windowreplacementfrisco.com" className="text-slate-blue hover:text-navy-600">hello@windowreplacementfrisco.com</a>
                 </address>
               </div>
             </div>

@@ -8,14 +8,32 @@ const slides = [
   {
     image: '/windows/double-hung-windows-frisco-tx.jpg',
     title: "Frisco's Premier Window\nReplacement Company.",
+    cta: { text: "View Our Windows", href: "/windows" }
   },
   {
     image: '/windows/casement-windows-frisco-tx.webp',
     title: "Energy Efficient Windows\nfor Texas Homes.",
+    cta: { text: "Explore Casement Windows", href: "/windows/casement-windows" }
   },
   {
-    image: '/windows/picture-windows-frisco-tx.webp',
-    title: "Expert Installation.\nLifetime Warranty.",
+    image: '/locations/window-replacement-downtown-frisco-tx.webp',
+    title: "Serving Downtown Frisco\nwith Premium Windows.",
+    cta: { text: "View Our Services", href: "/locations/dallas-tx" }
+  },
+  {
+    image: '/doors/entry-doors-frisco-tx.webp',
+    title: "Complete Door Solutions\nfor Your Home.",
+    cta: { text: "View Our Doors", href: "/doors" }
+  },
+  {
+    image: '/locations/window-replacement-stonebriar-tx.webp',
+    title: "Stonebriar Excellence.\nPremium Quality Windows.",
+    cta: { text: "View Our Services", href: "/locations/plano-tx" }
+  },
+  {
+    image: '/windows/special-shape-windows-frisco-tx.jpg',
+    title: "Custom Window Designs\nfor Unique Homes.",
+    cta: { text: "Special Shape Windows", href: "/windows/special-shape-windows" }
   }
 ]
 
@@ -50,7 +68,7 @@ export default function Hero() {
   return (
     <section className="relative h-screen min-h-[700px] max-h-[900px] overflow-hidden">
       {/* Brand Logos Banner - positioned below fixed header */}
-      <div className="absolute top-[80px] left-0 right-0 z-20 bg-white/90 backdrop-blur-sm border-b border-gray-200/20">
+      <div className="absolute top-[5rem] lg:top-[6rem] left-0 right-0 z-30 bg-white/95 backdrop-blur-sm border-b border-gray-200/20 shadow-sm">
         <div className="max-w-[1400px] mx-auto px-4 lg:px-10 py-3 lg:py-4">
           <div className="flex items-center justify-center gap-3 sm:gap-4 lg:gap-8">
             <span className="hidden sm:inline text-sm font-medium text-gray-700 mr-2 lg:mr-4">Trusted Brands:</span>
@@ -109,7 +127,7 @@ export default function Hero() {
       </AnimatePresence>
 
       {/* Content */}
-      <div className="relative z-10 h-full flex items-center pt-40">
+      <div className="relative z-10 h-full flex items-center pt-48 lg:pt-52">
         <div className="max-w-[1400px] mx-auto px-6 lg:px-10 w-full">
           <AnimatePresence mode="wait">
             <motion.div
@@ -130,8 +148,8 @@ export default function Hero() {
                 transition={{ duration: 0.6, delay: 0.6 }}
                 className="mt-12"
               >
-                <Link href="/windows" className="btn-outline btn-outline-light">
-                  View Our Services
+                <Link href={slides[currentSlide].cta.href} className="btn-outline btn-outline-light">
+                  {slides[currentSlide].cta.text}
                 </Link>
               </motion.div>
             </motion.div>

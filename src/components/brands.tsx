@@ -11,7 +11,7 @@ const brands = [
     tagline: 'America\'s Most Trusted Window Brand',
     description: 'For over 120 years, Andersen has set the standard for quality windows. Their innovative Fibrex composite material combines the strength and insulating value of wood with the low maintenance of vinyl.',
     features: ['Fibrex composite material', 'ENERGY STAR certified', 'Extensive warranty coverage'],
-    image: '/windows/double-hung-windows-frisco-tx.jpg'
+    image: '/brands/andersen-windows-frisco-tx.jpg'
   },
   {
     name: 'Pella',
@@ -19,7 +19,7 @@ const brands = [
     tagline: 'Expertly Designed. Exceptionally Built.',
     description: 'Pella windows combine innovative design with meticulous craftsmanship. Known for their exclusive features like integrated blinds and security sensors, Pella offers premium solutions for discerning homeowners.',
     features: ['Between-the-glass blinds', 'Triple-pane glass options', 'Smart home ready'],
-    image: '/windows/double-hung-windows-frisco-tx.jpg'
+    image: '/brands/pella-windows-frisco-tx.jpg'
   },
   {
     name: 'Jeld-Wen',
@@ -27,7 +27,7 @@ const brands = [
     tagline: 'Reliable Performance. Exceptional Value.',
     description: 'Jeld-Wen delivers outstanding quality at competitive prices. Their AuraLast wood protection and advanced weather stripping make them ideal for the demanding Texas climate.',
     features: ['AuraLast pine protection', 'Custom size options', 'Low-E glass technology'],
-    image: '/windows/double-hung-windows-frisco-tx.jpg'
+    image: '/brands/jeld-wen-windows-frisco-tx.jpg'
   },
   {
     name: 'Marvin',
@@ -35,7 +35,7 @@ const brands = [
     tagline: 'Premium Custom Craftsmanship',
     description: 'Marvin Windows and Doors is synonymous with luxury and custom quality. Family-owned since 1912, Marvin specializes in made-to-order windows that combine timeless design with cutting-edge performance.',
     features: ['Made-to-order customization', 'Premium materials & finishes', 'Industry-leading warranties'],
-    image: '/windows/double-hung-windows-frisco-tx.jpg'
+    image: '/brands/marvin-windows-frisco-tx.jpg'
   }
 ]
 
@@ -110,7 +110,7 @@ export default function Brands() {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="mt-6 text-lg text-gray-600 leading-relaxed"
           >
-            As an authorized dealer for Andersen, Pella, Jeld-Wen, and Marvin, we bring Frisco homeowners exclusive access to America&apos;s finest window manufacturers.
+            We offer Andersen, Pella, Jeld-Wen, and Marvin, bringing Frisco homeowners access to America&apos;s finest window manufacturers.
           </motion.p>
         </div>
 

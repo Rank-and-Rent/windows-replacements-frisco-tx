@@ -5,7 +5,7 @@ import Footer from '@/components/footer'
 
 export const metadata: Metadata = {
   title: 'Window & Door Brands | Andersen, Pella, JELD-WEN, Marvin | Frisco, TX',
-  description: 'We install premium windows and doors from Andersen, Pella, JELD-WEN, and Marvin in Frisco, TX. Authorized dealer with expert installation. Call (469) 908-2440.',
+  description: 'We install premium windows and doors from Andersen, Pella, JELD-WEN, and Marvin in Frisco, TX. Expert installation. Call (469) 908-2440.',
   keywords: 'Andersen windows Frisco, Pella windows Frisco, JELD-WEN windows, Marvin windows, window brands',
 }
 
@@ -63,7 +63,7 @@ export default function BrandsPage() {
               Premium Window & Door Brands in Frisco, TX
             </h1>
             <p className="text-lg text-white/80 max-w-2xl mx-auto">
-              We are proud to be an authorized dealer for America&apos;s most trusted window and door manufacturers. 
+              We offer America&apos;s most trusted window and door manufacturers.
               Each brand offers unique advantages for your Frisco home.
             </p>
           </div>

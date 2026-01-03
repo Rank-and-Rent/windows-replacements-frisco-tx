@@ -17,7 +17,11 @@ export default function PlanoPage() {
       {/* Hero Section */}
       <section className="relative pt-32 lg:pt-40 pb-20 lg:pb-24 bg-navy-600">
         <div className="section-divider absolute top-0 left-0 right-0" />
-        <div className="max-w-[1400px] mx-auto px-6 lg:px-10">
+        <div
+          className="absolute inset-0 bg-cover bg-center opacity-20"
+          style={{ backgroundImage: 'url(/locations/window-replacement-plano-tx-5.jpg)' }}
+        />
+        <div className="relative max-w-[1400px] mx-auto px-6 lg:px-10">
           <div className="max-w-3xl">
             <h1 className="font-serif text-4xl lg:text-6xl text-white mb-6 leading-tight">
               Window Replacement & Installation in Plano, Texas
@@ -52,12 +56,6 @@ export default function PlanoPage() {
                 Whether you&apos;re upgrading original single-pane windows in an older home or replacing builder-grade windows in a newer property, we provide solutions that enhance energy efficiency, curb appeal, and comfort while respecting your home&apos;s architectural character.
               </p>
               <div className="space-y-4">
-                <div className="flex items-start gap-3">
-                  <svg className="w-6 h-6 text-slate-blue flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                  </svg>
-                  <span className="text-gray-600">Authorized dealer for Andersen, Pella, and Jeld-Wen windows</span>
-                </div>
                 <div className="flex items-start gap-3">
                   <svg className="w-6 h-6 text-slate-blue flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />

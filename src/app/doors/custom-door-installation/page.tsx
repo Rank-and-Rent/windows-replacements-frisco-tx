@@ -29,9 +29,9 @@ export default function CustomDoorPage() {
 
         {/* Hero */}
         <section className="relative bg-navy-600 py-20 lg:py-32">
-          <div 
+          <div
             className="absolute inset-0 bg-cover bg-center opacity-20"
-            style={{ backgroundImage: 'url(/windows/double-hung-windows-frisco-tx.jpg' }}
+            style={{ backgroundImage: 'url(/doors/custom-doors-frisco-tx.webp)' }}
           />
           <div className="relative max-w-[1400px] mx-auto px-6 lg:px-10">
             <div className="max-w-3xl">

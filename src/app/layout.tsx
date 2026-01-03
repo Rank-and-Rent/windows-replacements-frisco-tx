@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     default: 'Window Replacements of Frisco | Premium Window Installation | Andersen, Pella, Jeld-Wen',
     template: '%s | Window Replacements of Frisco',
   },
-  description: 'Frisco\'s trusted window replacement experts. Authorized dealer for Andersen, Pella, and Jeld-Wen windows. Professional installation of double-hung, casement, bay & bow, and specialty windows. Free estimates. Call 469-908-2440.',
+  description: 'Frisco\'s trusted window replacement experts. Andersen, Pella, and Jeld-Wen windows. Professional installation of double-hung, casement, bay & bow, and specialty windows. Free estimates. Call 469-908-2440.',
   keywords: [
     'window replacement Frisco TX',
     'Andersen windows Frisco',
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: 'Best Window Replacement in Frisco, TX',
-    description: 'Frisco\'s premier window replacement company. Authorized dealer for Andersen, Pella, and Jeld-Wen. Expert installation, lifetime warranties.',
+    description: 'Frisco\'s premier window replacement company. Andersen, Pella, and Jeld-Wen. Expert installation, lifetime warranties.',
     url: 'https://windowreplacementfrisco.com',
     type: 'website',
     locale: 'en_US',
@@ -55,7 +55,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Window Replacements of Frisco',
-    description: 'Premium window replacement in Frisco, TX. Andersen, Pella & Jeld-Wen authorized dealer.',
+    description: 'Premium window replacement in Frisco, TX. Andersen, Pella & Jeld-Wen windows.',
     images: ['/og-image.jpg'],
   },
   alternates: {
@@ -74,7 +74,10 @@ export default function RootLayout({
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link rel="icon" href="/favicon.ico" sizes="any" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
         <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+        <link rel="manifest" href="/site.webmanifest" />
         <meta name="theme-color" content="#1a365d" />
         <meta name="geo.region" content="US-TX" />
         <meta name="geo.placename" content="Frisco" />
@@ -89,10 +92,10 @@ export default function RootLayout({
               '@id': 'https://windowreplacementfrisco.com/#organization',
               name: 'Window Replacements of Frisco',
               alternateName: 'Frisco Window Replacement',
-              description: 'Frisco\'s trusted window replacement experts. Authorized dealer for Andersen, Pella, and Jeld-Wen windows.',
+              description: 'Frisco\'s trusted window replacement experts. Andersen, Pella, and Jeld-Wen windows.',
               url: 'https://windowreplacementfrisco.com',
               telephone: '+1-469-908-2440',
-              email: 'info@windowreplacementfrisco.com',
+              email: 'hello@windowreplacementfrisco.com',
               address: {
                 '@type': 'PostalAddress',
                 streetAddress: '6959 Lebanon Rd #210',

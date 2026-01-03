@@ -4,7 +4,7 @@ import Header from '@/components/header'
 import Footer from '@/components/footer'
 
 export const metadata: Metadata = {
-  title: 'Andersen Windows & Doors Frisco TX | Authorized Dealer',
+  title: 'Andersen Windows & Doors Frisco TX',
   description: 'Authorized Andersen Windows and Doors dealer in Frisco, TX. Professional installation of Andersen products. Call (469) 908-2440 for free estimate.',
   keywords: 'Andersen windows Frisco TX, Andersen doors, Andersen dealer, Fibrex windows, Andersen installation',
 }
@@ -29,9 +29,9 @@ export default function AndersenPage() {
 
         {/* Hero */}
         <section className="relative bg-navy-600 py-20 lg:py-32">
-          <div 
+          <div
             className="absolute inset-0 bg-cover bg-center opacity-20"
-            style={{ backgroundImage: 'url(/windows/double-hung-windows-frisco-tx.jpg' }}
+            style={{ backgroundImage: 'url(/brands/andersen-windows-frisco-tx.jpg)' }}
           />
           <div className="relative max-w-[1400px] mx-auto px-6 lg:px-10">
             <div className="max-w-3xl">
@@ -53,38 +53,18 @@ export default function AndersenPage() {
           </div>
         </section>
 
-        {/* Prominent Brand Logos */}
+        {/* Prominent Brand Logo */}
         <section className="py-16 lg:py-20 bg-white">
           <div className="max-w-[1400px] mx-auto px-6 lg:px-10">
-            <div className="flex flex-wrap items-center justify-center gap-8 lg:gap-12">
-              <Link href="/brands/andersen-windows-doors" className="hover:opacity-80 transition-opacity">
+            <div className="flex items-center justify-center">
+              <div className="text-center">
                 <img
                   src="/andersen-windows-and-doors-logo.png"
                   alt="Andersen Windows & Doors"
-                  className="h-16 lg:h-20 w-auto"
+                  className="h-20 lg:h-24 w-auto mx-auto mb-4"
                 />
-              </Link>
-              <Link href="/brands/pella-windows-doors" className="hover:opacity-80 transition-opacity">
-                <img
-                  src="/Pella-Corp-Windows-Doors-Logo-2x1-1.png"
-                  alt="Pella Windows & Doors"
-                  className="h-16 lg:h-20 w-auto"
-                />
-              </Link>
-              <Link href="/brands/jeld-wen-windows-doors" className="hover:opacity-80 transition-opacity">
-                <img
-                  src="/jeld-wen-windows-and-doors-logo.png"
-                  alt="Jeld-Wen Windows & Doors"
-                  className="h-16 lg:h-20 w-auto"
-                />
-              </Link>
-              <Link href="/brands/marvin-windows-doors" className="hover:opacity-80 transition-opacity">
-                <img
-                  src="/Marvin-LOCKUP-CMYK-898x301.png"
-                  alt="Marvin Windows & Doors"
-                  className="h-16 lg:h-20 w-auto"
-                />
-              </Link>
+                <h2 className="text-xl lg:text-2xl font-serif text-navy-600">Authorized Andersen Dealer</h2>
+              </div>
             </div>
           </div>
         </section>

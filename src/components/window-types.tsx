@@ -13,22 +13,22 @@ const windowTypes = [
   {
     name: 'Casement',
     slug: 'casement',
-    image: '/windows/double-hung-windows-frisco-tx.jpg',
+    image: '/windows/casement-windows-frisco-tx.webp',
   },
   {
     name: 'Sliding',
     slug: 'sliding',
-    image: '/windows/double-hung-windows-frisco-tx.jpg',
+    image: '/windows/sliding-windows-frisco-tx.jpg',
   },
   {
     name: 'Bay & Bow',
     slug: 'bay-bow',
-    image: '/windows/double-hung-windows-frisco-tx.jpg',
+    image: '/windows/bay-bow-windows-frisco-tx.jpg',
   },
   {
     name: 'Picture',
     slug: 'picture',
-    image: '/windows/double-hung-windows-frisco-tx.jpg',
+    image: '/windows/picture-windows-frisco-tx.webp',
   },
 ]
 

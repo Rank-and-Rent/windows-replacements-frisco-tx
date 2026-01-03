@@ -135,7 +135,7 @@ export default function WindowsPage() {
                   </svg>
                 </div>
                 <h3 className="text-lg font-serif text-navy-600 mb-2">Premium Brands</h3>
-                <p className="text-sm text-gray-600">Authorized dealer for Andersen, Pella, JELD-WEN, and Marvin windows</p>
+                <p className="text-sm text-gray-600">Andersen, Pella, JELD-WEN, and Marvin windows</p>
               </div>
               <div className="text-center">
                 <div className="w-16 h-16 bg-slate-blue/10 rounded-full flex items-center justify-center mx-auto mb-4">

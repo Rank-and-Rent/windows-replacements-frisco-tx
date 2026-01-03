@@ -4,8 +4,8 @@ import Header from '@/components/header'
 import Footer from '@/components/footer'
 
 export const metadata: Metadata = {
-  title: 'Marvin Windows & Doors Frisco TX | Authorized Dealer',
-  description: 'Authorized Marvin Windows and Doors dealer in Frisco, TX. Professional installation of premium Marvin products. Call (469) 908-2440 for free estimate.',
+  title: 'Marvin Windows & Doors Frisco TX',
+  description: 'Marvin Windows and Doors in Frisco, TX. Professional installation of premium Marvin products. Call (469) 908-2440 for free estimate.',
   keywords: 'Marvin windows Frisco TX, Marvin doors, Marvin dealer, custom windows, Marvin installation',
 }
 
@@ -29,9 +29,9 @@ export default function MarvinPage() {
 
         {/* Hero */}
         <section className="relative bg-navy-600 py-20 lg:py-32">
-          <div 
+          <div
             className="absolute inset-0 bg-cover bg-center opacity-20"
-            style={{ backgroundImage: 'url(/windows/double-hung-windows-frisco-tx.jpg' }}
+            style={{ backgroundImage: 'url(/brands/marvin-windows-frisco-tx.jpg)' }}
           />
           <div className="relative max-w-[1400px] mx-auto px-6 lg:px-10">
             <div className="max-w-3xl">
@@ -39,7 +39,7 @@ export default function MarvinPage() {
                 Marvin Window & Door Replacement in Frisco, TX
               </h1>
               <p className="text-lg text-white/80 mb-8">
-                Premium custom windows and doors since 1912. We are proud to be an authorized Marvin dealer in Frisco.
+                Premium custom windows and doors since 1912. Marvin windows and doors in Frisco.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <a href="tel:469-908-2440" className="btn-outline-light px-8 py-4">
@@ -53,38 +53,18 @@ export default function MarvinPage() {
           </div>
         </section>
 
-        {/* Prominent Brand Logos */}
+        {/* Prominent Brand Logo */}
         <section className="py-16 lg:py-20 bg-white">
           <div className="max-w-[1400px] mx-auto px-6 lg:px-10">
-            <div className="flex flex-wrap items-center justify-center gap-8 lg:gap-12">
-              <Link href="/brands/andersen-windows-doors" className="hover:opacity-80 transition-opacity">
-                <img
-                  src="/andersen-windows-and-doors-logo.png"
-                  alt="Andersen Windows & Doors"
-                  className="h-16 lg:h-20 w-auto"
-                />
-              </Link>
-              <Link href="/brands/pella-windows-doors" className="hover:opacity-80 transition-opacity">
-                <img
-                  src="/Pella-Corp-Windows-Doors-Logo-2x1-1.png"
-                  alt="Pella Windows & Doors"
-                  className="h-16 lg:h-20 w-auto"
-                />
-              </Link>
-              <Link href="/brands/jeld-wen-windows-doors" className="hover:opacity-80 transition-opacity">
-                <img
-                  src="/jeld-wen-windows-and-doors-logo.png"
-                  alt="Jeld-Wen Windows & Doors"
-                  className="h-16 lg:h-20 w-auto"
-                />
-              </Link>
-              <Link href="/brands/marvin-windows-doors" className="hover:opacity-80 transition-opacity">
+            <div className="flex items-center justify-center">
+              <div className="text-center">
                 <img
                   src="/Marvin-LOCKUP-CMYK-898x301.png"
                   alt="Marvin Windows & Doors"
-                  className="h-16 lg:h-20 w-auto"
+                  className="h-20 lg:h-24 w-auto mx-auto mb-4"
                 />
-              </Link>
+                <h2 className="text-xl lg:text-2xl font-serif text-navy-600">Marvin Windows & Doors</h2>
+              </div>
             </div>
           </div>
         </section>

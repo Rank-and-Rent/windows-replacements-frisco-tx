@@ -84,8 +84,8 @@ export default function Footer() {
                   <a href="tel:469-908-2440" className="block text-sm text-white/70 hover:text-white transition-colors">
                     (469) 908-2440
                   </a>
-                  <a href="mailto:info@friscowindowreplacements.com" className="block text-sm text-white/70 hover:text-white transition-colors">
-                    info@friscowindowreplacements.com
+                  <a href="mailto:hello@windowreplacementfrisco.com" className="block text-sm text-white/70 hover:text-white transition-colors">
+                    hello@windowreplacementfrisco.com
                   </a>
                 </div>
               </div>
@@ -204,6 +204,46 @@ export default function Footer() {
               referrerPolicy="no-referrer-when-downgrade"
               title="Frisco Window Replacements Location"
             />
+          </div>
+        </div>
+      </div>
+
+      {/* Brand Logos */}
+      <div className="border-t border-white/10 py-12">
+        <div className="max-w-[1400px] mx-auto px-6 lg:px-10">
+          <div className="text-center mb-8">
+            <h3 className="text-lg font-serif text-white mb-2">Trusted Brands</h3>
+            <p className="text-sm text-white/60">We proudly install products from America&apos;s finest manufacturers</p>
+          </div>
+          <div className="flex flex-wrap justify-center items-center gap-6 lg:gap-8">
+            <Link href="/brands/andersen-windows-doors" className="hover:opacity-80 transition-opacity">
+              <img
+                src="/andersen-windows-and-doors-logo.png"
+                alt="Andersen Windows & Doors"
+                className="h-12 lg:h-14 w-auto"
+              />
+            </Link>
+            <Link href="/brands/pella-windows-doors" className="hover:opacity-80 transition-opacity">
+              <img
+                src="/Pella-Corp-Windows-Doors-Logo-2x1-1.png"
+                alt="Pella Windows & Doors"
+                className="h-12 lg:h-14 w-auto"
+              />
+            </Link>
+            <Link href="/brands/jeld-wen-windows-doors" className="hover:opacity-80 transition-opacity">
+              <img
+                src="/jeld-wen-windows-and-doors-logo.png"
+                alt="Jeld-Wen Windows & Doors"
+                className="h-12 lg:h-14 w-auto"
+              />
+            </Link>
+            <Link href="/brands/marvin-windows-doors" className="hover:opacity-80 transition-opacity">
+              <img
+                src="/Marvin-LOCKUP-CMYK-898x301.png"
+                alt="Marvin Windows & Doors"
+                className="h-12 lg:h-14 w-auto"
+              />
+            </Link>
           </div>
         </div>
       </div>

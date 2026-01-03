@@ -54,9 +54,9 @@ export default function SeoContent() {
             >
               <div className="absolute -top-8 -left-8 w-3/4 h-full accent-block-blue -z-10" />
               <div className="relative aspect-[4/3] overflow-hidden">
-                <div 
+                <div
                   className="absolute inset-0 bg-cover bg-center"
-                  style={{ backgroundImage: 'url(/windows/double-hung-windows-frisco-tx.jpg' }}
+                  style={{ backgroundImage: 'url(/locations/window-replacement-frisco-square-tx.webp)' }}
                 />
               </div>
             </motion.div>
@@ -66,9 +66,9 @@ export default function SeoContent() {
 
       {/* CTA Section */}
       <section className="relative py-24 lg:py-32 overflow-hidden">
-        <div 
+        <div
           className="absolute inset-0 bg-cover bg-center"
-          style={{ backgroundImage: 'url(/windows/double-hung-windows-frisco-tx.jpg' }}
+          style={{ backgroundImage: 'url(/doors/entry-doors-frisco-tx.webp)' }}
         />
         <div className="absolute inset-0 bg-navy-600/80" />
         

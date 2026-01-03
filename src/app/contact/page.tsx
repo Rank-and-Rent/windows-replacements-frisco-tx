@@ -269,8 +269,8 @@ export default function ContactPage() {
                     
                     <div>
                       <h4 className="text-sm font-medium text-navy-600 mb-2">Email</h4>
-                      <a href="mailto:info@friscowindowreplacements.com" className="text-slate-blue hover:text-navy-600 transition-colors break-all">
-                        info@friscowindowreplacements.com
+                      <a href="mailto:hello@windowreplacementfrisco.com" className="text-slate-blue hover:text-navy-600 transition-colors break-all">
+                        hello@windowreplacementfrisco.com
                       </a>
                     </div>
                     

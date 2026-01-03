@@ -16,7 +16,11 @@ export default function DentonPage() {
       
       <section className="relative pt-32 lg:pt-40 pb-20 lg:pt-24 bg-navy-600">
         <div className="section-divider absolute top-0 left-0 right-0" />
-        <div className="max-w-[1400px] mx-auto px-6 lg:px-10">
+        <div
+          className="absolute inset-0 bg-cover bg-center opacity-20"
+          style={{ backgroundImage: 'url(/locations/window-replacement-denton-tx.jpg)' }}
+        />
+        <div className="relative max-w-[1400px] mx-auto px-6 lg:px-10">
           <div className="max-w-3xl">
             <h1 className="font-serif text-4xl lg:text-6xl text-white mb-6 leading-tight">Window Services in Denton, Texas</h1>
             <p className="text-lg lg:text-xl text-white/90 leading-relaxed mb-8">

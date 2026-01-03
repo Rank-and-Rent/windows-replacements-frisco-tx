@@ -146,6 +146,58 @@ export default function AboutPage() {
           </div>
         </section>
 
+        {/* Trusted Brands */}
+        <section className="py-16 lg:py-24 bg-stone-50">
+          <div className="max-w-[1400px] mx-auto px-6 lg:px-10">
+            <div className="text-center mb-12">
+              <h2 className="text-2xl lg:text-4xl font-serif text-navy-600 mb-4">
+                Our Trusted Partners
+              </h2>
+              <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+                We exclusively install windows and doors from America&apos;s most respected manufacturers, ensuring premium quality and lasting performance for your Frisco home.
+              </p>
+            </div>
+            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 items-center">
+              <Link href="/brands/andersen-windows-doors" className="group bg-white p-8 rounded-lg shadow-sm hover:shadow-lg transition-shadow text-center">
+                <img
+                  src="/andersen-windows-and-doors-logo.png"
+                  alt="Andersen Windows & Doors"
+                  className="h-12 lg:h-16 w-auto mx-auto mb-4 group-hover:scale-105 transition-transform"
+                />
+                <h3 className="text-lg font-serif text-navy-600 mb-2">Andersen</h3>
+                <p className="text-sm text-gray-600">America&apos;s Most Trusted Window Brand</p>
+              </Link>
+              <Link href="/brands/pella-windows-doors" className="group bg-white p-8 rounded-lg shadow-sm hover:shadow-lg transition-shadow text-center">
+                <img
+                  src="/Pella-Corp-Windows-Doors-Logo-2x1-1.png"
+                  alt="Pella Windows & Doors"
+                  className="h-12 lg:h-16 w-auto mx-auto mb-4 group-hover:scale-105 transition-transform"
+                />
+                <h3 className="text-lg font-serif text-navy-600 mb-2">Pella</h3>
+                <p className="text-sm text-gray-600">Expertly Designed. Exceptionally Built.</p>
+              </Link>
+              <Link href="/brands/jeld-wen-windows-doors" className="group bg-white p-8 rounded-lg shadow-sm hover:shadow-lg transition-shadow text-center">
+                <img
+                  src="/jeld-wen-windows-and-doors-logo.png"
+                  alt="Jeld-Wen Windows & Doors"
+                  className="h-12 lg:h-16 w-auto mx-auto mb-4 group-hover:scale-105 transition-transform"
+                />
+                <h3 className="text-lg font-serif text-navy-600 mb-2">JELD-WEN</h3>
+                <p className="text-sm text-gray-600">Reliable Performance. Exceptional Value.</p>
+              </Link>
+              <Link href="/brands/marvin-windows-doors" className="group bg-white p-8 rounded-lg shadow-sm hover:shadow-lg transition-shadow text-center">
+                <img
+                  src="/Marvin-LOCKUP-CMYK-898x301.png"
+                  alt="Marvin Windows & Doors"
+                  className="h-12 lg:h-16 w-auto mx-auto mb-4 group-hover:scale-105 transition-transform"
+                />
+                <h3 className="text-lg font-serif text-navy-600 mb-2">Marvin</h3>
+                <p className="text-sm text-gray-600">Premium Custom Craftsmanship</p>
+              </Link>
+            </div>
+          </div>
+        </section>
+
         {/* CTA */}
         <section className="py-16 lg:py-24 bg-navy-600">
           <div className="max-w-[1400px] mx-auto px-6 lg:px-10 text-center">
