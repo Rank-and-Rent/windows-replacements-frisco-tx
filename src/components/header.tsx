@@ -396,15 +396,6 @@ export default function Header() {
         </nav>
       </header>
 
-      {/* Sticky Mobile Call Button */}
-      <div className="lg:hidden fixed bottom-0 left-0 right-0 z-40 bg-white p-4 shadow-[0_-4px_6px_-1px_rgba(0,0,0,0.1)]">
-        <a 
-          href="tel:469-908-2440" 
-          className="block w-full bg-navy-600 text-white text-center py-4 font-medium tracking-wide rounded"
-        >
-          CALL NOW: (469) 908-2440
-        </a>
-      </div>
     </>
   )
 }
