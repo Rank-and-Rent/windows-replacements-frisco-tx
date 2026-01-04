@@ -74,28 +74,28 @@ export default function Hero() {
             <span className="hidden sm:inline text-sm font-medium text-gray-700 mr-2 lg:mr-4">Trusted Brands:</span>
             <Link href="/brands/andersen-windows-doors" className="hover:opacity-80 transition-opacity flex-shrink-0">
               <img
-                src="/andersen-windows-and-doors-logo.png"
+                src="/andersen-windows-and-doors-frisco-tx-logo.png"
                 alt="Andersen Windows & Doors"
                 className="h-6 sm:h-8 lg:h-10 w-auto"
               />
             </Link>
             <Link href="/brands/pella-windows-doors" className="hover:opacity-80 transition-opacity flex-shrink-0">
               <img
-                src="/Pella-Corp-Windows-Doors-Logo-2x1-1.png"
+                src="/pella-windows-and-doors-frisco-tx-logo.png"
                 alt="Pella Windows & Doors"
                 className="h-6 sm:h-8 lg:h-10 w-auto"
               />
             </Link>
             <Link href="/brands/jeld-wen-windows-doors" className="hover:opacity-80 transition-opacity flex-shrink-0">
               <img
-                src="/jeld-wen-windows-and-doors-logo.png"
+                src="/jeld-wen-windows-and-doors-frisco-tx-logo.png"
                 alt="Jeld-Wen Windows & Doors"
                 className="h-6 sm:h-8 lg:h-10 w-auto"
               />
             </Link>
             <Link href="/brands/marvin-windows-doors" className="hover:opacity-80 transition-opacity flex-shrink-0">
               <img
-                src="/Marvin-LOCKUP-CMYK-898x301.png"
+                src="/marvin-windows-and-doors-frisco-tx-logo.png"
                 alt="Marvin Windows & Doors"
                 className="h-6 sm:h-8 lg:h-10 w-auto"
               />
@@ -105,15 +105,13 @@ export default function Hero() {
       </div>
 
       {/* Background Images with Ken Burns effect */}
-      <AnimatePresence mode="wait">
-        <motion.div
-          key={currentSlide}
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          exit={{ opacity: 0 }}
-          transition={{ duration: 1, ease: [0.4, 0, 0.2, 1] }}
-          className="absolute inset-0"
-        >
+      <motion.div
+        key={currentSlide}
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 1, ease: [0.4, 0, 0.2, 1] }}
+        className="absolute inset-0"
+      >
           <motion.div 
             className="absolute inset-0 bg-cover bg-center"
             style={{ backgroundImage: `url(${slides[currentSlide].image})` }}
@@ -124,20 +122,17 @@ export default function Hero() {
           {/* Gradient overlay - darker on left for text readability */}
           <div className="absolute inset-0 bg-gradient-to-r from-navy-600/70 via-navy-600/40 to-navy-600/20" />
         </motion.div>
-      </AnimatePresence>
 
       {/* Content */}
       <div className="relative z-10 h-full flex items-center pt-48 lg:pt-52">
         <div className="max-w-[1400px] mx-auto px-6 lg:px-10 w-full">
-          <AnimatePresence mode="wait">
-            <motion.div
-              key={currentSlide}
-              initial={{ opacity: 0, y: 40 }}
-              animate={{ opacity: 1, y: 0 }}
-              exit={{ opacity: 0, y: -20 }}
-              transition={{ duration: 0.8, ease: [0.4, 0, 0.2, 1], delay: 0.2 }}
-              className="max-w-3xl"
-            >
+          <motion.div
+            key={currentSlide}
+            initial={{ opacity: 0, y: 40 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, ease: [0.4, 0, 0.2, 1], delay: 0.2 }}
+            className="max-w-3xl"
+          >
               <h1 className="text-[3.5rem] md:text-[4.5rem] lg:text-[5.5rem] font-serif text-white leading-[1.05] whitespace-pre-line font-medium">
                 {slides[currentSlide].title}
               </h1>
@@ -153,7 +148,6 @@ export default function Hero() {
                 </Link>
               </motion.div>
             </motion.div>
-          </AnimatePresence>
         </div>
       </div>
 

@@ -160,7 +160,7 @@ export default function AboutPage() {
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 items-center">
               <Link href="/brands/andersen-windows-doors" className="group bg-white p-8 rounded-lg shadow-sm hover:shadow-lg transition-shadow text-center">
                 <img
-                  src="/andersen-windows-and-doors-logo.png"
+                  src="/andersen-windows-and-doors-frisco-tx-logo.png"
                   alt="Andersen Windows & Doors"
                   className="h-12 lg:h-16 w-auto mx-auto mb-4 group-hover:scale-105 transition-transform"
                 />
@@ -169,7 +169,7 @@ export default function AboutPage() {
               </Link>
               <Link href="/brands/pella-windows-doors" className="group bg-white p-8 rounded-lg shadow-sm hover:shadow-lg transition-shadow text-center">
                 <img
-                  src="/Pella-Corp-Windows-Doors-Logo-2x1-1.png"
+                  src="/pella-windows-and-doors-frisco-tx-logo.png"
                   alt="Pella Windows & Doors"
                   className="h-12 lg:h-16 w-auto mx-auto mb-4 group-hover:scale-105 transition-transform"
                 />
@@ -178,7 +178,7 @@ export default function AboutPage() {
               </Link>
               <Link href="/brands/jeld-wen-windows-doors" className="group bg-white p-8 rounded-lg shadow-sm hover:shadow-lg transition-shadow text-center">
                 <img
-                  src="/jeld-wen-windows-and-doors-logo.png"
+                  src="/jeld-wen-windows-and-doors-frisco-tx-logo.png"
                   alt="Jeld-Wen Windows & Doors"
                   className="h-12 lg:h-16 w-auto mx-auto mb-4 group-hover:scale-105 transition-transform"
                 />
@@ -187,7 +187,7 @@ export default function AboutPage() {
               </Link>
               <Link href="/brands/marvin-windows-doors" className="group bg-white p-8 rounded-lg shadow-sm hover:shadow-lg transition-shadow text-center">
                 <img
-                  src="/Marvin-LOCKUP-CMYK-898x301.png"
+                  src="/marvin-windows-and-doors-frisco-tx-logo.png"
                   alt="Marvin Windows & Doors"
                   className="h-12 lg:h-16 w-auto mx-auto mb-4 group-hover:scale-105 transition-transform"
                 />
