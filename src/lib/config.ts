@@ -1,0 +1,10 @@
+export const PRIMARY_CITY = "Frisco";
+export const PRIMARY_STATE_ABBR = "TX";
+export const PRIMARY_STATE_FULL = "Texas";
+export const COMPANY_NAME = "Window Replacements of Frisco";
+export const PHONE = "469-908-2440";
+export const PHONE_DIGITS = "14699082440";
+export const EMAIL = "hello@windowreplacementfrisco.com";
+export const ADDRESS = "6959 Lebanon Rd #210, Frisco, TX 75034";
+export const CANONICAL_URL = "https://www.windowreplacementfrisco.com/";
+export const BUSINESS_HOURS = "Open 24/7";
