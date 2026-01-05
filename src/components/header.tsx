@@ -1,55 +1,17 @@
 'use client'
 
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useRef } from 'react'
 import Link from 'next/link'
-
-const windowTypes = [
-  { name: 'Double-Hung Windows', href: '/windows/double-hung-windows' },
-  { name: 'Single-Hung Windows', href: '/windows/single-hung-windows' },
-  { name: 'Casement Windows', href: '/windows/casement-windows' },
-  { name: 'Awning Windows', href: '/windows/awning-windows' },
-  { name: 'Sliding Windows', href: '/windows/sliding-windows' },
-  { name: 'Picture Windows', href: '/windows/picture-windows' },
-  { name: 'Bay & Bow Windows', href: '/windows/bay-bow-windows' },
-  { name: 'Special Shape Windows', href: '/windows/special-shape-windows' },
-]
-
-const doorTypes = [
-  { name: 'Entry Doors', href: '/doors/entry-door-installation' },
-  { name: 'Patio Doors', href: '/doors/patio-door-installation' },
-  { name: 'French Doors', href: '/doors/french-door-installation' },
-  { name: 'Sliding Glass Doors', href: '/doors/sliding-glass-door-installation' },
-  { name: 'Storm Doors', href: '/doors/storm-door-installation' },
-  { name: 'Custom Doors', href: '/doors/custom-door-installation' },
-]
-
-const brands = [
-  { name: 'Andersen Windows & Doors', href: '/brands/andersen-windows-doors' },
-  { name: 'Pella Windows & Doors', href: '/brands/pella-windows-doors' },
-  { name: 'JELD-WEN Windows & Doors', href: '/brands/jeld-wen-windows-doors' },
-  { name: 'Marvin Windows & Doors', href: '/brands/marvin-windows-doors' },
-]
-
-const locations = [
-  { name: 'Frisco', href: '/locations/frisco-tx' },
-  { name: 'Plano', href: '/locations/plano-tx' },
-  { name: 'McKinney', href: '/locations/mckinney-tx' },
-  { name: 'Allen', href: '/locations/allen-tx' },
-  { name: 'The Colony', href: '/locations/the-colony-tx' },
-  { name: 'Little Elm', href: '/locations/little-elm-tx' },
-  { name: 'Prosper', href: '/locations/prosper-tx' },
-  { name: 'Celina', href: '/locations/celina-tx' },
-  { name: 'Lewisville', href: '/locations/lewisville-tx' },
-  { name: 'Carrollton', href: '/locations/carrollton-tx' },
-]
+import Image from 'next/image'
+import { servicesData, locationsData, brandsData } from '@/data'
+import styles from './header.module.css'
 
 export default function Header() {
-  const [windowsOpen, setWindowsOpen] = useState(false)
-  const [doorsOpen, setDoorsOpen] = useState(false)
-  const [brandsOpen, setBrandsOpen] = useState(false)
-  const [locationsOpen, setLocationsOpen] = useState(false)
-  const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
   const [isScrolled, setIsScrolled] = useState(false)
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
+  const [activeDropdown, setActiveDropdown] = useState<string | null>(null)
+  const [mobileActiveDropdown, setMobileActiveDropdown] = useState<string | null>(null)
+  const dropdownTimeoutRef = useRef<NodeJS.Timeout | null>(null)
 
   useEffect(() => {
     const handleScroll = () => {
@@ -61,7 +23,7 @@ export default function Header() {
 
   // Lock body scroll when mobile menu is open
   useEffect(() => {
-    if (mobileMenuOpen) {
+    if (isMobileMenuOpen) {
       document.body.style.overflow = 'hidden'
     } else {
       document.body.style.overflow = ''
@@ -69,333 +31,550 @@ export default function Header() {
     return () => {
       document.body.style.overflow = ''
     }
-  }, [mobileMenuOpen])
+  }, [isMobileMenuOpen])
+
+  const handleMouseEnter = (dropdown: string) => {
+    if (dropdownTimeoutRef.current) {
+      clearTimeout(dropdownTimeoutRef.current)
+    }
+    setActiveDropdown(dropdown)
+  }
+
+  const handleMouseLeave = () => {
+    dropdownTimeoutRef.current = setTimeout(() => {
+      setActiveDropdown(null)
+    }, 300)
+  }
+
+  const handleDropdownMouseEnter = () => {
+    if (dropdownTimeoutRef.current) {
+      clearTimeout(dropdownTimeoutRef.current)
+    }
+  }
+
+  const handleKeyDown = (e: React.KeyboardEvent, dropdown: string) => {
+    if (e.key === 'Enter' || e.key === ' ') {
+      e.preventDefault()
+      setActiveDropdown(activeDropdown === dropdown ? null : dropdown)
+    } else if (e.key === 'Escape') {
+      setActiveDropdown(null)
+    }
+  }
+
+  const toggleMobileDropdown = (dropdown: string) => {
+    setMobileActiveDropdown(mobileActiveDropdown === dropdown ? null : dropdown)
+  }
 
   const closeMobileMenu = () => {
-    setMobileMenuOpen(false)
+    setIsMobileMenuOpen(false)
+    setMobileActiveDropdown(null)
   }
+
+  // Split services into windows, doors, and materials
+  const windowServices = servicesData.filter(s => s.category === 'Windows')
+  const doorServices = servicesData.filter(s => s.category === 'Doors')
+  const materialServices = servicesData.filter(s => s.category === 'Materials')
+  
+  // Top 8 locations for dropdown (main city first, then most populous)
+  const topLocations = locationsData.slice(0, 8)
 
   return (
     <>
-      <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled ? 'shadow-lg' : ''}`}>
-        {/* Top accent bar */}
-        <div className="section-divider" />
-        
-        {/* Main navigation */}
-        <nav className="bg-white/95 backdrop-blur-sm">
-          <div className="max-w-[1400px] mx-auto px-6 lg:px-10">
-            <div className="flex items-center justify-between h-20 lg:h-24">
-              
-              {/* Logo - Left */}
-              <Link href="/" className="flex items-center gap-3 flex-shrink-0">
-                {/* Window arch icon */}
-                <svg viewBox="0 0 50 45" className="w-12 h-11 lg:w-14 lg:h-12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M4 44V18C4 8 14 2 25 2C36 2 46 8 46 18V44" stroke="#4A6B7C" strokeWidth="2.5" fill="none"/>
-                  <path d="M10 44V20C10 12 16 6 25 6C34 6 40 12 40 20V44" stroke="#4A6B7C" strokeWidth="1.5" fill="none"/>
-                  <line x1="25" y1="6" x2="25" y2="44" stroke="#4A6B7C" strokeWidth="1.5"/>
-                  <line x1="4" y1="30" x2="46" y2="30" stroke="#4A6B7C" strokeWidth="1.5"/>
-                  <rect x="4" y="44" width="42" height="1" fill="#4A6B7C"/>
+      <header className={`${styles.header} ${isScrolled ? styles.scrolled : ''}`}>
+        <div className={styles.container}>
+          <Link href="/" className={styles.logo} onClick={closeMobileMenu}>
+            <Image
+              src="/logo.png"
+              alt="Home Window Replacement Service of Arlington TX"
+              width={200}
+              height={60}
+              className={styles.logoImage}
+            />
+          </Link>
+
+          {/* Desktop Navigation */}
+          <nav className={styles.desktopNav}>
+            {/* Windows Dropdown */}
+            <div
+              className={styles.dropdown}
+              onMouseEnter={() => handleMouseEnter('windows')}
+              onMouseLeave={handleMouseLeave}
+            >
+              <button
+                className={styles.navLink}
+                onKeyDown={(e) => handleKeyDown(e, 'windows')}
+                aria-expanded={activeDropdown === 'windows'}
+                aria-haspopup="true"
+              >
+                Windows
+                <svg className={styles.dropdownArrow} viewBox="0 0 24 24" width="12" height="12" fill="currentColor">
+                  <path d="M7 10l5 5 5-5z"/>
                 </svg>
-                <div className="flex flex-col leading-tight">
-                  <span className="text-[15px] lg:text-[17px] font-serif font-semibold text-navy-600 tracking-wide">FRISCO WINDOW</span>
-                  <span className="text-[15px] lg:text-[17px] font-serif font-semibold text-navy-600 tracking-wide">REPLACEMENTS</span>
-                </div>
-              </Link>
-
-              {/* Center - Phone (Desktop) */}
-              <div className="hidden lg:flex items-center gap-6">
-                {/* Phone */}
-                <a href="tel:469-908-2440" className="text-navy-600 font-medium tracking-wide hover:text-slate-blue transition-colors">
-                  (469) 908-2440
-                </a>
-              </div>
-
-              {/* Right - Navigation (Desktop) */}
-              <div className="hidden lg:flex items-center gap-8">
-                {/* Windows Dropdown */}
+              </button>
+              {activeDropdown === 'windows' && (
                 <div 
-                  className="relative"
-                  onMouseEnter={() => setWindowsOpen(true)}
-                  onMouseLeave={() => setWindowsOpen(false)}
+                  className={styles.dropdownMenu}
+                  onMouseEnter={handleDropdownMouseEnter}
+                  onMouseLeave={handleMouseLeave}
                 >
-                  <button className="nav-link text-navy-600 flex items-center gap-1">
-                    Windows
-                    <svg className={`w-3 h-3 ml-1 transition-transform duration-300 ${windowsOpen ? 'rotate-180' : ''}`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-                    </svg>
-                  </button>
-                  <div className={`absolute top-full left-0 pt-4 transition-all duration-300 ${windowsOpen ? 'opacity-100 visible translate-y-0' : 'opacity-0 invisible -translate-y-2'}`}>
-                    <div className="w-64 bg-white shadow-xl border border-gray-100 py-3">
-                      {windowTypes.map((item) => (
-                        <Link
-                          key={item.name}
-                          href={item.href}
-                          className="block px-5 py-2.5 text-sm text-navy-500 hover:text-navy-700 hover:bg-accent-light transition-all duration-200 tracking-wide"
-                        >
-                          {item.name}
-                        </Link>
-                      ))}
-                      <div className="border-t border-stone-300 mt-2 pt-2">
-                        <Link
-                          href="/windows"
-                          className="block px-5 py-2.5 text-sm text-charcoal-900 hover:bg-stone-200 font-semibold tracking-wide bg-stone-50"
-                        >
-                          View All Windows
-                        </Link>
-                      </div>
-                    </div>
-                  </div>
+                  {windowServices.map((service) => (
+                    <Link
+                      key={service.slug}
+                      href={service.route}
+                      className={styles.dropdownItem}
+                      onClick={() => setActiveDropdown(null)}
+                    >
+                      {service.name}
+                    </Link>
+                  ))}
+                  <Link
+                    href="/windows"
+                    className={`${styles.dropdownItem} ${styles.viewAll}`}
+                    onClick={() => setActiveDropdown(null)}
+                  >
+                    View All Windows
+                  </Link>
                 </div>
-
-                {/* Doors Dropdown */}
-                <div 
-                  className="relative"
-                  onMouseEnter={() => setDoorsOpen(true)}
-                  onMouseLeave={() => setDoorsOpen(false)}
-                >
-                  <button className="nav-link text-navy-600 flex items-center gap-1">
-                    Doors
-                    <svg className={`w-3 h-3 ml-1 transition-transform duration-300 ${doorsOpen ? 'rotate-180' : ''}`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-                    </svg>
-                  </button>
-                  <div className={`absolute top-full left-0 pt-4 transition-all duration-300 ${doorsOpen ? 'opacity-100 visible translate-y-0' : 'opacity-0 invisible -translate-y-2'}`}>
-                    <div className="w-64 bg-white shadow-xl border border-gray-100 py-3">
-                      {doorTypes.map((item) => (
-                        <Link
-                          key={item.name}
-                          href={item.href}
-                          className="block px-5 py-2.5 text-sm text-navy-500 hover:text-navy-700 hover:bg-accent-light transition-all duration-200 tracking-wide"
-                        >
-                          {item.name}
-                        </Link>
-                      ))}
-                      <div className="border-t border-stone-300 mt-2 pt-2">
-                        <Link
-                          href="/doors"
-                          className="block px-5 py-2.5 text-sm text-charcoal-900 hover:bg-stone-200 font-semibold tracking-wide bg-stone-50"
-                        >
-                          View All Doors
-                        </Link>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                {/* Brands Dropdown */}
-                <div 
-                  className="relative"
-                  onMouseEnter={() => setBrandsOpen(true)}
-                  onMouseLeave={() => setBrandsOpen(false)}
-                >
-                  <button className="nav-link text-navy-600 flex items-center gap-1">
-                    Brands
-                    <svg className={`w-3 h-3 ml-1 transition-transform duration-300 ${brandsOpen ? 'rotate-180' : ''}`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-                    </svg>
-                  </button>
-                  <div className={`absolute top-full left-0 pt-4 transition-all duration-300 ${brandsOpen ? 'opacity-100 visible translate-y-0' : 'opacity-0 invisible -translate-y-2'}`}>
-                    <div className="w-64 bg-white shadow-xl border border-gray-100 py-3">
-                      {brands.map((item) => (
-                        <Link
-                          key={item.name}
-                          href={item.href}
-                          className="block px-5 py-2.5 text-sm text-navy-500 hover:text-navy-700 hover:bg-accent-light transition-all duration-200 tracking-wide"
-                        >
-                          {item.name}
-                        </Link>
-                      ))}
-                      <div className="border-t border-stone-300 mt-2 pt-2">
-                        <Link
-                          href="/brands"
-                          className="block px-5 py-2.5 text-sm text-charcoal-900 hover:bg-stone-200 font-semibold tracking-wide bg-stone-50"
-                        >
-                          View All Brands
-                        </Link>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                
-                {/* Locations Dropdown */}
-                <div 
-                  className="relative"
-                  onMouseEnter={() => setLocationsOpen(true)}
-                  onMouseLeave={() => setLocationsOpen(false)}
-                >
-                  <button className="nav-link text-navy-600 flex items-center gap-1">
-                    Areas We Serve
-                    <svg className={`w-3 h-3 ml-1 transition-transform duration-300 ${locationsOpen ? 'rotate-180' : ''}`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-                    </svg>
-                  </button>
-                  <div className={`absolute top-full left-0 pt-4 transition-all duration-300 ${locationsOpen ? 'opacity-100 visible translate-y-0' : 'opacity-0 invisible -translate-y-2'}`}>
-                    <div className="w-64 bg-white shadow-xl border border-gray-100 py-3 max-h-96 overflow-y-auto">
-                      {locations.map((item) => (
-                        <Link
-                          key={item.name}
-                          href={item.href}
-                          className="block px-5 py-2.5 text-sm text-navy-500 hover:text-navy-700 hover:bg-accent-light transition-all duration-200 tracking-wide"
-                        >
-                          {item.name}
-                        </Link>
-                      ))}
-                      <div className="border-t border-stone-300 mt-2 pt-2">
-                        <Link
-                          href="/locations"
-                          className="block px-5 py-2.5 text-sm text-charcoal-900 hover:bg-stone-200 font-semibold tracking-wide bg-stone-50"
-                        >
-                          View All Locations
-                        </Link>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <Link href="/about" className="nav-link text-navy-600">
-                  About
-                </Link>
-
-                <Link href="/contact" className="nav-link text-navy-600">
-                  Contact
-                </Link>
-              </div>
-
-              {/* Mobile - Call Button + Hamburger */}
-              <div className="lg:hidden flex items-center gap-3">
-                <a 
-                  href="tel:469-908-2440" 
-                  className="px-4 py-2 bg-slate-blue text-white text-sm font-medium tracking-wide rounded"
-                >
-                  Call Now
-                </a>
-                <button 
-                  className="p-2 text-navy-600"
-                  onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-                  aria-label="Toggle menu"
-                >
-                  {mobileMenuOpen ? (
-                    <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M6 18L18 6M6 6l12 12" />
-                    </svg>
-                  ) : (
-                    <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M4 6h16M4 12h16M4 18h16" />
-                    </svg>
-                  )}
-                </button>
-              </div>
+              )}
             </div>
+
+            {/* Materials Dropdown */}
+            <div
+              className={styles.dropdown}
+              onMouseEnter={() => handleMouseEnter('materials')}
+              onMouseLeave={handleMouseLeave}
+            >
+              <button
+                className={styles.navLink}
+                onKeyDown={(e) => handleKeyDown(e, 'materials')}
+                aria-expanded={activeDropdown === 'materials'}
+                aria-haspopup="true"
+              >
+                Materials
+                <svg className={styles.dropdownArrow} viewBox="0 0 24 24" width="12" height="12" fill="currentColor">
+                  <path d="M7 10l5 5 5-5z"/>
+                </svg>
+              </button>
+              {activeDropdown === 'materials' && (
+                <div
+                  className={styles.dropdownMenu}
+                  onMouseEnter={handleDropdownMouseEnter}
+                  onMouseLeave={handleMouseLeave}
+                >
+                  {materialServices.map((service) => (
+                    <Link
+                      key={service.slug}
+                      href={service.route}
+                      className={styles.dropdownItem}
+                      onClick={() => setActiveDropdown(null)}
+                    >
+                      {service.name}
+                    </Link>
+                  ))}
+                  <Link
+                    href="/windows"
+                    className={`${styles.dropdownItem} ${styles.viewAll}`}
+                    onClick={() => setActiveDropdown(null)}
+                  >
+                    View All Materials
+                  </Link>
+                </div>
+              )}
+            </div>
+
+            {/* Doors Dropdown */}
+            <div
+              className={styles.dropdown}
+              onMouseEnter={() => handleMouseEnter('doors')}
+              onMouseLeave={handleMouseLeave}
+            >
+              <button
+                className={styles.navLink}
+                onKeyDown={(e) => handleKeyDown(e, 'doors')}
+                aria-expanded={activeDropdown === 'doors'}
+                aria-haspopup="true"
+              >
+                Doors
+                <svg className={styles.dropdownArrow} viewBox="0 0 24 24" width="12" height="12" fill="currentColor">
+                  <path d="M7 10l5 5 5-5z"/>
+                </svg>
+              </button>
+              {activeDropdown === 'doors' && (
+                <div 
+                  className={styles.dropdownMenu}
+                  onMouseEnter={handleDropdownMouseEnter}
+                  onMouseLeave={handleMouseLeave}
+                >
+                  {doorServices.map((service) => (
+                    <Link
+                      key={service.slug}
+                      href={service.route}
+                      className={styles.dropdownItem}
+                      onClick={() => setActiveDropdown(null)}
+                    >
+                      {service.name}
+                    </Link>
+                  ))}
+                  <Link
+                    href="/doors"
+                    className={`${styles.dropdownItem} ${styles.viewAll}`}
+                    onClick={() => setActiveDropdown(null)}
+                  >
+                    View All Doors
+                  </Link>
+                </div>
+              )}
+            </div>
+
+            {/* Locations Dropdown */}
+            <div
+              className={styles.dropdown}
+              onMouseEnter={() => handleMouseEnter('locations')}
+              onMouseLeave={handleMouseLeave}
+            >
+              <button
+                className={styles.navLink}
+                onKeyDown={(e) => handleKeyDown(e, 'locations')}
+                aria-expanded={activeDropdown === 'locations'}
+                aria-haspopup="true"
+              >
+                Locations
+                <svg className={styles.dropdownArrow} viewBox="0 0 24 24" width="12" height="12" fill="currentColor">
+                  <path d="M7 10l5 5 5-5z"/>
+                </svg>
+              </button>
+              {activeDropdown === 'locations' && (
+                <div 
+                  className={styles.dropdownMenu}
+                  onMouseEnter={handleDropdownMouseEnter}
+                  onMouseLeave={handleMouseLeave}
+                >
+                  {topLocations.map((location) => (
+                    <Link
+                      key={location.slug}
+                      href={location.route}
+                      className={styles.dropdownItem}
+                      onClick={() => setActiveDropdown(null)}
+                    >
+                      {location.name}
+                    </Link>
+                  ))}
+                  <Link
+                    href="/locations"
+                    className={`${styles.dropdownItem} ${styles.viewAll}`}
+                    onClick={() => setActiveDropdown(null)}
+                  >
+                    View All {locationsData.length} Locations
+                  </Link>
+                </div>
+              )}
+            </div>
+
+            {/* Brands Dropdown */}
+            <div
+              className={styles.dropdown}
+              onMouseEnter={() => handleMouseEnter('brands')}
+              onMouseLeave={handleMouseLeave}
+            >
+              <button
+                className={styles.navLink}
+                onKeyDown={(e) => handleKeyDown(e, 'brands')}
+                aria-expanded={activeDropdown === 'brands'}
+                aria-haspopup="true"
+              >
+                Brands
+                <svg className={styles.dropdownArrow} viewBox="0 0 24 24" width="12" height="12" fill="currentColor">
+                  <path d="M7 10l5 5 5-5z"/>
+                </svg>
+              </button>
+              {activeDropdown === 'brands' && (
+                <div 
+                  className={styles.dropdownMenu}
+                  onMouseEnter={handleDropdownMouseEnter}
+                  onMouseLeave={handleMouseLeave}
+                >
+                  {brandsData.map((brand) => (
+                    <Link
+                      key={brand.slug}
+                      href={brand.route}
+                      className={styles.dropdownItem}
+                      onClick={() => setActiveDropdown(null)}
+                    >
+                      {brand.name}
+                    </Link>
+                  ))}
+                  <Link
+                    href="/brands"
+                    className={`${styles.dropdownItem} ${styles.viewAll}`}
+                    onClick={() => setActiveDropdown(null)}
+                  >
+                    View All Brands
+                  </Link>
+                </div>
+              )}
+            </div>
+
+            <Link href="/about" className={styles.navLink}>
+              About
+            </Link>
+            <Link href="/contact" className={styles.navLink}>
+              Contact
+            </Link>
+          </nav>
+
+          <div className={styles.headerActions}>
+            <a href="tel:817-592-8870" className={styles.phone}>
+              <span className={styles.phoneLabel}>Call Now</span>
+              <span className={styles.phoneNumber}>817-592-8870</span>
+            </a>
+            <Link href="/contact" className={styles.ctaButton}>
+              Free Estimate
+            </Link>
           </div>
 
-          {/* Mobile Menu */}
-          <div className={`lg:hidden bg-white border-t border-gray-100 overflow-hidden transition-all duration-500 ease-in-out ${mobileMenuOpen ? 'max-h-[80vh] opacity-100 overflow-y-auto' : 'max-h-0 opacity-0'}`}>
-            <div className="px-6 py-6">
-              <a href="tel:469-908-2440" className="block text-lg text-navy-600 font-medium mb-6">
-                (469) 908-2440
-              </a>
-              
-              <div className="space-y-1">
-                <p className="text-xs uppercase tracking-widest text-navy-400 mb-3">Windows</p>
-                {windowTypes.map((item) => (
-                  <Link
-                    key={item.name}
-                    href={item.href}
-                    className="block py-2 text-navy-600 hover:text-slate-blue transition-colors"
-                    onClick={closeMobileMenu}
-                  >
-                    {item.name}
-                  </Link>
-                ))}
-                <Link
-                  href="/windows"
-                  className="block py-2 text-navy-700 font-semibold hover:text-slate-blue transition-colors"
-                  onClick={closeMobileMenu}
-                >
-                  View All Windows
-                </Link>
-              </div>
-              
-              <div className="border-t border-gray-100 my-6" />
-              
-              <div className="space-y-1">
-                <p className="text-xs uppercase tracking-widest text-navy-400 mb-3">Doors</p>
-                {doorTypes.map((item) => (
-                  <Link
-                    key={item.name}
-                    href={item.href}
-                    className="block py-2 text-navy-600 hover:text-slate-blue transition-colors"
-                    onClick={closeMobileMenu}
-                  >
-                    {item.name}
-                  </Link>
-                ))}
-                <Link
-                  href="/doors"
-                  className="block py-2 text-navy-700 font-semibold hover:text-slate-blue transition-colors"
-                  onClick={closeMobileMenu}
-                >
-                  View All Doors
-                </Link>
-              </div>
-              
-              <div className="border-t border-gray-100 my-6" />
-              
-              <div className="space-y-1">
-                <p className="text-xs uppercase tracking-widest text-navy-400 mb-3">Brands</p>
-                {brands.map((item) => (
-                  <Link
-                    key={item.name}
-                    href={item.href}
-                    className="block py-2 text-navy-600 hover:text-slate-blue transition-colors"
-                    onClick={closeMobileMenu}
-                  >
-                    {item.name}
-                  </Link>
-                ))}
-                <Link
-                  href="/brands"
-                  className="block py-2 text-navy-700 font-semibold hover:text-slate-blue transition-colors"
-                  onClick={closeMobileMenu}
-                >
-                  View All Brands
-                </Link>
-              </div>
-              
-              <div className="border-t border-gray-100 my-6" />
-              
-              <div className="space-y-1">
-                <p className="text-xs uppercase tracking-widest text-navy-400 mb-3">Areas We Serve</p>
-                {locations.map((item) => (
-                  <Link
-                    key={item.name}
-                    href={item.href}
-                    className="block py-2 text-navy-600 hover:text-slate-blue transition-colors"
-                    onClick={closeMobileMenu}
-                  >
-                    {item.name}
-                  </Link>
-                ))}
-                <Link
-                  href="/locations"
-                  className="block py-2 text-navy-700 font-semibold hover:text-slate-blue transition-colors"
-                  onClick={closeMobileMenu}
-                >
-                  View All Locations
-                </Link>
-              </div>
-              
-              <div className="border-t border-gray-100 my-6" />
-              
-              <div className="space-y-1">
-                <Link href="/about" className="block py-2 text-navy-600 hover:text-slate-blue transition-colors" onClick={closeMobileMenu}>About</Link>
-                <Link href="/contact" className="block py-2 text-navy-600 hover:text-slate-blue transition-colors" onClick={closeMobileMenu}>Contact</Link>
-              </div>
-            </div>
-          </div>
-        </nav>
+          {/* Hamburger Menu Button */}
+          <button
+            className={`${styles.hamburger} ${isMobileMenuOpen ? styles.hamburgerActive : ''}`}
+            onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+            aria-label="Toggle mobile menu"
+            aria-expanded={isMobileMenuOpen}
+          >
+            <span className={styles.hamburgerLine}></span>
+            <span className={styles.hamburgerLine}></span>
+            <span className={styles.hamburgerLine}></span>
+          </button>
+        </div>
       </header>
 
+      {/* Mobile Menu Overlay */}
+      <div 
+        className={`${styles.mobileOverlay} ${isMobileMenuOpen ? styles.mobileOverlayActive : ''}`}
+        onClick={closeMobileMenu}
+        aria-hidden="true"
+      />
+
+      {/* Mobile Menu */}
+      <nav className={`${styles.mobileMenu} ${isMobileMenuOpen ? styles.mobileMenuOpen : ''}`}>
+        <div className={styles.mobileMenuHeader}>
+          <Link href="/" className={styles.mobileLogo} onClick={closeMobileMenu}>
+            <Image
+              src="/logo.png"
+              alt="Home Window Replacement Service of Arlington TX"
+              width={150}
+              height={40}
+              className={styles.mobileLogoImage}
+            />
+          </Link>
+          <button
+            className={styles.mobileClose}
+            onClick={closeMobileMenu}
+            aria-label="Close menu"
+          >
+            <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" strokeWidth="2" fill="none">
+              <path d="M18 6L6 18M6 6l12 12"/>
+            </svg>
+          </button>
+        </div>
+
+        <div className={styles.mobileMenuContent}>
+          {/* Windows Accordion */}
+          <div className={styles.mobileDropdown}>
+            <button 
+              className={`${styles.mobileDropdownToggle} ${mobileActiveDropdown === 'windows' ? styles.mobileDropdownToggleActive : ''}`}
+              onClick={() => toggleMobileDropdown('windows')}
+              aria-expanded={mobileActiveDropdown === 'windows'}
+            >
+              Windows
+              <svg className={styles.mobileDropdownArrow} viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
+                <path d="M7 10l5 5 5-5z"/>
+              </svg>
+            </button>
+            <div className={`${styles.mobileDropdownContent} ${mobileActiveDropdown === 'windows' ? styles.mobileDropdownContentOpen : ''}`}>
+              {windowServices.map((service) => (
+                <Link
+                  key={service.slug}
+                  href={service.route}
+                  className={styles.mobileDropdownItem}
+                  onClick={closeMobileMenu}
+                >
+                  {service.name}
+                </Link>
+              ))}
+              <Link
+                href="/windows"
+                className={`${styles.mobileDropdownItem} ${styles.mobileViewAll}`}
+                onClick={closeMobileMenu}
+              >
+                View All Windows
+              </Link>
+            </div>
+          </div>
+
+          {/* Materials Accordion */}
+          <div className={styles.mobileDropdown}>
+            <button
+              className={`${styles.mobileDropdownToggle} ${mobileActiveDropdown === 'materials' ? styles.mobileDropdownToggleActive : ''}`}
+              onClick={() => toggleMobileDropdown('materials')}
+              aria-expanded={mobileActiveDropdown === 'materials'}
+            >
+              Materials
+              <svg className={styles.mobileDropdownArrow} viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
+                <path d="M7 10l5 5 5-5z"/>
+              </svg>
+            </button>
+            <div className={`${styles.mobileDropdownContent} ${mobileActiveDropdown === 'materials' ? styles.mobileDropdownContentOpen : ''}`}>
+              {materialServices.map((service) => (
+                <Link
+                  key={service.slug}
+                  href={service.route}
+                  className={styles.mobileDropdownItem}
+                  onClick={closeMobileMenu}
+                >
+                  {service.name}
+                </Link>
+              ))}
+              <Link
+                href="/windows"
+                className={`${styles.mobileDropdownItem} ${styles.mobileViewAll}`}
+                onClick={closeMobileMenu}
+              >
+                View All Materials
+              </Link>
+            </div>
+          </div>
+
+          {/* Doors Accordion */}
+          <div className={styles.mobileDropdown}>
+            <button 
+              className={`${styles.mobileDropdownToggle} ${mobileActiveDropdown === 'doors' ? styles.mobileDropdownToggleActive : ''}`}
+              onClick={() => toggleMobileDropdown('doors')}
+              aria-expanded={mobileActiveDropdown === 'doors'}
+            >
+              Doors
+              <svg className={styles.mobileDropdownArrow} viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
+                <path d="M7 10l5 5 5-5z"/>
+              </svg>
+            </button>
+            <div className={`${styles.mobileDropdownContent} ${mobileActiveDropdown === 'doors' ? styles.mobileDropdownContentOpen : ''}`}>
+              {doorServices.map((service) => (
+                <Link
+                  key={service.slug}
+                  href={service.route}
+                  className={styles.mobileDropdownItem}
+                  onClick={closeMobileMenu}
+                >
+                  {service.name}
+                </Link>
+              ))}
+              <Link
+                href="/doors"
+                className={`${styles.mobileDropdownItem} ${styles.mobileViewAll}`}
+                onClick={closeMobileMenu}
+              >
+                View All Doors
+              </Link>
+            </div>
+          </div>
+
+          {/* Locations Accordion */}
+          <div className={styles.mobileDropdown}>
+            <button 
+              className={`${styles.mobileDropdownToggle} ${mobileActiveDropdown === 'locations' ? styles.mobileDropdownToggleActive : ''}`}
+              onClick={() => toggleMobileDropdown('locations')}
+              aria-expanded={mobileActiveDropdown === 'locations'}
+            >
+              Locations
+              <svg className={styles.mobileDropdownArrow} viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
+                <path d="M7 10l5 5 5-5z"/>
+              </svg>
+            </button>
+            <div className={`${styles.mobileDropdownContent} ${mobileActiveDropdown === 'locations' ? styles.mobileDropdownContentOpen : ''}`}>
+              {topLocations.map((location) => (
+                <Link
+                  key={location.slug}
+                  href={location.route}
+                  className={styles.mobileDropdownItem}
+                  onClick={closeMobileMenu}
+                >
+                  {location.name}
+                </Link>
+              ))}
+              <Link
+                href="/locations"
+                className={`${styles.mobileDropdownItem} ${styles.mobileViewAll}`}
+                onClick={closeMobileMenu}
+              >
+                View All {locationsData.length} Locations
+              </Link>
+            </div>
+          </div>
+
+          {/* Brands Accordion */}
+          <div className={styles.mobileDropdown}>
+            <button 
+              className={`${styles.mobileDropdownToggle} ${mobileActiveDropdown === 'brands' ? styles.mobileDropdownToggleActive : ''}`}
+              onClick={() => toggleMobileDropdown('brands')}
+              aria-expanded={mobileActiveDropdown === 'brands'}
+            >
+              Brands
+              <svg className={styles.mobileDropdownArrow} viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
+                <path d="M7 10l5 5 5-5z"/>
+              </svg>
+            </button>
+            <div className={`${styles.mobileDropdownContent} ${mobileActiveDropdown === 'brands' ? styles.mobileDropdownContentOpen : ''}`}>
+              {brandsData.map((brand) => (
+                <Link
+                  key={brand.slug}
+                  href={brand.route}
+                  className={styles.mobileDropdownItem}
+                  onClick={closeMobileMenu}
+                >
+                  {brand.name}
+                </Link>
+              ))}
+              <Link
+                href="/brands"
+                className={`${styles.mobileDropdownItem} ${styles.mobileViewAll}`}
+                onClick={closeMobileMenu}
+              >
+                View All Brands
+              </Link>
+            </div>
+          </div>
+
+          {/* Regular Links */}
+          <Link href="/about" className={styles.mobileNavLink} onClick={closeMobileMenu}>
+            About
+          </Link>
+          <Link href="/contact" className={styles.mobileNavLink} onClick={closeMobileMenu}>
+            Contact
+          </Link>
+        </div>
+
+        {/* Mobile Menu Footer */}
+        <div className={styles.mobileMenuFooter}>
+          <a href="tel:817-592-8870" className={styles.mobilePhoneButton}>
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
+              <path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/>
+            </svg>
+            Call: 817-592-8870
+          </a>
+          <Link href="/contact" className={styles.mobileEstimateButton} onClick={closeMobileMenu}>
+            Get Free Estimate
+          </Link>
+        </div>
+      </nav>
+
+      {/* Floating Mobile Call Button */}
+      <a 
+        href="tel:817-592-8870" 
+        className={styles.floatingCallButton}
+        aria-label="Call Now"
+      >
+        <svg viewBox="0 0 24 24" width="28" height="28" fill="currentColor">
+          <path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/>
+        </svg>
+      </a>
     </>
   )
 }

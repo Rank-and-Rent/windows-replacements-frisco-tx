@@ -191,7 +191,7 @@ export default function EntryDoorPage() {
               </div>
               <div className="bg-stone-50 p-6 rounded-lg">
                 <h3 className="text-lg font-serif text-navy-600 mb-2">How much do entry doors cost in Frisco?</h3>
-                <p className="text-gray-600">Entry door costs vary based on material, size, brand, and features. Basic steel doors start around $800-$1,200 installed, while premium fiberglass or wood doors range from $1,500-$5,000+. We provide detailed quotes based on your specific needs.</p>
+                <p className="text-gray-600">Entry door costs with installation vary based on material, size, brand, and features. Everything is priced including installation. Basic steel doors start around $800-$1,200 with installation, while premium fiberglass or wood doors range from $1,500-$5,000+ with installation. We do not sell entry doors without installation.</p>
               </div>
             </div>
           </div>

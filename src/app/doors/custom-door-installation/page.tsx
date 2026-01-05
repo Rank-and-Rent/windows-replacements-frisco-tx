@@ -174,7 +174,7 @@ export default function CustomDoorPage() {
               </div>
               <div className="bg-stone-50 p-6 rounded-lg">
                 <h3 className="text-lg font-serif text-navy-600 mb-2">How much do custom doors cost?</h3>
-                <p className="text-gray-600">Custom door pricing depends on size, materials, and design complexity. Entry-level custom doors start around $2,500-$4,000 installed, while premium designs can range from $5,000-$15,000 or more.</p>
+                <p className="text-gray-600">Custom door pricing with installation depends on size, materials, and design complexity. Everything is priced including installation. Entry-level custom doors start around $2,500-$4,000 with installation, while premium designs can range from $5,000-$15,000 or more with installation. We do not sell doors without installation.</p>
               </div>
               <div className="bg-stone-50 p-6 rounded-lg">
                 <h3 className="text-lg font-serif text-navy-600 mb-2">Can you match my existing architectural style?</h3>

@@ -1,4 +1,5 @@
 import Header from '@/components/header'
+import MaterialsSection from '@/components/materials-section'
 import Hero from '@/components/hero'
 import WindowTypes from '@/components/window-types'
 import Brands from '@/components/brands'
