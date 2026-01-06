@@ -23,12 +23,12 @@ const doorTypes = [
 ]
 
 const materialTypes = [
-  { name: 'Vinyl Windows', href: '/materials/vinyl-windows' },
-  { name: 'Aluminum Windows', href: '/materials/aluminum-windows' },
-  { name: 'Fibrex Windows', href: '/materials/fibrex-windows' },
-  { name: 'Fiberglass Windows', href: '/materials/fiberglass-windows' },
-  { name: 'Wood Clad Windows', href: '/materials/wood-clad-windows' },
-  { name: 'Wood Windows', href: '/materials/wood-windows' },
+  { name: 'Vinyl Windows', href: '/windows/vinyl-windows' },
+  { name: 'Aluminum Windows', href: '/windows/aluminum-windows' },
+  { name: 'Fibrex Windows', href: '/windows/fibrex-windows' },
+  { name: 'Fiberglass Windows', href: '/windows/fiberglass-windows' },
+  { name: 'Wood Clad Windows', href: '/windows/wood-clad-windows' },
+  { name: 'Wood Windows', href: '/windows/wood-windows' },
 ]
 
 const brands = [
@@ -164,6 +164,14 @@ export default function Footer() {
               <div>
                 <h4 className="text-sm font-serif text-white mb-4">Materials</h4>
                 <ul className="space-y-2">
+                  <li>
+                    <Link 
+                      href="/materials"
+                      className="text-xs text-white/60 hover:text-white transition-colors uppercase tracking-[0.1em]"
+                    >
+                      View All Materials
+                    </Link>
+                  </li>
                   {materialTypes.map((item) => (
                     <li key={item.name}>
                       <Link 

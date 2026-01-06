@@ -8,6 +8,9 @@ export const metadata: Metadata = {
   title: 'Window Materials | Vinyl, Aluminum, Fiberglass, Wood | Frisco, TX',
   description: 'Premium window materials in Frisco, TX. Vinyl, aluminum, fiberglass, Fibrex, wood-clad, and wood windows. Expert guidance on choosing the right material. Call (469) 908-2440.',
   keywords: 'window materials Frisco TX, vinyl windows, aluminum windows, fiberglass windows, wood windows, window frame materials',
+  alternates: {
+    canonical: 'https://windowreplacementfrisco.com/materials',
+  },
 }
 
 export default function MaterialsPage() {
