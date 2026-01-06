@@ -7,6 +7,9 @@ export const metadata: Metadata = {
   title: 'Marvin Windows & Doors Frisco TX',
   description: 'Marvin Windows and Doors in Frisco, TX. Professional installation of premium Marvin products. Call (469) 908-2440 for free estimate.',
   keywords: 'Marvin windows Frisco TX, Marvin doors, Marvin dealer, custom windows, Marvin installation',
+  alternates: {
+    canonical: 'https://windowreplacementfrisco.com/brands/marvin-windows-doors',
+  },
 }
 
 export default function MarvinPage() {

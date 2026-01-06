@@ -7,6 +7,9 @@ export const metadata: Metadata = {
   title: 'Window & Door Brands | Andersen, Pella, JELD-WEN, Marvin | Frisco, TX',
   description: 'We install premium windows and doors from Andersen, Pella, JELD-WEN, and Marvin in Frisco, TX. Expert installation. Call (469) 908-2440.',
   keywords: 'Andersen windows Frisco, Pella windows Frisco, JELD-WEN windows, Marvin windows, window brands',
+  alternates: {
+    canonical: 'https://windowreplacementfrisco.com/brands',
+  },
 }
 
 const brands = [

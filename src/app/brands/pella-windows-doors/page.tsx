@@ -7,6 +7,9 @@ export const metadata: Metadata = {
   title: 'Pella Windows & Doors Frisco TX',
   description: 'Authorized Pella Windows and Doors dealer in Frisco, TX. Professional installation of Pella products. Call (469) 908-2440 for free estimate.',
   keywords: 'Pella windows Frisco TX, Pella doors, Pella dealer, InsulShield glass, Pella installation',
+  alternates: {
+    canonical: 'https://windowreplacementfrisco.com/brands/pella-windows-doors',
+  },
 }
 
 export default function PellaPage() {

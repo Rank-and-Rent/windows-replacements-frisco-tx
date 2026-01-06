@@ -7,6 +7,9 @@ export const metadata: Metadata = {
   title: 'Andersen Windows & Doors Frisco TX',
   description: 'Authorized Andersen Windows and Doors dealer in Frisco, TX. Professional installation of Andersen products. Call (469) 908-2440 for free estimate.',
   keywords: 'Andersen windows Frisco TX, Andersen doors, Andersen dealer, Fibrex windows, Andersen installation',
+  alternates: {
+    canonical: 'https://windowreplacementfrisco.com/brands/andersen-windows-doors',
+  },
 }
 
 export default function AndersenPage() {
