@@ -22,6 +22,15 @@ const doorTypes = [
   { name: 'Custom Doors', href: '/doors/custom-door-installation' },
 ]
 
+const materialTypes = [
+  { name: 'Vinyl Windows', href: '/materials/vinyl-windows' },
+  { name: 'Aluminum Windows', href: '/materials/aluminum-windows' },
+  { name: 'Fibrex Windows', href: '/materials/fibrex-windows' },
+  { name: 'Fiberglass Windows', href: '/materials/fiberglass-windows' },
+  { name: 'Wood Clad Windows', href: '/materials/wood-clad-windows' },
+  { name: 'Wood Windows', href: '/materials/wood-windows' },
+]
+
 const brands = [
   { name: 'Andersen', href: '/brands/andersen-windows-doors' },
   { name: 'Pella', href: '/brands/pella-windows-doors' },
@@ -116,7 +125,7 @@ export default function Footer() {
             </div>
 
             {/* Navigation Columns */}
-            <div className="grid sm:grid-cols-2 md:grid-cols-4 gap-8 lg:gap-6">
+            <div className="grid sm:grid-cols-2 md:grid-cols-5 gap-8 lg:gap-6">
               {/* Windows */}
               <div>
                 <h4 className="text-sm font-serif text-white mb-4">Windows</h4>
@@ -139,6 +148,23 @@ export default function Footer() {
                 <h4 className="text-sm font-serif text-white mb-4">Doors</h4>
                 <ul className="space-y-2">
                   {doorTypes.map((item) => (
+                    <li key={item.name}>
+                      <Link 
+                        href={item.href}
+                        className="text-xs text-white/60 hover:text-white transition-colors uppercase tracking-[0.1em]"
+                      >
+                        {item.name}
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+
+              {/* Materials */}
+              <div>
+                <h4 className="text-sm font-serif text-white mb-4">Materials</h4>
+                <ul className="space-y-2">
+                  {materialTypes.map((item) => (
                     <li key={item.name}>
                       <Link 
                         href={item.href}
@@ -202,7 +228,7 @@ export default function Footer() {
               allowFullScreen
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-              title="Frisco Window Replacements Location"
+              title="Window Replacements of Frisco Location"
             />
           </div>
         </div>

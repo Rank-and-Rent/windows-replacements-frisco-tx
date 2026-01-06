@@ -153,7 +153,7 @@ export default function ContactPage() {
             </div>
           </div>
         </section>
-        <section className="py-16 bg-white"><div className="max-w-[1400px] mx-auto px-6 lg:px-10"><h2 className="text-2xl font-serif text-navy-600 text-center mb-8">Find Us</h2><div className="aspect-video w-full max-w-4xl mx-auto rounded-lg overflow-hidden"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3343.8!2d-96.8236!3d33.0978!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864c3cbb14c37a9b%3A0x8f6e8e8e8e8e8e8e!2s1125%20Legacy%20Dr%20%23230%2C%20Frisco%2C%20TX%2075034!5e0!3m2!1sen!2sus!4v1709847600000" width="100%" height="100%" style={{ border: 0 }} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade" title="Frisco Window Replacements Location" /></div></div></section>
+        <section className="py-16 bg-white"><div className="max-w-[1400px] mx-auto px-6 lg:px-10"><h2 className="text-2xl font-serif text-navy-600 text-center mb-8">Find Us</h2><div className="aspect-video w-full max-w-4xl mx-auto rounded-lg overflow-hidden"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3343.8!2d-96.8236!3d33.0978!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864c3cbb14c37a9b%3A0x8f6e8e8e8e8e8e8e!2s1125%20Legacy%20Dr%20%23230%2C%20Frisco%2C%20TX%2075034!5e0!3m2!1sen!2sus!4v1709847600000" width="100%" height="100%" style={{ border: 0 }} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade" title="Window Replacements of Frisco Location" /></div></div></section>
       </main>
       <Footer />
     </>

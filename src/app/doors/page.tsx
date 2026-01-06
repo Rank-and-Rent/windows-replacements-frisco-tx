@@ -14,37 +14,37 @@ const doorServices = [
     name: 'Entry Doors',
     href: '/doors/entry-door-installation',
     description: 'Make a stunning first impression with a beautiful, secure entry door that enhances curb appeal and home security.',
-    image: '/windows/double-hung-windows-frisco-tx.jpg',
+    image: '/doors/entry-doors-frisco-tx.webp',
   },
   {
     name: 'Patio Doors',
     href: '/doors/patio-door-installation',
     description: 'Create seamless indoor-outdoor living with sliding or hinged patio doors that flood your home with natural light.',
-    image: '/windows/double-hung-windows-frisco-tx.jpg',
+    image: '/doors/patio-doors-frisco-tx.jpg',
   },
   {
     name: 'French Doors',
     href: '/doors/french-door-installation',
     description: 'Add elegance and sophistication with classic French doors featuring beautiful glass panels and timeless design.',
-    image: '/windows/double-hung-windows-frisco-tx.jpg',
+    image: '/doors/french-doors-frisco-tx.webp',
   },
   {
     name: 'Sliding Glass Doors',
     href: '/doors/sliding-glass-door-installation',
     description: 'Maximize space and views with smooth-operating sliding glass doors that bring the outdoors in.',
-    image: '/windows/double-hung-windows-frisco-tx.jpg',
+    image: '/doors/sliding-glass-doors-frisco-tx.jpg',
   },
   {
     name: 'Storm Doors',
     href: '/doors/storm-door-installation',
     description: 'Protect your entry while improving energy efficiency with durable, weather-resistant storm doors.',
-    image: '/windows/double-hung-windows-frisco-tx.jpg',
+    image: '/doors/storm-doors-frisco-tx.webp',
   },
   {
     name: 'Custom Doors',
     href: '/doors/custom-door-installation',
     description: 'Design the perfect door for your unique style with fully customizable options in materials, finishes, and hardware.',
-    image: '/windows/double-hung-windows-frisco-tx.jpg',
+    image: '/doors/custom-doors-frisco-tx.webp',
   },
 ]
 

@@ -134,30 +134,58 @@ export default function LocationsPage() {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {locations.map((location) => (
-              <Link
-                key={location.city}
-                href={location.href}
-                className="group bg-white p-8 hover:shadow-xl transition-all duration-300"
-              >
-                <div className="flex items-start justify-between mb-4">
-                  <h3 className="font-serif text-2xl text-navy-600 group-hover:text-slate-blue transition-colors">
-                    {location.city}
-                  </h3>
-                  <span className="text-sm text-gray-500 whitespace-nowrap ml-4">{location.distance}</span>
-                </div>
-                <p className="text-gray-600 leading-relaxed mb-4">
-                  {location.description}
-                </p>
-                <span className="inline-flex items-center gap-2 text-sm font-medium text-slate-blue uppercase tracking-wider group-hover:gap-4 transition-all">
-                  View Services
-                  <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                  </svg>
-                </span>
-              </Link>
-            ))}
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {locations.map((location) => {
+              // Map city names to image paths
+              const imageMap: Record<string, string> = {
+                'Plano': '/locations/window-replacement-plano-tx-5.jpg',
+                'McKinney': '/locations/window-replacement-mckinney-tx-4.webp',
+                'Allen': '/locations/window-replacement-allen-tx-3.jpg',
+                'The Colony': '/locations/window-replacement-the-colony-tx.jpg',
+                'Little Elm': '/locations/window-replacement-little-elm-tx.webp',
+                'Prosper': '/locations/window-replacement-prosper-tx-2.jpg',
+                'Celina': '/locations/window-replacement-celina-tx.jpg',
+                'Lewisville': '/locations/window-replacement-lewisville-tx-3.jpg',
+                'Carrollton': '/locations/window-replacement-carrollton-tx-4.jpg',
+                'Denton': '/locations/window-replacement-denton-tx.jpg',
+                'Richardson': '/locations/window-replacement-richardson-tx-3.jpg',
+                'Addison': '/locations/window-replacement-addison-tx-3.jpg',
+                'Dallas': '/locations/window-replacement-dallas-tx-4.jpg',
+                'Coppell': '/locations/window-replacement-coppell-tx-2.webp',
+                'Flower Mound': '/locations/window-replacement-flower-mound-tx-2.jpg',
+              }
+              const image = imageMap[location.city] || '/locations/window-replacement-frisco-tx-4.jpg'
+              
+              return (
+                <Link
+                  key={location.city}
+                  href={location.href}
+                  className="group bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300"
+                >
+                  <div className="aspect-[4/3] relative overflow-hidden">
+                    <div 
+                      className="absolute inset-0 bg-cover bg-center transition-transform duration-500 group-hover:scale-105"
+                      style={{ backgroundImage: `url(${image})` }}
+                    />
+                    <div className="absolute inset-0 bg-navy-600/20 group-hover:bg-navy-600/10 transition-colors" />
+                  </div>
+                  <div className="p-6">
+                    <div className="flex items-start justify-between mb-2">
+                      <h3 className="font-serif text-xl text-navy-600 group-hover:text-slate-blue transition-colors">
+                        {location.city}
+                      </h3>
+                      <span className="text-sm text-gray-500 whitespace-nowrap ml-4">{location.distance}</span>
+                    </div>
+                    <p className="text-sm text-gray-600 mb-4">
+                      {location.description}
+                    </p>
+                    <span className="text-sm font-medium text-slate-blue group-hover:text-navy-600 transition-colors">
+                      View Services
+                    </span>
+                  </div>
+                </Link>
+              )
+            })}
           </div>
         </div>
       </section>

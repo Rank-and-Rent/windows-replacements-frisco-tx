@@ -18,28 +18,28 @@ const brands = [
     slug: 'andersen-windows-doors',
     description: 'America\'s most trusted window brand with over 120 years of innovation. Known for energy efficiency and durability.',
     features: ['Fibrex composite material', 'Energy Star certified', '120+ years of innovation', 'Limited lifetime warranty'],
-    image: '/windows/double-hung-windows-frisco-tx.jpg',
+    image: '/brands/andersen-windows-frisco-tx.jpg',
   },
   {
     name: 'Pella Windows & Doors',
     slug: 'pella-windows-doors',
     description: 'Industry leader in window innovation since 1925. Premium quality with extensive customization options.',
     features: ['InsulShield glass technology', 'Between-the-glass blinds', 'Extensive color options', 'Premium warranties'],
-    image: '/windows/double-hung-windows-frisco-tx.jpg',
+    image: '/brands/pella-windows-frisco-tx.jpg',
   },
   {
     name: 'JELD-WEN Windows & Doors',
     slug: 'jeld-wen-windows-doors',
     description: 'Global leader offering reliable, affordable windows and doors. Excellent value without compromising quality.',
     features: ['AuraLast wood protection', 'Wide product selection', 'Competitive pricing', 'Energy efficient options'],
-    image: '/windows/double-hung-windows-frisco-tx.jpg',
+    image: '/brands/jeld-wen-windows-frisco-tx.jpg',
   },
   {
     name: 'Marvin Windows & Doors',
     slug: 'marvin-windows-doors',
     description: 'Premium custom windows and doors since 1912. Family-owned with unmatched craftsmanship and customization.',
     features: ['Made-to-order customization', 'Premium wood interiors', 'Ultrex fiberglass exteriors', 'Architectural distinction'],
-    image: '/windows/double-hung-windows-frisco-tx.jpg',
+    image: '/brands/marvin-windows-frisco-tx.jpg',
   },
 ]
 

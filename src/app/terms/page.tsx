@@ -4,8 +4,8 @@ import Header from '@/components/header'
 import Footer from '@/components/footer'
 
 export const metadata: Metadata = {
-  title: 'Terms of Service | Frisco Window Replacements',
-  description: 'Terms of Service for Frisco Window Replacements. Read our terms and conditions for using our website and services.',
+  title: 'Terms of Service | Window Replacements of Frisco',
+  description: 'Terms of Service for Window Replacements of Frisco. Read our terms and conditions for using our website and services.',
 }
 
 export default function TermsPage() {
@@ -34,14 +34,14 @@ export default function TermsPage() {
               <div>
                 <h2 className="text-xl font-serif text-navy-600 mb-4">Agreement to Terms</h2>
                 <p className="text-gray-600">
-                  By accessing or using the Frisco Window Replacements website and services, you agree to be bound by these Terms of Service. If you do not agree to these terms, please do not use our website or services.
+                  By accessing or using the Window Replacements of Frisco website and services, you agree to be bound by these Terms of Service. If you do not agree to these terms, please do not use our website or services.
                 </p>
               </div>
 
               <div>
                 <h2 className="text-xl font-serif text-navy-600 mb-4">Services Description</h2>
                 <p className="text-gray-600">
-                  Frisco Window Replacements provides window and door installation services in Frisco, Texas and surrounding areas. Our website provides information about our services and allows you to request quotes and contact us for consultations. This site routes inquiries to our chosen fulfillment partner for window and door contractor matching and project coordination support.
+                  Window Replacements of Frisco provides window and door installation services in Frisco, Texas and surrounding areas. Our website provides information about our services and allows you to request quotes and contact us for consultations. This site routes inquiries to our chosen fulfillment partner for window and door contractor matching and project coordination support.
                 </p>
               </div>
 
@@ -74,28 +74,28 @@ export default function TermsPage() {
               <div>
                 <h2 className="text-xl font-serif text-navy-600 mb-4">Warranties</h2>
                 <p className="text-gray-600">
-                  Products installed by Frisco Window Replacements are covered by manufacturer warranties as specified by each brand (Andersen, Pella, JELD-WEN, Marvin). Additionally, we provide a workmanship warranty on our installation services. Warranty details will be provided in your service contract.
+                  Products installed by Window Replacements of Frisco are covered by manufacturer warranties as specified by each brand (Andersen, Pella, JELD-WEN, Marvin). Additionally, we provide a workmanship warranty on our installation services. Warranty details will be provided in your service contract.
                 </p>
               </div>
 
               <div>
                 <h2 className="text-xl font-serif text-navy-600 mb-4">Intellectual Property</h2>
                 <p className="text-gray-600">
-                  All content on this website, including text, images, logos, and graphics, is the property of Frisco Window Replacements or its licensors and is protected by copyright and trademark laws. You may not reproduce, distribute, or use any content without our written permission.
+                  All content on this website, including text, images, logos, and graphics, is the property of Window Replacements of Frisco or its licensors and is protected by copyright and trademark laws. You may not reproduce, distribute, or use any content without our written permission.
                 </p>
               </div>
 
               <div>
                 <h2 className="text-xl font-serif text-navy-600 mb-4">Limitation of Liability</h2>
                 <p className="text-gray-600">
-                  To the fullest extent permitted by law, Frisco Window Replacements shall not be liable for any indirect, incidental, special, consequential, or punitive damages arising out of or relating to your use of our website or services. Our total liability shall not exceed the amount paid for the specific services giving rise to the claim.
+                  To the fullest extent permitted by law, Window Replacements of Frisco shall not be liable for any indirect, incidental, special, consequential, or punitive damages arising out of or relating to your use of our website or services. Our total liability shall not exceed the amount paid for the specific services giving rise to the claim.
                 </p>
               </div>
 
               <div>
                 <h2 className="text-xl font-serif text-navy-600 mb-4">Indemnification</h2>
                 <p className="text-gray-600">
-                  You agree to indemnify and hold harmless Frisco Window Replacements, its officers, directors, employees, and agents from any claims, damages, losses, or expenses arising out of your violation of these Terms of Service or your use of our website or services.
+                  You agree to indemnify and hold harmless Window Replacements of Frisco, its officers, directors, employees, and agents from any claims, damages, losses, or expenses arising out of your violation of these Terms of Service or your use of our website or services.
                 </p>
               </div>
 
@@ -119,7 +119,7 @@ export default function TermsPage() {
                   If you have questions about these Terms of Service, please contact us:
                 </p>
                 <address className="not-italic text-gray-600">
-                  Frisco Window Replacements<br />
+                  Window Replacements of Frisco<br />
                   1125 Legacy Dr #230<br />
                   Frisco, TX 75034<br />
                   Phone: <a href="tel:469-908-2440" className="text-slate-blue hover:text-navy-600">(469) 908-2440</a><br />

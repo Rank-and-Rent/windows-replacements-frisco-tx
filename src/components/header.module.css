@@ -4,7 +4,7 @@
   left: 0;
   right: 0;
   z-index: 1000;
-  padding: 1rem 0;
+  padding: 1rem 1.5rem;
   transition: all var(--transition-base);
   background: rgba(15, 21, 32, 0.98);
   backdrop-filter: blur(10px);
@@ -13,7 +13,7 @@
 .header.scrolled {
   background: rgba(15, 21, 32, 0.98);
   backdrop-filter: blur(10px);
-  padding: 0.75rem 0;
+  padding: 0.75rem 1.5rem;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
 }
 
@@ -49,7 +49,7 @@
   font-family: var(--font-body);
   font-size: 0.875rem;
   font-weight: 500;
-  color: var(--color-white);
+  color: #ffffff !important;
   text-transform: uppercase;
   letter-spacing: 0.1em;
   position: relative;
@@ -75,7 +75,7 @@
 }
 
 .navLink:hover {
-  color: var(--color-accent);
+  color: #ffffff !important;
 }
 
 .navLink:hover::after {
@@ -125,7 +125,7 @@
 .dropdownItem {
   display: block;
   padding: 0.75rem 1.5rem;
-  color: var(--color-white);
+  color: #ffffff !important;
   font-size: 0.875rem;
   font-weight: 500;
   white-space: nowrap;
@@ -136,7 +136,7 @@
 .dropdownItem:hover {
   background: rgba(255, 255, 255, 0.05);
   border-left-color: var(--color-accent);
-  color: var(--color-accent);
+  color: #ffffff !important;
   padding-left: 1.75rem;
 }
 
@@ -145,15 +145,16 @@
   border-top: 1px solid rgba(255, 255, 255, 0.1);
   padding-top: 0.75rem;
   font-weight: 600;
-  color: var(--color-accent);
+  color: #ffffff !important;
   text-transform: uppercase;
   font-size: 0.75rem;
   letter-spacing: 0.1em;
 }
 
 .dropdownItem.viewAll:hover {
-  background: rgba(247, 195, 70, 0.1);
+  background: rgba(255, 255, 255, 0.05);
   border-left-color: var(--color-accent);
+  color: #ffffff !important;
 }
 
 .headerActions {
@@ -173,19 +174,19 @@
   font-size: 0.7rem;
   text-transform: uppercase;
   letter-spacing: 0.15em;
-  color: var(--color-gray-400);
+  color: #ffffff !important;
 }
 
 .phoneNumber {
   font-family: var(--font-display);
   font-size: 1.25rem;
   font-weight: 600;
-  color: var(--color-white);
+  color: #ffffff !important;
   transition: color var(--transition-fast);
 }
 
 .phone:hover .phoneNumber {
-  color: var(--color-accent);
+  color: #ffffff !important;
 }
 
 .ctaButton {
@@ -193,8 +194,9 @@
   align-items: center;
   justify-content: center;
   padding: 0.875rem 1.75rem;
-  background: var(--color-accent);
-  color: var(--color-primary-dark);
+  background: transparent;
+  color: #ffffff !important;
+  border: 2px solid #ffffff;
   font-family: var(--font-body);
   font-size: 0.8rem;
   font-weight: 600;
@@ -205,7 +207,8 @@
 }
 
 .ctaButton:hover {
-  background: var(--color-accent-light);
+  background: rgba(255, 255, 255, 0.1);
+  color: #ffffff !important;
   transform: translateY(-2px);
 }
 
@@ -227,7 +230,7 @@
   display: block;
   width: 24px;
   height: 2px;
-  background: var(--color-white);
+  background: #ffffff !important;
   transition: all 0.3s ease;
   margin: 3px 0;
 }
@@ -313,7 +316,7 @@
   background: rgba(255, 255, 255, 0.05);
   border: none;
   border-radius: 8px;
-  color: var(--color-white);
+  color: #ffffff !important;
   cursor: pointer;
   transition: background 0.2s ease;
 }
@@ -341,7 +344,7 @@
   padding: 1rem 1.5rem;
   background: transparent;
   border: none;
-  color: var(--color-white);
+  color: #ffffff !important;
   font-family: var(--font-body);
   font-size: 1rem;
   font-weight: 500;
@@ -354,7 +357,7 @@
 .mobileDropdownToggle:hover,
 .mobileDropdownToggleActive {
   background: rgba(255, 255, 255, 0.03);
-  color: var(--color-accent);
+  color: #ffffff !important;
 }
 
 .mobileDropdownArrow {
@@ -379,7 +382,7 @@
 .mobileDropdownItem {
   display: block;
   padding: 0.875rem 1.5rem 0.875rem 2.5rem;
-  color: rgba(255, 255, 255, 0.8);
+  color: #ffffff !important;
   font-size: 0.9rem;
   font-weight: 400;
   border-left: 3px solid transparent;
@@ -388,12 +391,12 @@
 
 .mobileDropdownItem:hover {
   background: rgba(255, 255, 255, 0.03);
-  color: var(--color-accent);
+  color: #ffffff !important;
   border-left-color: var(--color-accent);
 }
 
 .mobileViewAll {
-  color: var(--color-accent);
+  color: #ffffff !important;
   font-weight: 600;
   text-transform: uppercase;
   font-size: 0.8rem;
@@ -406,7 +409,7 @@
 .mobileNavLink {
   display: block;
   padding: 1rem 1.5rem;
-  color: var(--color-white);
+  color: #ffffff !important;
   font-family: var(--font-body);
   font-size: 1rem;
   font-weight: 500;
@@ -418,7 +421,7 @@
 
 .mobileNavLink:hover {
   background: rgba(255, 255, 255, 0.03);
-  color: var(--color-accent);
+  color: #ffffff !important;
 }
 
 .mobileMenuFooter {
@@ -440,7 +443,7 @@
   background: rgba(255, 255, 255, 0.05);
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 8px;
-  color: var(--color-white);
+  color: #ffffff !important;
   font-family: var(--font-display);
   font-size: 1rem;
   font-weight: 600;
@@ -449,8 +452,8 @@
 
 .mobilePhoneButton:hover {
   background: rgba(255, 255, 255, 0.1);
-  border-color: var(--color-accent);
-  color: var(--color-accent);
+  border-color: rgba(255, 255, 255, 0.3);
+  color: #ffffff !important;
 }
 
 .mobileEstimateButton {
@@ -540,6 +543,14 @@
 }
 
 @media (max-width: 640px) {
+  .header {
+    padding: 1rem 1rem;
+  }
+
+  .header.scrolled {
+    padding: 0.75rem 1rem;
+  }
+
   .logoMain {
     font-size: 1.125rem;
   }

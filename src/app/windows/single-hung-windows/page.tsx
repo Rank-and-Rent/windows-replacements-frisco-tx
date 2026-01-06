@@ -14,14 +14,27 @@ export default function SingleHungWindowsPage() {
     <main>
       <Header />
       
-      <section className="relative pt-32 lg:pt-40 pb-20 lg:pb-24 bg-navy-600">
+      {/* Breadcrumbs */}
+      <nav className="bg-stone-100 py-4 pt-32">
+        <div className="max-w-[1400px] mx-auto px-6 lg:px-10">
+          <ol className="flex items-center space-x-2 text-sm text-navy-500">
+            <li><Link href="/" className="hover:text-navy-700">Home</Link></li>
+            <li>/</li>
+            <li><Link href="/windows" className="hover:text-navy-700">Windows</Link></li>
+            <li>/</li>
+            <li className="text-navy-700 font-medium">Single-Hung Windows</li>
+          </ol>
+        </div>
+      </nav>
+      
+      <section className="relative pt-20 lg:pt-28 pb-20 lg:pb-24 bg-navy-600">
         <div className="section-divider absolute top-0 left-0 right-0" />
         <div
           className="absolute inset-0 bg-cover bg-center opacity-20"
           style={{ backgroundImage: 'url(/windows/single-hung-windows-frisco-tx.jpg)' }}
         />
         <div className="relative max-w-[1400px] mx-auto px-6 lg:px-10">
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
+          <div className="max-w-4xl">
             <div>
               <h1 className="font-serif text-4xl lg:text-6xl text-white mb-6 leading-tight">
                 Single-Hung Windows
@@ -34,7 +47,6 @@ export default function SingleHungWindowsPage() {
                 <a href="tel:469-908-2440" className="btn-outline-light px-8 py-4 text-center">(469) 908-2440</a>
               </div>
             </div>
-            <div className="relative h-96 lg:h-[500px] bg-gray-300"></div>
           </div>
         </div>
       </section>

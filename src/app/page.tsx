@@ -13,6 +13,7 @@ export default function Home() {
         <Header />
         <Hero />
         <WindowTypes />
+        <MaterialsSection />
         <Brands />
         <SeoContent />
         <Footer />

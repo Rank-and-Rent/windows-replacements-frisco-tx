@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import Link from 'next/link'
 import Header from '@/components/header'
 import Footer from '@/components/footer'
 import ServiceHero from '@/components/service-hero'
@@ -107,6 +108,19 @@ export default function FibrexWindowsPage() {
     <>
       <Header />
       <main>
+        {/* Breadcrumbs */}
+        <nav className="bg-stone-100 py-4 pt-32">
+          <div className="max-w-[1400px] mx-auto px-6 lg:px-10">
+            <ol className="flex items-center space-x-2 text-sm text-navy-500">
+              <li><Link href="/" className="hover:text-navy-700">Home</Link></li>
+              <li>/</li>
+              <li><Link href="/materials" className="hover:text-navy-700">Materials</Link></li>
+              <li>/</li>
+              <li className="text-navy-700 font-medium">Fibrex Windows</li>
+            </ol>
+          </div>
+        </nav>
+        
         <ServiceHero
           title={content.title}
           subtitle={content.subtitle}

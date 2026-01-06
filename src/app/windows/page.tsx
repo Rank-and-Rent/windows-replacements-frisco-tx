@@ -49,26 +49,53 @@ export default function WindowsPage() {
         </section>
 
         {/* Window Styles Section */}
-        <section className="py-16 lg:py-24">
+        <section className="py-16 lg:py-24 bg-cream-bg">
           <div className="max-w-[1400px] mx-auto px-6 lg:px-10">
-            <h2 className="text-2xl lg:text-4xl font-serif text-navy-900 mb-4 text-center">Window Styles</h2>
+            <h2 className="text-2xl lg:text-4xl font-serif text-navy-600 mb-4 text-center">Window Styles</h2>
             <p className="text-lg text-navy-600 text-center max-w-2xl mx-auto mb-12">
               Choose from our comprehensive selection of premium window styles
             </p>
             
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-              {windowServices.map((service) => (
-                <Link
-                  key={service.slug}
-                  href={service.route}
-                  className="bg-white border border-stone-200 p-8 hover:shadow-lg transition-all group"
-                >
-                  <h3 className="text-xl font-serif text-navy-900 mb-3 group-hover:text-gold-500 transition-colors">
-                    {service.name}
-                  </h3>
-                  <p className="text-navy-600">{service.short}</p>
-                </Link>
-              ))}
+              {windowServices.map((service) => {
+                // Map service slugs to image paths
+                const imageMap: Record<string, string> = {
+                  'double-hung-windows': '/windows/double-hung-windows-frisco-tx.jpg',
+                  'single-hung-windows': '/windows/single-hung-windows-frisco-tx.jpg',
+                  'casement-windows': '/windows/casement-windows-frisco-tx.webp',
+                  'awning-windows': '/windows/awning-windows-frisco-tx.webp',
+                  'sliding-windows': '/windows/sliding-windows-frisco-tx.jpg',
+                  'picture-windows': '/windows/picture-windows-frisco-tx.webp',
+                  'bay-bow-windows': '/windows/bay-bow-windows-frisco-tx.jpg',
+                  'special-shape-windows': '/windows/special-shape-windows-frisco-tx.jpg',
+                }
+                const image = imageMap[service.slug] || '/windows/double-hung-windows-frisco-tx.jpg'
+                
+                return (
+                  <Link
+                    key={service.slug}
+                    href={service.route}
+                    className="group bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300"
+                  >
+                    <div className="aspect-[4/3] relative overflow-hidden">
+                      <div 
+                        className="absolute inset-0 bg-cover bg-center transition-transform duration-500 group-hover:scale-105"
+                        style={{ backgroundImage: `url(${image})` }}
+                      />
+                      <div className="absolute inset-0 bg-navy-600/20 group-hover:bg-navy-600/10 transition-colors" />
+                    </div>
+                    <div className="p-6">
+                      <h3 className="text-xl font-serif text-navy-600 mb-2 group-hover:text-slate-blue transition-colors">
+                        {service.name}
+                      </h3>
+                      <p className="text-sm text-gray-600 mb-4">{service.short}</p>
+                      <span className="text-sm font-medium text-slate-blue group-hover:text-navy-600 transition-colors">
+                        Learn More
+                      </span>
+                    </div>
+                  </Link>
+                )
+              })}
             </div>
           </div>
         </section>

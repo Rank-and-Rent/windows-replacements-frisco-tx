@@ -14,7 +14,20 @@ export default function ProsperPage() {
     <main>
       <Header />
       
-      <section className="relative pt-32 lg:pt-40 pb-20 lg:pb-24 bg-navy-600">
+      {/* Breadcrumbs */}
+      <nav className="bg-stone-100 py-4 pt-32">
+        <div className="max-w-[1400px] mx-auto px-6 lg:px-10">
+          <ol className="flex items-center space-x-2 text-sm text-navy-500">
+            <li><Link href="/" className="hover:text-navy-700">Home</Link></li>
+            <li>/</li>
+            <li><Link href="/locations" className="hover:text-navy-700">Locations</Link></li>
+            <li>/</li>
+            <li className="text-navy-700 font-medium">Prosper</li>
+          </ol>
+        </div>
+      </nav>
+      
+      <section className="relative pt-20 lg:pt-28 pb-20 lg:pb-24 bg-navy-600">
         <div className="section-divider absolute top-0 left-0 right-0" />
         <div
           className="absolute inset-0 bg-cover bg-center opacity-20"

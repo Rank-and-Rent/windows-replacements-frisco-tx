@@ -4,9 +4,9 @@ import Header from '@/components/header'
 import Footer from '@/components/footer'
 
 export const metadata: Metadata = {
-  title: 'About Us | Frisco Window Replacements',
-  description: 'Learn about Frisco Window Replacements - your trusted window and door installation experts serving Frisco, TX and surrounding areas. Call (469) 908-2440.',
-  keywords: 'about Frisco Window Replacements, window company Frisco, door company Frisco, local window installer',
+  title: 'About Us | Window Replacements of Frisco',
+  description: 'Learn about Window Replacements of Frisco - your trusted window and door installation experts serving Frisco, TX and surrounding areas. Call (469) 908-2440.',
+  keywords: 'about Window Replacements of Frisco, window company Frisco, door company Frisco, local window installer',
 }
 
 export default function AboutPage() {
@@ -29,7 +29,7 @@ export default function AboutPage() {
         <section className="bg-navy-600 py-16 lg:py-24">
           <div className="max-w-[1400px] mx-auto px-6 lg:px-10 text-center">
             <h1 className="text-3xl lg:text-5xl font-serif text-white mb-6">
-              About Frisco Window Replacements
+              About Window Replacements of Frisco
             </h1>
             <p className="text-lg text-white/80 max-w-2xl mx-auto">
               Your trusted partner for premium window and door installation in Frisco, Texas and the surrounding communities.
@@ -46,7 +46,7 @@ export default function AboutPage() {
                   Our Story
                 </h2>
                 <p className="text-gray-600 mb-6">
-                  Frisco Window Replacements was founded with a simple mission: to provide homeowners in the Frisco area with exceptional window and door installation services backed by premium products and expert craftsmanship.
+                  Window Replacements of Frisco was founded with a simple mission: to provide homeowners in the Frisco area with exceptional window and door installation services backed by premium products and expert craftsmanship.
                 </p>
                 <p className="text-gray-600 mb-6">
                   We understand that your windows and doors are more than just openings in your walls. They are essential components that affect your home&apos;s comfort, energy efficiency, security, and curb appeal. That is why we partner exclusively with America&apos;s most trusted manufacturers including Andersen, Pella, JELD-WEN, and Marvin.

@@ -4,8 +4,8 @@ import Header from '@/components/header'
 import Footer from '@/components/footer'
 
 export const metadata: Metadata = {
-  title: 'Privacy Policy | Frisco Window Replacements',
-  description: 'Privacy Policy for Frisco Window Replacements. Learn how we collect, use, and protect your personal information.',
+  title: 'Privacy Policy | Window Replacements of Frisco',
+  description: 'Privacy Policy for Window Replacements of Frisco. Learn how we collect, use, and protect your personal information.',
 }
 
 export default function PrivacyPage() {
@@ -34,7 +34,7 @@ export default function PrivacyPage() {
               <div>
                 <h2 className="text-xl font-serif text-navy-600 mb-4">Introduction</h2>
                 <p className="text-gray-600">
-                  Frisco Window Replacements (&ldquo;we,&rdquo; &ldquo;our,&rdquo; or &ldquo;us&rdquo;) respects your privacy and is committed to protecting your personal information. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website or use our services.
+                  Window Replacements of Frisco (&ldquo;we,&rdquo; &ldquo;our,&rdquo; or &ldquo;us&rdquo;) respects your privacy and is committed to protecting your personal information. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website or use our services.
                 </p>
               </div>
 
@@ -119,7 +119,7 @@ export default function PrivacyPage() {
                   If you have questions about this Privacy Policy or our privacy practices, please contact us:
                 </p>
                 <address className="not-italic text-gray-600">
-                  Frisco Window Replacements<br />
+                  Window Replacements of Frisco<br />
                   1125 Legacy Dr #230<br />
                   Frisco, TX 75034<br />
                   Phone: <a href="tel:469-908-2440" className="text-slate-blue hover:text-navy-600">(469) 908-2440</a><br />
