@@ -195,7 +195,67 @@ export default function PellaPage() {
         </section>
 
         {/* CTA */}
-        <section className="py-16 lg:py-24 bg-navy-600">
+                <section className="py-16 lg:py-24 bg-cream-bg">
+          <div className="max-w-[1400px] mx-auto px-6 lg:px-10">
+            <h2 className="text-2xl lg:text-4xl font-serif text-navy-600 text-center mb-8">Pella History and Product Range</h2>
+            <div className="max-w-3xl mx-auto">
+              <p className="text-gray-600 leading-relaxed">Pella has been family-owned since 1925 and is one of the most innovative window manufacturers in the U.S. Their product range covers Pella 250 Series (vinyl entry), Pella Lifestyle (mid-tier), Pella Architect (wood-clad), and the Pella Reserve (premium custom). They are particularly known for the Designer Series with built-in retractable insect screens and integrated blinds-between-glass. We are an authorized Pella dealer in Frisco and install all four core lines.</p>
+            </div>
+          </div>
+        </section>
+
+        <section className="py-16 lg:py-24 bg-cream-bg">
+          <div className="max-w-[1400px] mx-auto px-6 lg:px-10">
+            <h2 className="text-2xl lg:text-4xl font-serif text-navy-600 text-center mb-8">Why Pella Reserve for Frisco Custom Homes</h2>
+            <div className="max-w-3xl mx-auto">
+              <p className="text-gray-600 leading-relaxed">Pella Reserve is the brand&apos;s premium custom line and a regular fit for Frisco custom homes in Newman Village, Edgestone at Legacy, and the larger Stonebriar custom builds. The wood-clad construction, available species (pine, fir, cherry, mahogany), and broad palette of exterior finishes all push the design flexibility envelope. Reserve also offers integrated motorized blinds-between-glass on premium configurations — a real upgrade for west-facing master bedrooms and great rooms where solar control matters.</p>
+            </div>
+          </div>
+        </section>
+
+        <section className="py-16 lg:py-24 bg-cream-bg">
+          <div className="max-w-[1400px] mx-auto px-6 lg:px-10">
+            <h2 className="text-2xl lg:text-4xl font-serif text-navy-600 text-center mb-8">Pella Lifestyle for Mid-Tier Replacements</h2>
+            <div className="max-w-3xl mx-auto">
+              <p className="text-gray-600 leading-relaxed">Pella Lifestyle is the most-installed Pella line in Frisco. Wood-clad construction, EnduraClad exterior finish system, and pricing that competes with Andersen 400 Series. The line offers the broadest selection of grid patterns, finish colors, and hardware options at the mid-tier price point. Most Frisco production-home replacements that go with Pella choose Lifestyle, and the line consistently delivers on aesthetics, performance, and warranty support.</p>
+            </div>
+          </div>
+        </section>
+
+        <section className="py-16 lg:py-24 bg-cream-bg">
+          <div className="max-w-[1400px] mx-auto px-6 lg:px-10">
+            <h2 className="text-2xl lg:text-4xl font-serif text-navy-600 text-center mb-8">Common Pella Configurations We Install in Frisco</h2>
+            <div className="max-w-3xl mx-auto">
+              <p className="text-gray-600 leading-relaxed">Most Pella Frisco projects are full-home replacements using the Lifestyle line, with a smaller subset of premium Reserve installations on custom homes. Whole-home replacements run 18 to 28 openings and typically wrap in two to three days. We use Pella&apos;s NaturalSun Low-E argon glass package as the default, add laminated glass on west and southwest exposures, and finish with simulated divided lite grids on traditional facades. Pella entry doors and patio doors also see frequent installations alongside the windows for visual consistency.</p>
+            </div>
+          </div>
+        </section>
+
+      <section className="py-12 lg:py-16 bg-cream-100">
+        <div className="max-w-[1200px] mx-auto px-6 lg:px-10">
+          <div className="max-w-3xl mx-auto">
+            <p className="text-gray-600 leading-relaxed">Pella&apos;s integrated blind-between-glass option is unique in the industry — no other manufacturer offers it on production wood-clad lines. For Frisco west-facing master bedrooms where solar control is a daily concern, the integrated blinds eliminate the need for separate window treatments. The blinds operate manually or motorized through Pella&apos;s smart-home integration. We have installed integrated-blind Pella product across a range of Frisco custom and production homes with consistently positive feedback from homeowners.</p>
+          </div>
+        </div>
+      </section>
+
+      <section className="py-12 lg:py-16 bg-white">
+        <div className="max-w-[1200px] mx-auto px-6 lg:px-10">
+          <div className="max-w-3xl mx-auto">
+            <p className="text-gray-600 leading-relaxed">Pella has the strongest design and fashion presence among the major window brands. The integrated retractable insect screens, blinds-between-glass, and broadest stock-color exterior palette all reflect a brand that takes aesthetics seriously. For Frisco homeowners who want the design flexibility of a premium product line at a price competitive with Andersen and Marvin, Pella Lifestyle and Reserve consistently deliver.</p>
+          </div>
+        </div>
+      </section>
+
+      <section className="py-12 lg:py-16 bg-cream-100">
+        <div className="max-w-[1200px] mx-auto px-6 lg:px-10">
+          <div className="max-w-3xl mx-auto">
+            <p className="text-gray-600 leading-relaxed">Pella&apos;s warranty support in Texas is consistently strong. The regional fulfillment network ships parts within one to three days for Frisco service calls, and the technical support team is responsive on installation and warranty questions. We register every Pella warranty in your name on completion day and back our installation labor with our own multi-year written warranty. The combination delivers strong long-term peace of mind for Frisco homeowners committing to Pella product.</p>
+          </div>
+        </div>
+      </section>
+
+<section className="py-16 lg:py-24 bg-navy-600">
           <div className="max-w-[1400px] mx-auto px-6 lg:px-10 text-center">
             <h2 className="text-2xl lg:text-4xl font-serif text-white mb-6">
               Ready for Pella Windows & Doors?

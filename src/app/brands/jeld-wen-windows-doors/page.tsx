@@ -195,7 +195,59 @@ export default function JeldWenPage() {
         </section>
 
         {/* CTA */}
-        <section className="py-16 lg:py-24 bg-navy-600">
+                <section className="py-16 lg:py-24 bg-cream-bg">
+          <div className="max-w-[1400px] mx-auto px-6 lg:px-10">
+            <h2 className="text-2xl lg:text-4xl font-serif text-navy-600 text-center mb-8">JELD-WEN History and Product Range</h2>
+            <div className="max-w-3xl mx-auto">
+              <p className="text-gray-600 leading-relaxed">JELD-WEN has manufactured doors and windows since 1960 and has grown into one of the largest building-products companies in the world. Their product range covers Builders Vinyl (entry-tier), Premium Vinyl (value-tier), Siteline wood-clad (mid-tier), and the high-end Custom Wood line. They are particularly strong on the value-to-performance spectrum, which makes them a routine choice for Frisco production-builder replacements. We are an authorized JELD-WEN dealer and install all four core lines.</p>
+            </div>
+          </div>
+        </section>
+
+        <section className="py-16 lg:py-24 bg-cream-bg">
+          <div className="max-w-[1400px] mx-auto px-6 lg:px-10">
+            <h2 className="text-2xl lg:text-4xl font-serif text-navy-600 text-center mb-8">Why JELD-WEN Wins on Value for Frisco</h2>
+            <div className="max-w-3xl mx-auto">
+              <p className="text-gray-600 leading-relaxed">JELD-WEN Premium Vinyl is the strongest value play we install in Frisco. Fusion-welded multi-chambered frames, tilt-in sashes standard, Low-E366 triple-silver glass available, and pricing that typically runs 15 to 25 percent below comparable Andersen or Pella product. For a 22-window full-home Frisco replacement project, that price gap can mean $5,000 to $8,000 in total savings — meaningful for budget-conscious homeowners who still want quality construction. Performance-wise, JELD-WEN Premium Vinyl tests at U-factors of 0.28 to 0.30 with the right glass package, which is competitive with the more expensive brands.</p>
+            </div>
+          </div>
+        </section>
+
+        <section className="py-16 lg:py-24 bg-cream-bg">
+          <div className="max-w-[1400px] mx-auto px-6 lg:px-10">
+            <h2 className="text-2xl lg:text-4xl font-serif text-navy-600 text-center mb-8">AuraLast Wood Treatment</h2>
+            <div className="max-w-3xl mx-auto">
+              <p className="text-gray-600 leading-relaxed">JELD-WEN&apos;s Siteline wood-clad and Custom Wood lines use the AuraLast preservation treatment — a wood treatment that penetrates the entire piece of pine rather than just the surface. The result is wood that resists rot, decay, and insect damage for the life of the window. This matters in Frisco where humidity is real and wood-frame windows in non-AuraLast product can show degradation in 15 to 20 years. AuraLast-treated wood is rated for 20+ year service life with proper installation and minimal exterior maintenance.</p>
+            </div>
+          </div>
+        </section>
+
+        <section className="py-16 lg:py-24 bg-cream-bg">
+          <div className="max-w-[1400px] mx-auto px-6 lg:px-10">
+            <h2 className="text-2xl lg:text-4xl font-serif text-navy-600 text-center mb-8">Common JELD-WEN Configurations We Install in Frisco</h2>
+            <div className="max-w-3xl mx-auto">
+              <p className="text-gray-600 leading-relaxed">Most JELD-WEN Frisco projects are full-home replacements using the Premium Vinyl line. Whole-home replacements run 18 to 28 openings, typically completed in two to three days with two-person crews. We use Low-E366 triple-silver glass with argon fill as the default, add laminated glass on west and southwest exposures, and finish with simulated divided lite grids where the architecture demands them. JELD-WEN doors — particularly their fiberglass entry door line — also see frequent installations in Frisco production homes that paired the original front door with the original windows.</p>
+            </div>
+          </div>
+        </section>
+
+      <section className="py-12 lg:py-16 bg-cream-100">
+        <div className="max-w-[1200px] mx-auto px-6 lg:px-10">
+          <div className="max-w-3xl mx-auto">
+            <p className="text-gray-600 leading-relaxed">JELD-WEN&apos;s value tier is the strongest in the industry. The Premium Vinyl line consistently lands at price points 15 to 25 percent below comparable Andersen and Pella product without giving up much on performance. For Frisco homeowners who want quality construction at a budget that fits a full-home replacement of 22+ openings, JELD-WEN is often the answer. We have done dozens of JELD-WEN whole-home projects in The Trails, Phillips Creek Ranch, Heritage Lakes, and Plantation Resort with consistently positive results.</p>
+          </div>
+        </div>
+      </section>
+
+      <section className="py-12 lg:py-16 bg-white">
+        <div className="max-w-[1200px] mx-auto px-6 lg:px-10">
+          <div className="max-w-3xl mx-auto">
+            <p className="text-gray-600 leading-relaxed">JELD-WEN is the most-installed window brand in Frisco production-builder homes. Many of the houses we replace originally shipped with JELD-WEN Builder Vinyl as the standard new-construction product. Replacing 20-year-old JELD-WEN Builder with current Premium Vinyl, Siteline wood-clad, or Custom Wood is one of the most common upgrade paths Frisco homeowners take, and the product knowledge from those original installations transfers directly to the replacement work.</p>
+          </div>
+        </div>
+      </section>
+
+<section className="py-16 lg:py-24 bg-navy-600">
           <div className="max-w-[1400px] mx-auto px-6 lg:px-10 text-center">
             <h2 className="text-2xl lg:text-4xl font-serif text-white mb-6">
               Ready for JELD-WEN Windows & Doors?

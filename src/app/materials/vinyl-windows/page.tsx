@@ -155,7 +155,67 @@ export default function VinylWindowsPage() {
         </section>
 
         {/* CTA */}
-        <section className="py-16 lg:py-24 bg-navy-600">
+                <section className="py-16 lg:py-24 bg-cream-bg">
+          <div className="max-w-[1400px] mx-auto px-6 lg:px-10">
+            <h2 className="text-2xl lg:text-4xl font-serif text-navy-600 text-center mb-8">Vinyl Performance in Frisco Climate</h2>
+            <div className="max-w-3xl mx-auto">
+              <p className="text-gray-600 leading-relaxed">Multi-chambered fusion-welded vinyl frames deliver excellent thermal performance in Frisco&apos;s hot, humid summers and short cold snaps. The hollow chamber construction provides built-in thermal breaks that keep the interior frame cool even when the exterior frame sits in direct afternoon sun. Modern formulations include UV inhibitors that prevent yellowing and chalking even after fifteen Texas summers. Quality vinyl from Andersen, Pella, JELD-WEN, and Marvin holds up through Frisco hail events better than the snap-together aluminum that came with many older homes.</p>
+            </div>
+          </div>
+        </section>
+
+        <section className="py-16 lg:py-24 bg-cream-bg">
+          <div className="max-w-[1400px] mx-auto px-6 lg:px-10">
+            <h2 className="text-2xl lg:text-4xl font-serif text-navy-600 text-center mb-8">Why Vinyl Is the Most-Installed Material in Frisco</h2>
+            <div className="max-w-3xl mx-auto">
+              <p className="text-gray-600 leading-relaxed">Vinyl is the right answer for the majority of Frisco full-home replacement projects because it hits the price-to-performance sweet spot. A whole-home vinyl replacement runs $850 to $1,800 per opening installed, depending on size and brand. Equivalent fiberglass runs 20 to 40 percent more. Wood-clad runs 50 to 100 percent more. For Frisco homeowners who want better thermal performance, lower maintenance, and a cleaner facade than the original builder-grade product without doubling the budget, vinyl is the answer.</p>
+            </div>
+          </div>
+        </section>
+
+        <section className="py-16 lg:py-24 bg-cream-bg">
+          <div className="max-w-[1400px] mx-auto px-6 lg:px-10">
+            <h2 className="text-2xl lg:text-4xl font-serif text-navy-600 text-center mb-8">Vinyl Color and Finish Options</h2>
+            <div className="max-w-3xl mx-auto">
+              <p className="text-gray-600 leading-relaxed">Vinyl is no longer just white. Premium lines from Andersen 100 Series, Pella 250 Series, JELD-WEN Premium Vinyl, and Marvin Elements offer dark exterior options including bronze, black, and earth tones that complement the brick-and-stone facades found across Stonebriar, Newman Village, and Hollyhock. We bring physical finish samples to the in-home estimate so you can hold each option against your existing brick or stucco. Custom colors are available on most premium lines for an upcharge.</p>
+            </div>
+          </div>
+        </section>
+
+        <section className="py-16 lg:py-24 bg-cream-bg">
+          <div className="max-w-[1400px] mx-auto px-6 lg:px-10">
+            <h2 className="text-2xl lg:text-4xl font-serif text-navy-600 text-center mb-8">Vinyl Service Life and Warranty</h2>
+            <div className="max-w-3xl mx-auto">
+              <p className="text-gray-600 leading-relaxed">Quality vinyl windows from Andersen, Pella, JELD-WEN, or Marvin last 25 to 30 years in Frisco&apos;s climate when properly installed and registered. The frame warranty on most premium lines is 20 to 30 years; the insulating glass unit warranty is 10 to 20 years. We register every warranty in your name on completion day and back our installation labor with our own multi-year written warranty. Service calls for vinyl warranty work typically scheduled within a week.</p>
+            </div>
+          </div>
+        </section>
+
+      <section className="py-12 lg:py-16 bg-cream-100">
+        <div className="max-w-[1200px] mx-auto px-6 lg:px-10">
+          <div className="max-w-3xl mx-auto">
+            <p className="text-gray-600 leading-relaxed">Vinyl is the dominant material in Frisco replacement projects because it solves the most common homeowner problem — better thermal performance and lower maintenance than the original builder-grade window — at a price that fits typical full-home replacement budgets. We install vinyl from Andersen 100 Series, Pella 250 Series, JELD-WEN Premium Vinyl, and Marvin Elements, picking the brand that fits the home and the homeowner rather than pushing one line on every customer.</p>
+          </div>
+        </div>
+      </section>
+
+      <section className="py-12 lg:py-16 bg-white">
+        <div className="max-w-[1200px] mx-auto px-6 lg:px-10">
+          <div className="max-w-3xl mx-auto">
+            <p className="text-gray-600 leading-relaxed">Vinyl projects in Frisco run the full price-and-quality spectrum — from budget-tier 16-window replacements at $14,000 total to premium dark-exterior 26-window full-home replacements at $40,000+. We pick the brand and line that fits your home, your timeline, and your budget rather than pushing one tier on every customer. Most Frisco vinyl projects fall in the $20,000 to $30,000 range for full-home replacements, with line-item written quotes that include all materials, installation, flashing, sealing, exterior trim, and haul-away.</p>
+          </div>
+        </div>
+      </section>
+
+      <section className="py-12 lg:py-16 bg-cream-100">
+        <div className="max-w-[1200px] mx-auto px-6 lg:px-10">
+          <div className="max-w-3xl mx-auto">
+            <p className="text-gray-600 leading-relaxed">Vinyl quality varies enormously between brands and lines. The cheapest no-name vinyl from a big-box retailer can warp, chalk, and fail seals within a decade in Frisco&apos;s climate. The premium vinyl we install — Andersen 100 Series, Pella 250 Series, JELD-WEN Premium Vinyl, Marvin Elements — delivers 25 to 30 year service life with full manufacturer warranty support. The price difference between budget vinyl and premium vinyl is real but small, and the long-term value gap is enormous. We only install premium-tier vinyl product.</p>
+          </div>
+        </div>
+      </section>
+
+<section className="py-16 lg:py-24 bg-navy-600">
           <div className="max-w-[1400px] mx-auto px-6 lg:px-10 text-center">
             <h2 className="text-2xl lg:text-4xl font-serif text-white mb-6">
               Ready for Vinyl Windows?

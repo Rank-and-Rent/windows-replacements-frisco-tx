@@ -185,7 +185,42 @@ export default function CustomDoorPage() {
         </section>
 
         {/* CTA */}
-        <section className="py-16 lg:py-24 bg-navy-600">
+                <section className="py-16 lg:py-24 bg-cream-bg">
+          <div className="max-w-[1400px] mx-auto px-6 lg:px-10">
+            <h2 className="text-2xl lg:text-4xl font-serif text-navy-600 text-center mb-8">Custom Door Projects in Frisco</h2>
+            <div className="max-w-3xl mx-auto">
+              <p className="text-gray-600 leading-relaxed">Custom doors come up most often when a Frisco homeowner wants something that does not exist in any catalog. Custom widths beyond the standard 36 or 42 inches, custom heights for 9-foot or 10-foot ceilings, custom species like mahogany or knotty alder, custom glass configurations, custom hardware, custom finishing — all of it can be done. Andersen A-Series, Pella Reserve, and Marvin Signature all accept full custom orders, and we work with each manufacturer to translate your vision into shop drawings, factory specifications, and installation. Lead times for custom doors run ten to sixteen weeks because every component is built to order.</p>
+            </div>
+          </div>
+        </section>
+
+        <section className="py-16 lg:py-24 bg-cream-bg">
+          <div className="max-w-[1400px] mx-auto px-6 lg:px-10">
+            <h2 className="text-2xl lg:text-4xl font-serif text-navy-600 text-center mb-8">Where Custom Doors Make Sense</h2>
+            <div className="max-w-3xl mx-auto">
+              <p className="text-gray-600 leading-relaxed">Custom doors are a fit for high-end Frisco custom homes — Newman Village, Edgestone at Legacy, Stonebriar, and the larger Hollyhock builds. They also come up on remodel projects where the homeowner is upgrading the front entry to match a new architectural style. We have done speakeasy-style entries, double-arched front doors with iron and glass, and 10-foot wide pivot doors. The custom path is more expensive than catalog product — typically 60 to 150 percent more — but the result is a door that exists nowhere else and reads as authentically architectural rather than as a stock pull from a builder catalog.</p>
+            </div>
+          </div>
+        </section>
+
+        <section className="py-16 lg:py-24 bg-cream-bg">
+          <div className="max-w-[1400px] mx-auto px-6 lg:px-10">
+            <h2 className="text-2xl lg:text-4xl font-serif text-navy-600 text-center mb-8">Why Custom Doors Need Specialist Installation</h2>
+            <div className="max-w-3xl mx-auto">
+              <p className="text-gray-600 leading-relaxed">Custom doors weigh significantly more than catalog product, often 200 to 400 pounds for a single panel and double that for a pair. The hinges, jamb structure, and operating hardware all have to be specified for the actual weight rather than installed with stock hardware. The rough opening must be built or modified to exact dimensions, with proper headers and flashing details. Our installers have hung custom Frisco doors weighing more than 600 pounds with proper lift equipment and structural support. Smaller crews and general contractors regularly damage custom doors during install — we do not.</p>
+            </div>
+          </div>
+        </section>
+
+      <section className="py-12 lg:py-16 bg-cream-100">
+        <div className="max-w-[1200px] mx-auto px-6 lg:px-10">
+          <div className="max-w-3xl mx-auto">
+            <p className="text-gray-600 leading-relaxed">Frisco custom door projects start with shop drawings rather than catalogs. We meet on-site, walk through the architectural intent, photograph the existing opening and surrounding facade, and translate the homeowner&apos;s vision into Andersen A-Series, Pella Reserve, or Marvin Signature factory specifications. The shop drawings come back from the factory for sign-off before fabrication begins. Lead times run ten to sixteen weeks for true custom orders. Most Frisco custom door projects are part of a broader facade refresh that includes new windows on the front elevation as well.</p>
+          </div>
+        </div>
+      </section>
+
+<section className="py-16 lg:py-24 bg-navy-600">
           <div className="max-w-[1400px] mx-auto px-6 lg:px-10 text-center">
             <h2 className="text-2xl lg:text-4xl font-serif text-white mb-6">
               Ready for a Custom Door?

@@ -195,7 +195,59 @@ export default function AndersenPage() {
         </section>
 
         {/* CTA */}
-        <section className="py-16 lg:py-24 bg-navy-600">
+                <section className="py-16 lg:py-24 bg-cream-bg">
+          <div className="max-w-[1400px] mx-auto px-6 lg:px-10">
+            <h2 className="text-2xl lg:text-4xl font-serif text-navy-600 text-center mb-8">Andersen History and Manufacturing</h2>
+            <div className="max-w-3xl mx-auto">
+              <p className="text-gray-600 leading-relaxed">Andersen Windows is the largest window manufacturer in North America by volume and one of the oldest — founded in 1903 in Hudson, Wisconsin and still family-owned. The company produces Andersen 100 Series, 200 Series, 400 Series, and the premium A-Series, plus the Renewal by Andersen retrofit line. Each tier targets a different price-to-performance balance. We are an authorized Andersen dealer in Frisco and install all four core lines, with most Frisco projects falling in the 400 Series and A-Series range.</p>
+            </div>
+          </div>
+        </section>
+
+        <section className="py-16 lg:py-24 bg-cream-bg">
+          <div className="max-w-[1400px] mx-auto px-6 lg:px-10">
+            <h2 className="text-2xl lg:text-4xl font-serif text-navy-600 text-center mb-8">Where Andersen Fits Best in Frisco</h2>
+            <div className="max-w-3xl mx-auto">
+              <p className="text-gray-600 leading-relaxed">Andersen 400 Series is our most-installed Andersen line in Frisco. The wood-clad construction (vinyl exterior over a wood interior) reads as authentic on the brick traditionals of The Trails, Heritage Lakes, Plantation Resort, and Phillips Creek Ranch. The A-Series is a fit for upscale Frisco custom homes in Newman Village, Edgestone at Legacy, and Stonebriar where the homeowner wants the design flexibility of pure custom dimensioning, dark exterior finishes, and the deepest sash profiles available in production product. The 100 Series and 200 Series Fibrex composite line is a strong value play for full-home replacements where the homeowner wants Andersen quality at the lower end of the price range.</p>
+            </div>
+          </div>
+        </section>
+
+        <section className="py-16 lg:py-24 bg-cream-bg">
+          <div className="max-w-[1400px] mx-auto px-6 lg:px-10">
+            <h2 className="text-2xl lg:text-4xl font-serif text-navy-600 text-center mb-8">Andersen Warranty and Service</h2>
+            <div className="max-w-3xl mx-auto">
+              <p className="text-gray-600 leading-relaxed">Andersen 400 Series and A-Series carry the strongest warranty in the industry — 20 years on glass, 10 years on non-glass parts, and lifetime coverage on parts and labor for some components. We register every Andersen warranty in your name on completion day and back our installation labor with our own multi-year written warranty. Service calls in Frisco for Andersen warranty work typically scheduled within a week. Andersen has a network of regional service centers that handles warranty claims quickly — one of the reasons we recommend the brand for homeowners staying in their home long-term.</p>
+            </div>
+          </div>
+        </section>
+
+        <section className="py-16 lg:py-24 bg-cream-bg">
+          <div className="max-w-[1400px] mx-auto px-6 lg:px-10">
+            <h2 className="text-2xl lg:text-4xl font-serif text-navy-600 text-center mb-8">Common Andersen Configurations We Install in Frisco</h2>
+            <div className="max-w-3xl mx-auto">
+              <p className="text-gray-600 leading-relaxed">Most Andersen Frisco projects are full-home replacements involving 18 to 28 openings of mixed double-hung, casement, and picture units. Master bedroom and primary-living openings get double-hung in the 400 Series with simulated divided lite grids on the front elevation. Kitchens use casement over the sink with a picture window flank. Two-story foyers use stacked picture-with-arch-transom configurations. We finish with the same Fibrex or wood-clad spec across the full home for visual consistency.</p>
+            </div>
+          </div>
+        </section>
+
+      <section className="py-12 lg:py-16 bg-cream-100">
+        <div className="max-w-[1200px] mx-auto px-6 lg:px-10">
+          <div className="max-w-3xl mx-auto">
+            <p className="text-gray-600 leading-relaxed">Andersen has the broadest dealer network in North Texas, which translates to faster lead times, better service availability, and easier warranty resolution than smaller brands. We have direct factory relationships for the 100, 200, 400, and A-Series lines and ship orders directly from the Andersen plant in Wisconsin to our Frisco shop. Most Andersen orders ship within four to six weeks of order, with custom A-Series orders running eight to twelve weeks for the most specialized configurations.</p>
+          </div>
+        </div>
+      </section>
+
+      <section className="py-12 lg:py-16 bg-white">
+        <div className="max-w-[1200px] mx-auto px-6 lg:px-10">
+          <div className="max-w-3xl mx-auto">
+            <p className="text-gray-600 leading-relaxed">Andersen&apos;s Renewal by Andersen retrofit division is widely advertised but is a separate dealer network from the standard Andersen product. We are an authorized dealer for the standard Andersen lines (100, 200, 400, A-Series), which generally deliver better price-to-performance value than the Renewal product for most Frisco replacement scenarios. For homeowners who specifically want Renewal, we can refer you to a Renewal dealer.</p>
+          </div>
+        </div>
+      </section>
+
+<section className="py-16 lg:py-24 bg-navy-600">
           <div className="max-w-[1400px] mx-auto px-6 lg:px-10 text-center">
             <h2 className="text-2xl lg:text-4xl font-serif text-white mb-6">
               Ready for Andersen Windows & Doors?

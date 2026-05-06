@@ -255,6 +255,23 @@ export default function SingleHungWindowsPage() {
         </div>
       </section>
 
+      <section className="py-20 lg:py-28 bg-cream-100">
+        <div className="max-w-[1200px] mx-auto px-6 lg:px-10">
+          <h2 className="font-serif text-3xl lg:text-5xl text-navy-600 text-center mb-12">When Single-Hung Is Right for Frisco Homes</h2>
+          <div className="max-w-3xl mx-auto">
+            <p className="text-gray-600 leading-relaxed mb-4">
+              Single-hung windows are the right choice for many Frisco projects, particularly bedrooms, dining rooms, and other rooms where the bottom-sash-only operation is enough and the cleaning advantages of a tilt-in double-hung are not worth the price premium. They are common in The Trails, Phillips Creek Ranch, Heritage Lakes, and Plantation Resort production homes built between 2000 and 2015 — many of those homes shipped with single-hung as the standard for non-master bedroom openings, and replacement-in-kind keeps the architectural rhythm consistent.
+            </p>
+            <p className="text-gray-600 leading-relaxed mb-4">
+              For Frisco master bedrooms and main-floor living spaces, we typically recommend double-hung over single-hung — the tilt-in cleaning matters more on the openings homeowners interact with daily. For the dozen or so secondary openings around a typical Frisco production home, the cost savings on single-hung adds up to a meaningful project-level difference. Most full-home Frisco replacements end up using a mix: double-hungs in master and primary spaces, single-hungs in secondary bedrooms and utility rooms.
+            </p>
+            <p className="text-gray-600 leading-relaxed">
+              Single-hungs from Andersen, Pella, JELD-WEN, and Marvin all use the same fusion-welded multi-chambered frame construction, the same triple-silver Low-E argon glass packages, and the same 20- to 30-year warranties as their double-hung counterparts. The performance is equivalent. The difference is purely whether the upper sash operates and tilts in. We will walk you through the trade-off at the in-home estimate so you can decide which mix suits your home.
+            </p>
+          </div>
+        </div>
+      </section>
+
       <section className="py-20 lg:py-24 bg-navy-600">
         <div className="max-w-[1000px] mx-auto px-6 lg:px-10 text-center">
           <h2 className="font-serif text-3xl lg:text-5xl text-white mb-6">Ready for Single-Hung Windows?</h2>

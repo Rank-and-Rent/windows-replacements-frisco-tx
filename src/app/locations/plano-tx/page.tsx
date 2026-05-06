@@ -227,7 +227,52 @@ export default function PlanoPage() {
       </section>
 
       {/* CTA */}
-      <section className="py-20 lg:py-24 bg-navy-600">
+      <section className="py-20 lg:py-28 bg-white">
+        <div className="max-w-[1200px] mx-auto px-6 lg:px-10">
+          <h2 className="font-serif text-3xl lg:text-5xl text-navy-600 text-center mb-12">Common Questions from Plano Homeowners</h2>
+          <div className="max-w-3xl mx-auto space-y-6">
+            <p className="text-gray-600 leading-relaxed">Plano homeowners ask about lead times, project disruption, and how we handle the wide range of housing eras across the city. Andersen and JELD-WEN factory lead times are running four to six weeks. Pella is five to seven weeks. Marvin Signature can take eight to ten weeks for custom finishes — common on Legacy West and the higher-end West Plano custom homes.</p>
+            <p className="text-gray-600 leading-relaxed">A typical Plano whole-home project covers eighteen to twenty-eight openings and wraps in two to four days with two-person crews. We work room by room — drop cloths down, furniture pulled off the wall, the new window staged before the old one comes out.</p>
+            <p className="text-gray-600 leading-relaxed">Pricing is line-item: every window detailed by location, brand, series, glass package, and trim work, with installation and haul-away rolled in. The total at the bottom is the total you pay. The quote holds for 30 days.</p>
+            <p className="text-gray-600 leading-relaxed">For 1970s ranches in West Plano, the rough openings are often out of square and the original sills may be rotted — we inspect at the estimate, document the carpentry, and price it transparently rather than tacking it on at install. For newer Legacy and Willow Bend homes, we focus on upgrading from builder-grade clear glass to triple-silver Low-E with argon and laminated options on west elevations. Plano homeowners near the Tollway frequently add laminated glass on the road-facing elevation for sound reduction — the difference is meaningful in master bedrooms and home offices. And every Plano project gets the same line-item written quote, the same two-person crew, and the same workmanship warranty regardless of price tier.</p>
+          </div>
+        </div>
+      </section>
+
+            <section className="py-20 lg:py-28 bg-cream-100">
+        <div className="max-w-[1200px] mx-auto px-6 lg:px-10">
+          <h2 className="font-serif text-3xl lg:text-5xl text-navy-600 text-center mb-12">How a Project Goes from First Call to Final Walk</h2>
+          <div className="max-w-3xl mx-auto">
+            <p className="text-gray-600 leading-relaxed">Starting a Plano window project is straightforward. Call or message us, and we will schedule the in-home estimate at a convenient time. Our estimators bring physical samples — frame finishes, glass packages, grid options — and walk through what is bothering you about the current windows. We measure every opening, photograph conditions, and document any rough-opening repairs older West Plano homes will need. The written quote arrives within 48 hours, broken out line by line. If you proceed, we order the same day and schedule the install for the day the factory ships. Install runs two to four days for most Plano homes. We text daily updates and walk every opening with you at completion. For homes near the Tollway or 75, we provide an STC analysis at the estimate so you know what sound improvement to expect from each glass package. We register your manufacturer warranty and back our install labor with our own multi-year written warranty. The reason Plano homeowners refer us most is that we deliver what the quote promised — same products, same crew, same schedule, same price.</p>
+          </div>
+        </div>
+      </section>
+
+      <section className="py-20 lg:py-28 bg-white">
+        <div className="max-w-[1200px] mx-auto px-6 lg:px-10">
+          <h2 className="font-serif text-3xl lg:text-5xl text-navy-600 text-center mb-12">More Questions Homeowners Ask</h2>
+          <div className="max-w-3xl mx-auto space-y-6">
+            <div>
+              <h3 className="font-serif text-xl text-navy-600 mb-2">Do you offer financing for Plano projects?</h3>
+              <p className="text-gray-600 leading-relaxed">Yes — 12- to 84-month plans through national lenders. We do not earn commission on financing.</p>
+            </div>
+            <div>
+              <h3 className="font-serif text-xl text-navy-600 mb-2">Can you replace warped or rotted sills as part of the install?</h3>
+              <p className="text-gray-600 leading-relaxed">Yes. We inspect and price rough-opening repair at the estimate stage transparently rather than tacking it on at install.</p>
+            </div>
+            <div>
+              <h3 className="font-serif text-xl text-navy-600 mb-2">How much sound reduction can Tollway-area homes expect?</h3>
+              <p className="text-gray-600 leading-relaxed">From a baseline STC 28 dual-pane unit to STC 34-38 with asymmetric laminated configurations — a clearly noticeable difference indoors.</p>
+            </div>
+            <div>
+              <h3 className="font-serif text-xl text-navy-600 mb-2">How long is the workmanship warranty?</h3>
+              <p className="text-gray-600 leading-relaxed">Five years on installation labor, plus the manufacturer warranty on the product. Plano service calls are scheduled within a week.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+<section className="py-20 lg:py-24 bg-navy-600">
         <div className="max-w-[1000px] mx-auto px-6 lg:px-10 text-center">
           <h2 className="font-serif text-3xl lg:text-5xl text-white mb-6">
             Ready to Upgrade Your Plano Home&apos;s Windows?

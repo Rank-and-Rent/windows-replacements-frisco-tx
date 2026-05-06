@@ -24,7 +24,7 @@ export default function WoodWindowsPage() {
     sections: [
       {
         heading: 'Unmatched Natural Beauty and Character',
-        content: "Solid wood windows provide authenticity that synthetic materials cannot replicate. Each window features unique grain patterns, natural color variations, and organic warmth that change subtly with light and seasons. Wood accepts stains and finishes that enhance natural beauty while allowing the grain to show through. For Frisco\&apos;s historic homes and traditional architecture, wood windows provide period-appropriate authenticity that preserves architectural integrity.",
+        content: "Solid wood windows provide authenticity that synthetic materials cannot replicate. Each window features unique grain patterns, natural color variations, and organic warmth that change subtly with light and seasons. Wood accepts stains and finishes that enhance natural beauty while allowing the grain to show through. For Frisco's historic homes and traditional architecture, wood windows provide period-appropriate authenticity that preserves architectural integrity.",
       },
       {
         heading: 'Superior Thermal Performance',
@@ -36,15 +36,15 @@ export default function WoodWindowsPage() {
       },
       {
         heading: 'Maintenance Requirements and Considerations',
-        content: "Solid wood windows require regular maintenance to preserve their beauty and performance in Frisco\&apos;s climate. Exterior surfaces need repainting or refinishing every 3-5 years to protect against moisture and UV damage. Interior maintenance is minimal but benefits from occasional cleaning and refinishing. For homeowners willing to invest time in maintenance, wood windows reward with beauty and character that improve with age.",
+        content: "Solid wood windows require regular maintenance to preserve their beauty and performance in Frisco's climate. Exterior surfaces need repainting or refinishing every 3-5 years to protect against moisture and UV damage. Interior maintenance is minimal but benefits from occasional cleaning and refinishing. For homeowners willing to invest time in maintenance, wood windows reward with beauty and character that improve with age.",
       },
       {
         heading: 'Historic Preservation and Architectural Authenticity',
-        content: "Wood windows are essential for authentic historic preservation in Frisco\&apos;s older neighborhoods. Historic districts often require wood windows to maintain period character. Beyond regulatory requirements, wood windows provide architectural correctness that honors original design intent. For homeowners passionate about preserving Frisco\&apos;s estate architectural heritage, wood windows are the only authentic choice.",
+        content: "Wood windows are essential for authentic historic preservation in Frisco's older neighborhoods. Historic districts often require wood windows to maintain period character. Beyond regulatory requirements, wood windows provide architectural correctness that honors original design intent. For homeowners passionate about preserving Frisco's estate architectural heritage, wood windows are the only authentic choice.",
       },
       {
         heading: 'Investment Value and Longevity',
-        content: "Quality wood windows represent significant initial investment but provide exceptional long-term value. With proper maintenance, wood windows last 50-100 years or more—far longer than synthetic alternatives. The windows can be refinished repeatedly, allowing homeowners to refresh appearance without replacement. In Frisco\&apos;s historic neighborhoods, authentic wood windows significantly enhance property value and marketability.",
+        content: "Quality wood windows represent significant initial investment but provide exceptional long-term value. With proper maintenance, wood windows last 50-100 years or more—far longer than synthetic alternatives. The windows can be refinished repeatedly, allowing homeowners to refresh appearance without replacement. In Frisco's historic neighborhoods, authentic wood windows significantly enhance property value and marketability.",
       },
     ],
 
@@ -64,22 +64,22 @@ export default function WoodWindowsPage() {
     brands: [
       {
         name: 'Andersen Traditional Wood Windows',
-        description: 'Andersen\&apos;s traditional wood line offers authentic wood windows crafted from premium species with time-honored construction methods. Their windows combine historical accuracy with modern performance features for discerning Frisco homeowners.',
+        description: 'Andersen\'s traditional wood line offers authentic wood windows crafted from premium species with time-honored construction methods. Their windows combine historical accuracy with modern performance features for discerning Frisco homeowners.',
       },
       {
         name: 'Pella Wood Windows',
-        description: 'Pella crafts solid wood windows using premium wood species and advanced preservation treatments. Their wood windows provide authentic beauty with enhanced longevity, perfect for Frisco\&apos;s historic homes and traditional architecture.',
+        description: 'Pella crafts solid wood windows using premium wood species and advanced preservation treatments. Their wood windows provide authentic beauty with enhanced longevity, perfect for Frisco\'s historic homes and traditional architecture.',
       },
       {
         name: 'JELD-WEN Premium Wood Collection',
-        description: 'JELD-WEN\&apos;s premium wood windows feature authentic construction using select wood species. Their AuraLast preservation system extends wood life while maintaining traditional appearance, ideal for Frisco\&apos;s climate.',
+        description: 'JELD-WEN\'s premium wood windows feature authentic construction using select wood species. Their AuraLast preservation system extends wood life while maintaining traditional appearance, ideal for Frisco\'s climate.',
       },
     ],
 
     faq: [
       {
         question: 'Do wood windows require a lot of maintenance?',
-        answer: 'Yes, solid wood windows require regular maintenance. Exterior surfaces need repainting or refinishing every 3-5 years in Frisco\&apos;s climate to prevent moisture damage and UV degradation. However, many homeowners find this maintenance rewarding.',
+        answer: 'Yes, solid wood windows require regular maintenance. Exterior surfaces need repainting or refinishing every 3-5 years in Frisco\'s climate to prevent moisture damage and UV degradation. However, many homeowners find this maintenance rewarding.',
       },
       {
         question: 'How long do wood windows last?',
@@ -87,7 +87,7 @@ export default function WoodWindowsPage() {
       },
       {
         question: 'Are wood windows energy efficient?',
-        answer: 'Yes, wood windows are naturally energy efficient. Wood\&apos;s cellular structure provides excellent insulation, achieving U-factors of 0.25-0.30. Combined with modern glass, wood windows reduce energy costs significantly.',
+        answer: 'Yes, wood windows are naturally energy efficient. Wood\'s cellular structure provides excellent insulation, achieving U-factors of 0.25-0.30. Combined with modern glass, wood windows reduce energy costs significantly.',
       },
       {
         question: 'Are wood windows required for historic homes?',
@@ -95,7 +95,7 @@ export default function WoodWindowsPage() {
       },
       {
         question: 'Can wood windows be painted?',
-        answer: 'Absolutely. Wood windows accept any exterior or interior paint or stain. Many homeowners change colors periodically to refresh appearance, taking advantage of wood\&apos;s ability to be refinished repeatedly throughout its long service life.',
+        answer: 'Absolutely. Wood windows accept any exterior or interior paint or stain. Many homeowners change colors periodically to refresh appearance, taking advantage of wood\'s ability to be refinished repeatedly throughout its long service life.',
       },
       {
         question: 'How much do wood windows cost with installation?',
@@ -127,10 +127,27 @@ export default function WoodWindowsPage() {
           image={content.heroImage}
         />
         <ServiceContent content={content} />
-        <CtaBanner />
+              <section className="py-20 lg:py-28 bg-cream-100">
+        <div className="max-w-[1200px] mx-auto px-6 lg:px-10">
+          <h2 className="font-serif text-3xl lg:text-5xl text-navy-600 text-center mb-12">When Pure Wood Is Right for Frisco Homes</h2>
+          <div className="max-w-3xl mx-auto">
+            <p className="text-gray-600 leading-relaxed">Pure wood windows (no exterior cladding) are right for two specific Frisco scenarios: historic preservation and certain very-high-end custom builds where the architectural intent demands wood inside and out. Historic preservation projects are rare in Frisco proper — the city is too new — but adjacent McKinney and Plano have neighborhoods where the homeowner association or HPC requires wood. For everyone else in Frisco, wood-clad delivers the same interior aesthetic with far less exterior maintenance. We will walk you through the trade-off at the estimate and recommend the path that fits your home and your tolerance for exterior repainting every 4 to 6 years.</p>
+          </div>
+        </div>
+      </section>
+
+<CtaBanner />
         <ContactSection />
       </main>
-      <Footer />
+              <section className="py-12 lg:py-16 bg-cream-100">
+          <div className="max-w-[1200px] mx-auto px-6 lg:px-10">
+            <div className="max-w-3xl mx-auto">
+              <p className="text-gray-600 leading-relaxed">Pure wood window installation in Frisco is rare but not unknown. We have done a handful of period-correct projects on adjacent McKinney historic district homes and a few high-end Frisco custom builds where the architectural intent demanded wood inside and out. Every wood project starts with a frank conversation about the maintenance reality, because the long-term success of a wood window install depends entirely on the homeowner sticking to the maintenance schedule.</p>
+            </div>
+          </div>
+        </section>
+
+<Footer />
     </>
   )
 }

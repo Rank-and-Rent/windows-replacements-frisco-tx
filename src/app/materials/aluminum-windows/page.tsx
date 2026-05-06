@@ -155,7 +155,68 @@ export default function AluminumWindowsPage() {
         </section>
 
         {/* CTA */}
-        <section className="py-16 lg:py-24 bg-navy-600">
+                <section className="py-16 lg:py-24 bg-cream-bg">
+          <div className="max-w-[1400px] mx-auto px-6 lg:px-10">
+            <h2 className="text-2xl lg:text-4xl font-serif text-navy-600 text-center mb-8">Where Aluminum Windows Fit in Frisco</h2>
+            <div className="max-w-3xl mx-auto">
+              <p className="text-gray-600 leading-relaxed mb-4">Aluminum is the right material for two specific Frisco scenarios: contemporary architectural facades that demand the slim sightlines aluminum makes possible, and high-end custom builds where the homeowner wants the structural strength to support oversized glass. The Hollyhock contemporary builds, the modern subset of Newman Village, and the larger Edgestone at Legacy custom homes are typical aluminum customers. For traditional brick Frisco facades, aluminum is rarely the right answer — vinyl, fiberglass, or wood-clad fits the architectural intent better.</p>
+              <p className="text-gray-600 leading-relaxed">Aluminum&apos;s strength-to-weight ratio enables window configurations that no other material can deliver. Frame profiles can run as thin as 1.5 inches while supporting glass units 8 feet tall and 4 feet wide. The result is a window that reads as almost pure glass — a signature element of contemporary Frisco architecture and a frequent ask for the rear elevations of custom homes facing greenbelts, golf courses, and creek corridors. We work with Marvin Modern, Pella aluminum-clad, and pure-aluminum specialty product depending on the architectural intent.</p>
+            </div>
+          </div>
+        </section>
+
+        <section className="py-16 lg:py-24 bg-cream-bg">
+          <div className="max-w-[1400px] mx-auto px-6 lg:px-10">
+            <h2 className="text-2xl lg:text-4xl font-serif text-navy-600 text-center mb-8">Thermal Break Technology</h2>
+            <div className="max-w-3xl mx-auto">
+              <p className="text-gray-600 leading-relaxed">Modern aluminum windows use thermal break technology — a non-conductive polymer strip inserted between the interior and exterior aluminum sections — to dramatically improve thermal performance. Without thermal breaks, aluminum is the worst frame material for thermal insulation. With thermal breaks, aluminum performs in the same range as vinyl. We only install thermally broken aluminum on Frisco projects, never the bare-aluminum old stock that ships in commercial product.</p>
+            </div>
+          </div>
+        </section>
+
+        <section className="py-16 lg:py-24 bg-cream-bg">
+          <div className="max-w-[1400px] mx-auto px-6 lg:px-10">
+            <h2 className="text-2xl lg:text-4xl font-serif text-navy-600 text-center mb-8">Aluminum Maintenance Considerations</h2>
+            <div className="max-w-3xl mx-auto">
+              <p className="text-gray-600 leading-relaxed">Aluminum windows require more exterior maintenance than vinyl or fiberglass — typically a repaint every 8 to 12 years to maintain finish appearance and prevent oxidation. The frames themselves never corrode or degrade, so the maintenance is purely cosmetic. For Frisco custom-home owners with budget for periodic refinishing, this is a non-issue. For homeowners who want a set-and-forget product, vinyl or fiberglass is a better fit. We will walk through the trade-off at the estimate.</p>
+            </div>
+          </div>
+        </section>
+
+        <section className="py-16 lg:py-24 bg-cream-bg">
+          <div className="max-w-[1400px] mx-auto px-6 lg:px-10">
+            <h2 className="text-2xl lg:text-4xl font-serif text-navy-600 text-center mb-8">Common Aluminum Configurations We Install</h2>
+            <div className="max-w-3xl mx-auto">
+              <p className="text-gray-600 leading-relaxed">Most Frisco aluminum projects involve large picture units paired with operable casements or awnings on contemporary facades. Marvin Modern is our most-installed aluminum-style line in Frisco — technically a wood-clad with aluminum exterior treatment, but reads as aluminum on the facade. We also install pure aluminum in commercial-style applications on the most contemporary custom builds, with thermal breaks and high-performance Low-E glass. Pricing on aluminum runs 15 to 30 percent more than equivalent vinyl, less than premium wood-clad.</p>
+            </div>
+          </div>
+        </section>
+
+      <section className="py-12 lg:py-16 bg-cream-100">
+        <div className="max-w-[1200px] mx-auto px-6 lg:px-10">
+          <div className="max-w-3xl mx-auto">
+            <p className="text-gray-600 leading-relaxed">Aluminum window installation in Frisco is a niche category. Most projects fall into one of three buckets: contemporary architectural builds where the slim sightlines matter (Hollyhock contemporary, Edgestone at Legacy modern), high-end custom homes with oversized openings that need the structural strength (Newman Village, Stonebriar custom), or commercial-grade renovations where aluminum&apos;s durability and dimensional stability are required. We will walk through whether aluminum is the right answer for your specific home or whether vinyl, fiberglass, or wood-clad is a better fit.</p>
+          </div>
+        </div>
+      </section>
+
+      <section className="py-12 lg:py-16 bg-white">
+        <div className="max-w-[1200px] mx-auto px-6 lg:px-10">
+          <div className="max-w-3xl mx-auto">
+            <p className="text-gray-600 leading-relaxed">Aluminum installation in Frisco is a small fraction of our project mix — most homeowners are better served by vinyl, fiberglass, or wood-clad. We will be honest at the in-home estimate about whether aluminum is the right answer for your specific home or whether a different material delivers better long-term value. Most contemporary Frisco builds end up using fiberglass or wood-clad with aluminum-look exterior treatments rather than pure aluminum.</p>
+          </div>
+        </div>
+      </section>
+
+      <section className="py-12 lg:py-16 bg-cream-100">
+        <div className="max-w-[1200px] mx-auto px-6 lg:px-10">
+          <div className="max-w-3xl mx-auto">
+            <p className="text-gray-600 leading-relaxed">Aluminum installation projects in Frisco are typically targeted upgrades on contemporary facades or oversized openings rather than full-home replacements. We have done aluminum casement-and-picture wall systems in Hollyhock contemporary builds, oversized aluminum sliders in Edgestone at Legacy custom homes, and a handful of commercial-grade aluminum installations in mixed-use buildings. The aluminum category serves a small but specific need that vinyl and fiberglass cannot fully replicate.</p>
+          </div>
+        </div>
+      </section>
+
+<section className="py-16 lg:py-24 bg-navy-600">
           <div className="max-w-[1400px] mx-auto px-6 lg:px-10 text-center">
             <h2 className="text-2xl lg:text-4xl font-serif text-white mb-6">
               Ready for Aluminum Windows?

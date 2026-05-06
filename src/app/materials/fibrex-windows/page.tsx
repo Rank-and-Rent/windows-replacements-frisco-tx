@@ -155,7 +155,67 @@ export default function FibrexWindowsPage() {
         </section>
 
         {/* CTA */}
-        <section className="py-16 lg:py-24 bg-navy-600">
+                <section className="py-16 lg:py-24 bg-cream-bg">
+          <div className="max-w-[1400px] mx-auto px-6 lg:px-10">
+            <h2 className="text-2xl lg:text-4xl font-serif text-navy-600 text-center mb-8">What Fibrex Actually Is</h2>
+            <div className="max-w-3xl mx-auto">
+              <p className="text-gray-600 leading-relaxed">Fibrex is Andersen&apos;s proprietary composite material — a blend of reclaimed wood fiber from their other manufacturing processes (40 percent) and thermoplastic polymer (60 percent). The result is a frame material that combines wood&apos;s natural warmth and dimensional stability with vinyl&apos;s low maintenance and weather resistance. Fibrex is twice as strong as standard vinyl and 38 percent stronger than fiberglass, which lets Andersen build narrower frame profiles with more glass area than equivalent vinyl windows. We are an authorized Andersen dealer in Frisco and install Fibrex on the 100 Series and 200 Series lines.</p>
+            </div>
+          </div>
+        </section>
+
+        <section className="py-16 lg:py-24 bg-cream-bg">
+          <div className="max-w-[1400px] mx-auto px-6 lg:px-10">
+            <h2 className="text-2xl lg:text-4xl font-serif text-navy-600 text-center mb-8">Fibrex Performance in Frisco</h2>
+            <div className="max-w-3xl mx-auto">
+              <p className="text-gray-600 leading-relaxed">Fibrex windows hit U-factors of 0.27 to 0.30 with triple-silver Low-E and argon — competitive with the best vinyl and approaching premium fiberglass. The dark exterior finishes carry a 20-year color warranty, which is the longest in the industry on a non-paint frame product. For Frisco homes where the homeowner wants a finish that holds true black or bronze through fifteen Texas summers without fade, Fibrex is the only mass-market option that delivers.</p>
+            </div>
+          </div>
+        </section>
+
+        <section className="py-16 lg:py-24 bg-cream-bg">
+          <div className="max-w-[1400px] mx-auto px-6 lg:px-10">
+            <h2 className="text-2xl lg:text-4xl font-serif text-navy-600 text-center mb-8">Where Fibrex Fits Best in Frisco</h2>
+            <div className="max-w-3xl mx-auto">
+              <p className="text-gray-600 leading-relaxed">Fibrex on the Andersen 100 Series is the strongest budget-tier option for Frisco full-home replacements when the homeowner wants the brand reputation of Andersen at a price competitive with mid-tier vinyl. The 100 Series has a slimmer profile than 200 Series, suits modern facades better, and ships with the same Fibrex composite as the more expensive lines. Many Phillips Creek Ranch, Lone Star Ranch, and Hollyhock production-home replacements pick Fibrex for this reason. The 200 Series adds a wider grid and color selection for traditional brick facades in The Trails, Heritage Lakes, and Plantation Resort.</p>
+            </div>
+          </div>
+        </section>
+
+        <section className="py-16 lg:py-24 bg-cream-bg">
+          <div className="max-w-[1400px] mx-auto px-6 lg:px-10">
+            <h2 className="text-2xl lg:text-4xl font-serif text-navy-600 text-center mb-8">Fibrex Warranty and Service</h2>
+            <div className="max-w-3xl mx-auto">
+              <p className="text-gray-600 leading-relaxed">Andersen warranties Fibrex frames against material defects for 20 years and the dark exterior finishes for 20 years against fade. Glass is warrantied for 20 years against insulating glass seal failure. We register every Andersen warranty in your name on completion day and back our installation labor with our own multi-year written warranty. Service calls in Frisco for Andersen Fibrex warranty work typically scheduled within a week.</p>
+            </div>
+          </div>
+        </section>
+
+      <section className="py-12 lg:py-16 bg-cream-100">
+        <div className="max-w-[1200px] mx-auto px-6 lg:px-10">
+          <div className="max-w-3xl mx-auto">
+            <p className="text-gray-600 leading-relaxed">Fibrex is exclusive to Andersen, which means the brand decision and the material decision are linked. For Frisco homeowners who want the brand reputation of Andersen at a price competitive with mid-tier vinyl from other manufacturers, Fibrex on the 100 Series is the answer. The 200 Series steps up to wider grid options and broader color palette for traditional brick facades. The 400 Series and A-Series move into the wood-clad category with Fibrex remaining as the exterior cladding option on those lines.</p>
+          </div>
+        </div>
+      </section>
+
+      <section className="py-12 lg:py-16 bg-white">
+        <div className="max-w-[1200px] mx-auto px-6 lg:px-10">
+          <div className="max-w-3xl mx-auto">
+            <p className="text-gray-600 leading-relaxed">Fibrex on the Andersen 100 Series is the most-installed budget-tier Andersen product in Frisco. The combination of Andersen brand reputation, slim modern profiles, and pricing competitive with mid-tier vinyl from JELD-WEN or Pella makes it a strong value play for full-home Frisco replacements. The 200 Series adds wider grid options and broader color palette for traditional brick facades; the 400 Series and A-Series move into the wood-clad category with Fibrex remaining as the exterior cladding.</p>
+          </div>
+        </div>
+      </section>
+
+      <section className="py-12 lg:py-16 bg-cream-100">
+        <div className="max-w-[1200px] mx-auto px-6 lg:px-10">
+          <div className="max-w-3xl mx-auto">
+            <p className="text-gray-600 leading-relaxed">Andersen&apos;s patented Fibrex composite is unique in the industry — no other manufacturer offers the same blend of wood fiber and thermoplastic polymer. The material&apos;s combination of strength, thermal performance, and dark-finish stability makes it a strong fit for Frisco facades that demand the look of wood with the maintenance profile of vinyl. We have installed Fibrex 100 Series, 200 Series, 400 Series, and A-Series across a range of Frisco neighborhoods with consistently positive results.</p>
+          </div>
+        </div>
+      </section>
+
+<section className="py-16 lg:py-24 bg-navy-600">
           <div className="max-w-[1400px] mx-auto px-6 lg:px-10 text-center">
             <h2 className="text-2xl lg:text-4xl font-serif text-white mb-6">
               Ready for Fibrex Windows?

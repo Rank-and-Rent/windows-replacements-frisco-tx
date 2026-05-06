@@ -24,23 +24,23 @@ export default function FiberglassWindowsPage() {
     sections: [
       {
         heading: 'Unrivaled Structural Strength for Frisco Homes',
-        content: "Fiberglass is fundamentally stronger than any other window frame material, making it ideal for Frisco\&apos;s occasional severe weather and hail storms. The material\&apos;s tensile strength exceeds steel while maintaining flexibility that prevents cracking during temperature extremes. Unlike vinyl that can become brittle or wood that warps, fiberglass maintains perfect alignment and smooth operation year-round in Frisco\&apos;s variable climate.",
+        content: "Fiberglass is fundamentally stronger than any other window frame material, making it ideal for Frisco's occasional severe weather and hail storms. The material's tensile strength exceeds steel while maintaining flexibility that prevents cracking during temperature extremes. Unlike vinyl that can become brittle or wood that warps, fiberglass maintains perfect alignment and smooth operation year-round in Frisco's variable climate.",
       },
       {
         heading: 'Superior Thermal Performance Reduces Costs',
-        content: "Fiberglass\&apos;s naturally low thermal conductivity creates exceptional insulating properties that significantly reduce energy costs in Frisco\&apos;s hot summers. The material conducts heat 500 times slower than aluminum and far better than wood, creating a natural thermal barrier. Frisco homeowners typically see 35-45% reductions in heating and cooling costs with fiberglass windows.",
+        content: "Fiberglass's naturally low thermal conductivity creates exceptional insulating properties that significantly reduce energy costs in Frisco's hot summers. The material conducts heat 500 times slower than aluminum and far better than wood, creating a natural thermal barrier. Frisco homeowners typically see 35-45% reductions in heating and cooling costs with fiberglass windows.",
       },
       {
         heading: 'Authentic Wood Beauty Without Maintenance',
-        content: "Modern fiberglass windows replicate the natural beauty of wood with stunning accuracy, yet require none of the maintenance that authentic wood demands in Frisco\&apos;s climate. Advanced manufacturing creates wood-grain textures virtually indistinguishable from real wood, perfect for Frisco\&apos;s historic neighborhoods while eliminating annual refinishing requirements.",
+        content: "Modern fiberglass windows replicate the natural beauty of wood with stunning accuracy, yet require none of the maintenance that authentic wood demands in Frisco's climate. Advanced manufacturing creates wood-grain textures virtually indistinguishable from real wood, perfect for Frisco's historic neighborhoods while eliminating annual refinishing requirements.",
       },
       {
         heading: 'Moisture Resistance for Texas Climate',
-        content: "Fiberglass is inherently moisture-resistant, making it perfect for Frisco\&apos;s humid summers and occasional heavy rains. Unlike wood that absorbs moisture and rots, fiberglass remains impervious to water damage. The material never needs sealing or protective treatments, preventing mold and mildew growth that can compromise indoor air quality.",
+        content: "Fiberglass is inherently moisture-resistant, making it perfect for Frisco's humid summers and occasional heavy rains. Unlike wood that absorbs moisture and rots, fiberglass remains impervious to water damage. The material never needs sealing or protective treatments, preventing mold and mildew growth that can compromise indoor air quality.",
       },
       {
         heading: 'Design Flexibility and Customization',
-        content: "Fiberglass\&apos;s workability allows manufacturers to create virtually any window style, size, or configuration. The material accommodates complex curves and irregular shapes that would be difficult with other materials. Available in unlimited color options, fiberglass windows match Frisco\&apos;s diverse architectural styles from traditional ranch homes to contemporary designs.",
+        content: "Fiberglass's workability allows manufacturers to create virtually any window style, size, or configuration. The material accommodates complex curves and irregular shapes that would be difficult with other materials. Available in unlimited color options, fiberglass windows match Frisco's diverse architectural styles from traditional ranch homes to contemporary designs.",
       },
       {
         heading: 'Environmental and Health Advantages',
@@ -68,11 +68,11 @@ export default function FiberglassWindowsPage() {
       },
       {
         name: 'Pella Fiberglass Windows',
-        description: 'Pella\&apos;s fiberglass windows feature their exclusive EnduraClad protection system and advanced insulated glass technology. The result is fiberglass performance with superior weather resistance and energy efficiency.',
+        description: 'Pella\'s fiberglass windows feature their exclusive EnduraClad protection system and advanced insulated glass technology. The result is fiberglass performance with superior weather resistance and energy efficiency.',
       },
       {
         name: 'JELD-WEN AuraLast Fiberglass',
-        description: 'JELD-WEN\&apos;s AuraLast fiberglass technology provides authentic wood beauty with fiberglass strength and durability. Their comprehensive warranty program reflects confidence in the material\&apos;s longevity.',
+        description: 'JELD-WEN\'s AuraLast fiberglass technology provides authentic wood beauty with fiberglass strength and durability. Their comprehensive warranty program reflects confidence in the material\'s longevity.',
       },
     ],
 
@@ -83,7 +83,7 @@ export default function FiberglassWindowsPage() {
       },
       {
         question: 'Are fiberglass windows energy efficient?',
-        answer: 'Extremely. Fiberglass\&apos;s low thermal conductivity creates superior insulation. Combined with advanced glass packages, fiberglass windows can reduce energy costs by 35-45% in Frisco\&apos;s climate.',
+        answer: 'Extremely. Fiberglass\'s low thermal conductivity creates superior insulation. Combined with advanced glass packages, fiberglass windows can reduce energy costs by 35-45% in Frisco\'s climate.',
       },
       {
         question: 'Do fiberglass windows require maintenance?',
@@ -127,10 +127,43 @@ export default function FiberglassWindowsPage() {
           image={content.heroImage}
         />
         <ServiceContent content={content} />
-        <CtaBanner />
+              <section className="py-20 lg:py-28 bg-cream-100">
+        <div className="max-w-[1200px] mx-auto px-6 lg:px-10">
+          <h2 className="font-serif text-3xl lg:text-5xl text-navy-600 text-center mb-12">Why Fiberglass Is Worth the Premium for Frisco</h2>
+          <div className="max-w-3xl mx-auto">
+            <p className="text-gray-600 leading-relaxed">Fiberglass costs 20 to 40 percent more than vinyl on equivalent configurations, which is a real budget consideration. The case for paying that premium is straightforward: better thermal performance, better longevity in Texas UV, and tighter dimensional stability across temperature extremes. Frisco summers swing from 80 degrees at sunrise to 110 in late afternoon shade — fiberglass holds shape through those swings better than any other frame material. For homeowners staying in their home long-term, the math usually works out. For shorter-term holds (5 to 7 years before a planned move), vinyl is the right choice.</p>
+          </div>
+        </div>
+      </section>
+
+<CtaBanner />
         <ContactSection />
       </main>
-      <Footer />
+                      <section className="py-12 lg:py-16 bg-white">
+          <div className="max-w-[1200px] mx-auto px-6 lg:px-10">
+            <div className="max-w-3xl mx-auto">
+              <p className="text-gray-600 leading-relaxed">Fiberglass projects in Frisco are typically full-home replacements rather than partial upgrades. The cost premium over vinyl makes piece-by-piece replacement less economical. Most Frisco fiberglass full-home projects involve 18 to 28 openings, wrap in three to four days, and use Marvin Elevate or Andersen 100 Series Fibrex as the primary product line. We provide line-item written quotes that hold for 30 days.</p>
+            </div>
+          </div>
+        </section>
+
+        <section className="py-12 lg:py-16 bg-cream-100">
+          <div className="max-w-[1200px] mx-auto px-6 lg:px-10">
+            <div className="max-w-3xl mx-auto">
+              <p className="text-gray-600 leading-relaxed">Frisco fiberglass installations have grown steadily over the past decade as homeowners learn the long-term value math. The 20- to 40-percent cost premium over vinyl looks substantial at point-of-purchase, but spread across a 30+ year service life and combined with measurably better thermal performance and lower lifetime maintenance, fiberglass usually returns the premium within fifteen years. For Frisco homeowners committed to staying in the home long-term, fiberglass is often the right material decision.</p>
+            </div>
+          </div>
+        </section>
+
+<section className="py-12 lg:py-16 bg-cream-100">
+          <div className="max-w-[1200px] mx-auto px-6 lg:px-10">
+            <div className="max-w-3xl mx-auto">
+              <p className="text-gray-600 leading-relaxed">For Frisco homes near the Tollway, Sam Rayburn, or Toyota Stadium, the laminated glass option on fiberglass units pays off. Pulteruded fiberglass profiles handle the additional weight of laminated glazing without sash sag, where vinyl can deflect over time on the largest openings. The result is a window that holds true and seals tight for the long haul.</p>
+            </div>
+          </div>
+        </section>
+
+<Footer />
     </>
   )
 }

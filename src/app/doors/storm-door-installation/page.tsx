@@ -185,7 +185,49 @@ export default function StormDoorPage() {
         </section>
 
         {/* CTA */}
-        <section className="py-16 lg:py-24 bg-navy-600">
+                <section className="py-16 lg:py-24 bg-cream-bg">
+          <div className="max-w-[1400px] mx-auto px-6 lg:px-10">
+            <h2 className="text-2xl lg:text-4xl font-serif text-navy-600 text-center mb-8">Why Storm Doors Make Sense in Frisco</h2>
+            <div className="max-w-3xl mx-auto">
+              <p className="text-gray-600 leading-relaxed">Storm doors add a layer of weather and security protection to your front entry while letting you ventilate without losing climate control. Common use cases in Frisco: keeping the front door open in shoulder seasons (March-April, October-November) when natural ventilation is comfortable; protecting an expensive custom front door from sun, rain, and hail; and adding a secondary lock layer for security. We install storm doors from major brands with full-view glass, ventilating glass-and-screen panels, and security-grade options.</p>
+            </div>
+          </div>
+        </section>
+
+        <section className="py-16 lg:py-24 bg-cream-bg">
+          <div className="max-w-[1400px] mx-auto px-6 lg:px-10">
+            <h2 className="text-2xl lg:text-4xl font-serif text-navy-600 text-center mb-8">Storm Door Configurations and Frisco Heat</h2>
+            <div className="max-w-3xl mx-auto">
+              <p className="text-gray-600 leading-relaxed">Frisco summers create a real concern with storm doors — the air space between the storm door and the entry door can become a solar oven, reaching 140+ degrees on a 105 degree afternoon. That heat can damage finishes on wood and fiberglass entry doors and shorten the life of weatherstripping. We recommend ventilating storm doors with bottom-hinged glass panels that drop down to expose a screen, allowing the trapped air to escape. For homes with painted entry doors that face west or southwest, we sometimes recommend skipping the storm door entirely to avoid finish damage.</p>
+            </div>
+          </div>
+        </section>
+
+      <section className="py-12 lg:py-16 bg-cream-100">
+        <div className="max-w-[1200px] mx-auto px-6 lg:px-10">
+          <div className="max-w-3xl mx-auto">
+            <p className="text-gray-600 leading-relaxed">Storm doors are a low-volume category in Frisco compared to entry, patio, and french doors. The summer heat reality (storm-door air space can hit 140+ degrees on hot afternoons) makes storm doors a niche product rather than a default. We recommend storm doors only when the use case is right — protecting an expensive custom front door, adding a secondary security lock, or enabling shoulder-season ventilation through the front entry. We will tell you honestly when a storm door makes sense for your home and when it does not.</p>
+          </div>
+        </div>
+      </section>
+
+      <section className="py-12 lg:py-16 bg-white">
+        <div className="max-w-[1200px] mx-auto px-6 lg:px-10">
+          <div className="max-w-3xl mx-auto">
+            <p className="text-gray-600 leading-relaxed">We sell and install storm doors selectively in Frisco. The use cases are real — protecting an expensive custom front door, adding security, or enabling natural ventilation in shoulder seasons — but the trapped-heat issue makes them inappropriate for many sun-exposed entries. We will tell you honestly when a storm door makes sense for your home and when skipping it is the better answer.</p>
+          </div>
+        </div>
+      </section>
+
+      <section className="py-12 lg:py-16 bg-cream-100">
+        <div className="max-w-[1200px] mx-auto px-6 lg:px-10">
+          <div className="max-w-3xl mx-auto">
+            <p className="text-gray-600 leading-relaxed">Storm door installation in Frisco runs $400 to $1,200 depending on configuration and brand. The category is small relative to entry, patio, and french doors but real demand exists for the right use cases. We will measure your front entry, photograph the conditions, and walk through whether a storm door fits your home and lifestyle. If the answer is yes, we install with proper flashing, sealing, and hardware coordination with the existing entry door.</p>
+          </div>
+        </div>
+      </section>
+
+<section className="py-16 lg:py-24 bg-navy-600">
           <div className="max-w-[1400px] mx-auto px-6 lg:px-10 text-center">
             <h2 className="text-2xl lg:text-4xl font-serif text-white mb-6">
               Ready for a New Storm Door?

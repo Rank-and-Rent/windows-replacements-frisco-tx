@@ -201,7 +201,59 @@ export default function MarvinPage() {
         </section>
 
         {/* CTA */}
-        <section className="py-16 lg:py-24 bg-navy-600">
+                <section className="py-16 lg:py-24 bg-cream-bg">
+          <div className="max-w-[1400px] mx-auto px-6 lg:px-10">
+            <h2 className="text-2xl lg:text-4xl font-serif text-navy-600 text-center mb-8">Marvin History and Manufacturing</h2>
+            <div className="max-w-3xl mx-auto">
+              <p className="text-gray-600 leading-relaxed">Marvin has been family-owned since 1912 and is widely regarded as the highest-quality window manufacturer in the United States. Their product range includes Marvin Essential (entry tier), Marvin Elevate (mid-tier fiberglass), Marvin Signature (premium custom), Marvin Modern (contemporary), and Marvin Replacement (retrofit). We are an authorized Marvin dealer in Frisco and install all five core lines. Most Frisco Marvin projects fall into the Elevate and Signature ranges.</p>
+            </div>
+          </div>
+        </section>
+
+        <section className="py-16 lg:py-24 bg-cream-bg">
+          <div className="max-w-[1400px] mx-auto px-6 lg:px-10">
+            <h2 className="text-2xl lg:text-4xl font-serif text-navy-600 text-center mb-8">Why Marvin for Premium Frisco Custom Homes</h2>
+            <div className="max-w-3xl mx-auto">
+              <p className="text-gray-600 leading-relaxed">Marvin Signature is the premium-custom benchmark that Newman Village, Edgestone at Legacy, Stonebriar, and the larger Hollyhock builds rely on. Full custom dimensioning, mahogany interior options, dark exterior finishes that hold their color for decades, and tight-tolerance hardware that sets it apart from any other production line. Marvin Elevate fiberglass is the strongest mid-tier option for Frisco homes — better thermal performance than vinyl, beautiful aesthetics, and an industry-leading warranty. Both lines fit the design vocabulary of premium Frisco builds.</p>
+            </div>
+          </div>
+        </section>
+
+        <section className="py-16 lg:py-24 bg-cream-bg">
+          <div className="max-w-[1400px] mx-auto px-6 lg:px-10">
+            <h2 className="text-2xl lg:text-4xl font-serif text-navy-600 text-center mb-8">Marvin Modern for Contemporary Frisco Facades</h2>
+            <div className="max-w-3xl mx-auto">
+              <p className="text-gray-600 leading-relaxed">The Marvin Modern line is built for the contemporary architectural vocabulary that has emerged in newer Frisco custom builds. Slim sightlines, clean lines, dark exterior finishes, and integrated handle and lock hardware that disappears into the frame. Modern works particularly well on the Hollyhock contemporary builds and the smaller subset of Newman Village homes that lean modern rather than traditional. We have installed Marvin Modern across a range of Frisco custom builds and the line consistently delivers.</p>
+            </div>
+          </div>
+        </section>
+
+        <section className="py-16 lg:py-24 bg-cream-bg">
+          <div className="max-w-[1400px] mx-auto px-6 lg:px-10">
+            <h2 className="text-2xl lg:text-4xl font-serif text-navy-600 text-center mb-8">Marvin Warranty and Service</h2>
+            <div className="max-w-3xl mx-auto">
+              <p className="text-gray-600 leading-relaxed">Marvin warranties run 20 years on glass and 10 years on most components. Service calls in Frisco for Marvin warranty work typically scheduled within a week, with most parts available next-day from Marvin&apos;s regional fulfillment. We register every Marvin warranty in your name on completion day and back our installation labor with our own multi-year written warranty. The Marvin product is the kind of premium-tier window that homeowners keep for the life of the home, and the warranty support reflects that.</p>
+            </div>
+          </div>
+        </section>
+
+      <section className="py-12 lg:py-16 bg-cream-100">
+        <div className="max-w-[1200px] mx-auto px-6 lg:px-10">
+          <div className="max-w-3xl mx-auto">
+            <p className="text-gray-600 leading-relaxed">Marvin builds at higher tolerances than any other window manufacturer in the U.S. The hardware on a Marvin Signature is noticeably smoother than equivalent Andersen or Pella product, the corner joinery on the wood-clad lines is tighter, and the factory finishes hold up better through Texas UV. For Frisco custom builds where the homeowner is investing in premium product across the board, Marvin is the right answer. We have installed Marvin Signature, Modern, and Elevate across Newman Village, Edgestone at Legacy, Stonebriar, and the larger Hollyhock builds.</p>
+          </div>
+        </div>
+      </section>
+
+      <section className="py-12 lg:py-16 bg-white">
+        <div className="max-w-[1200px] mx-auto px-6 lg:px-10">
+          <div className="max-w-3xl mx-auto">
+            <p className="text-gray-600 leading-relaxed">Marvin&apos;s family ownership shows up in product quality in ways that matter to long-term homeowners. The brand consistently invests in R&amp;D, manufacturing tolerances, and warranty support at higher levels than publicly traded competitors. For Frisco custom-home owners planning to stay in their home long-term, the Marvin premium tier returns its cost over the service life of the product. We provide line-item written quotes for Marvin projects that hold for 30 days.</p>
+          </div>
+        </div>
+      </section>
+
+<section className="py-16 lg:py-24 bg-navy-600">
           <div className="max-w-[1400px] mx-auto px-6 lg:px-10 text-center">
             <h2 className="text-2xl lg:text-4xl font-serif text-white mb-6">
               Ready for Marvin Windows & Doors?

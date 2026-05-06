@@ -198,7 +198,33 @@ export default function EntryDoorPage() {
         </section>
 
         {/* CTA */}
-        <section className="py-16 lg:py-24 bg-navy-600">
+                <section className="py-16 lg:py-24 bg-cream-bg">
+          <div className="max-w-[1400px] mx-auto px-6 lg:px-10">
+            <h2 className="text-2xl lg:text-4xl font-serif text-navy-600 text-center mb-8">Entry Doors and Frisco HOA Coordination</h2>
+            <div className="max-w-3xl mx-auto">
+              <p className="text-gray-600 leading-relaxed">Most Frisco master-planned communities scrutinize front-entry doors as part of architectural review. Color, panel pattern, glass treatment, and hardware finish often require board sign-off. We pull the architectural review board palette and submit the application paperwork as part of the project — Stonebriar, Phillips Creek Ranch, The Trails, Plantation Resort, Newman Village, Heritage Lakes, and Hollyhock all run active boards. Approval typically takes one to three weeks and we manage the timeline so it does not delay install.</p>
+            </div>
+          </div>
+        </section>
+
+        <section className="py-16 lg:py-24 bg-cream-bg">
+          <div className="max-w-[1400px] mx-auto px-6 lg:px-10">
+            <h2 className="text-2xl lg:text-4xl font-serif text-navy-600 text-center mb-8">Lead Times and Budgeting</h2>
+            <div className="max-w-3xl mx-auto">
+              <p className="text-gray-600 leading-relaxed">Standard fiberglass and steel entry doors run four to six weeks of factory lead time and install in a single day. Custom finishes, sidelights, transoms, and oversized openings extend lead times to eight to twelve weeks and may take a day and a half to install. Pricing varies widely — basic builder-grade steel doors with installation start around $1,200 to $1,800, midrange fiberglass with sidelights and transom run $3,500 to $7,500, and custom wood or premium fiberglass can reach $10,000 to $15,000+. We provide line-item written quotes with everything included.</p>
+            </div>
+          </div>
+        </section>
+
+      <section className="py-12 lg:py-16 bg-cream-100">
+        <div className="max-w-[1200px] mx-auto px-6 lg:px-10">
+          <div className="max-w-3xl mx-auto">
+            <p className="text-gray-600 leading-relaxed">Frisco entry door replacement is often the highest-impact curb-appeal upgrade a homeowner can make. The front door is the visual focal point of the facade. Replacing a tired builder-grade fiberglass door with a custom mahogany pivot or a glass-and-iron statement piece transforms the perceived value of the home. We pair entry door projects with front-elevation window replacement when possible to deliver a coordinated facade refresh.</p>
+          </div>
+        </div>
+      </section>
+
+<section className="py-16 lg:py-24 bg-navy-600">
           <div className="max-w-[1400px] mx-auto px-6 lg:px-10 text-center">
             <h2 className="text-2xl lg:text-4xl font-serif text-white mb-6">
               Ready for a New Entry Door?

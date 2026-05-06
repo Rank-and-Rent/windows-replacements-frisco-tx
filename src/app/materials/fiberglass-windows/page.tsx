@@ -185,7 +185,51 @@ export default function FiberglassWindowsPage() {
         </section>
 
         {/* CTA */}
-        <section className="py-16 lg:py-24 bg-navy-600">
+                <section className="py-16 lg:py-24 bg-cream-bg">
+          <div className="max-w-[1400px] mx-auto px-6 lg:px-10">
+            <h2 className="text-2xl lg:text-4xl font-serif text-navy-600 text-center mb-8">Why Fiberglass Costs More Than Vinyl in Frisco</h2>
+            <div className="max-w-3xl mx-auto">
+              <p className="text-gray-600 leading-relaxed">Fiberglass costs 20 to 40 percent more than vinyl on equivalent configurations. The case for paying that premium is straightforward: better thermal performance, better dimensional stability across Frisco temperature swings, longer service life, and a more authentic look. Frisco summers swing from 80 degrees at sunrise to 110 in late afternoon shade — fiberglass holds shape through those swings better than any other frame material. For homeowners staying in their home long-term, the math usually works out. For shorter-term holds, vinyl is the right choice. We will walk through both options at the estimate.</p>
+            </div>
+          </div>
+        </section>
+
+        <section className="py-16 lg:py-24 bg-cream-bg">
+          <div className="max-w-[1400px] mx-auto px-6 lg:px-10">
+            <h2 className="text-2xl lg:text-4xl font-serif text-navy-600 text-center mb-8">Fiberglass and Frisco UV</h2>
+            <div className="max-w-3xl mx-auto">
+              <p className="text-gray-600 leading-relaxed">Fiberglass holds up to UV better than vinyl. The pultruded fiberglass profile resists chalking, fading, and surface degradation that vinyl can show after 10 to 15 years of direct Texas sun. For west-facing elevations on Frisco homes — particularly in The Trails, Phillips Creek Ranch, and Stonebriar where many production homes face west — fiberglass is the more durable long-term choice. The factory finishes carry warranties up to 20 years against fade and chalking on premium product lines.</p>
+            </div>
+          </div>
+        </section>
+
+        <section className="py-16 lg:py-24 bg-cream-bg">
+          <div className="max-w-[1400px] mx-auto px-6 lg:px-10">
+            <h2 className="text-2xl lg:text-4xl font-serif text-navy-600 text-center mb-8">Common Fiberglass Configurations We Install</h2>
+            <div className="max-w-3xl mx-auto">
+              <p className="text-gray-600 leading-relaxed">Marvin Elevate fiberglass is our most-installed fiberglass line in Frisco. Marvin Essential and Andersen 100 Series Fibrex (technically a fiberglass-vinyl-wood composite) round out the mid-tier. JELD-WEN fiberglass is the budget-friendly option that still meets the Frisco quality bar. Most full-home fiberglass projects in Frisco run 20 to 28 openings and wrap in three to four days. We use triple-silver Low-E argon glass as the default, add laminated glass on west and southwest exposures, and finish with simulated divided lite grids on traditional facades.</p>
+            </div>
+          </div>
+        </section>
+
+        <section className="py-16 lg:py-24 bg-cream-bg">
+          <div className="max-w-[1400px] mx-auto px-6 lg:px-10">
+            <h2 className="text-2xl lg:text-4xl font-serif text-navy-600 text-center mb-8">Fiberglass for Frisco Custom Homes</h2>
+            <div className="max-w-3xl mx-auto">
+              <p className="text-gray-600 leading-relaxed">For premium Frisco custom builds in Newman Village, Edgestone at Legacy, and Hollyhock, fiberglass is a strong fit when the homeowner wants the structural strength of fiberglass with a cleaner aesthetic than wood-clad. Marvin Elevate accepts dark exterior finishes, simulated divided lite grids, and oversized custom dimensioning that suit upscale Frisco facades. The thermal performance is competitive with wood-clad at a 15 to 25 percent lower price point.</p>
+            </div>
+          </div>
+        </section>
+
+      <section className="py-12 lg:py-16 bg-cream-100">
+        <div className="max-w-[1200px] mx-auto px-6 lg:px-10">
+          <div className="max-w-3xl mx-auto">
+            <p className="text-gray-600 leading-relaxed">Fiberglass window projects in Frisco typically run as full-home replacements rather than partial upgrades. The cost premium over vinyl makes piece-by-piece replacement less attractive economically. For homeowners committed to fiberglass and staying in the home long-term, the price-to-performance math is strong. We have done fiberglass full-home replacements across The Trails, Phillips Creek Ranch, Newman Village, Stonebriar, and Edgestone at Legacy with consistently positive results.</p>
+          </div>
+        </div>
+      </section>
+
+<section className="py-16 lg:py-24 bg-navy-600">
           <div className="max-w-[1400px] mx-auto px-6 lg:px-10 text-center">
             <h2 className="text-2xl lg:text-4xl font-serif text-white mb-6">
               Ready for Fiberglass Windows?

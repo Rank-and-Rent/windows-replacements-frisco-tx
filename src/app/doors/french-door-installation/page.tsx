@@ -185,7 +185,42 @@ export default function FrenchDoorPage() {
         </section>
 
         {/* CTA */}
-        <section className="py-16 lg:py-24 bg-navy-600">
+                <section className="py-16 lg:py-24 bg-cream-bg">
+          <div className="max-w-[1400px] mx-auto px-6 lg:px-10">
+            <h2 className="text-2xl lg:text-4xl font-serif text-navy-600 text-center mb-8">French Doors for Frisco Indoor-Outdoor Living</h2>
+            <div className="max-w-3xl mx-auto">
+              <p className="text-gray-600 leading-relaxed">French doors are the natural choice when the Frisco homeowner wants the indoor-outdoor connection of a glass door system but with traditional charm rather than the contemporary look of a sliding panel system. They appear on patios, master suite garden access, dining-room-to-courtyard transitions, and the rear elevations of homes in Stonebriar, The Trails, Newman Village, and Eldorado. We install Andersen, Pella, Marvin, and JELD-WEN French doors with full insulating glass, multi-point locking, and properly tuned weatherstripping for Frisco summers.</p>
+            </div>
+          </div>
+        </section>
+
+        <section className="py-16 lg:py-24 bg-cream-bg">
+          <div className="max-w-[1400px] mx-auto px-6 lg:px-10">
+            <h2 className="text-2xl lg:text-4xl font-serif text-navy-600 text-center mb-8">Inswing vs Outswing Considerations</h2>
+            <div className="max-w-3xl mx-auto">
+              <p className="text-gray-600 leading-relaxed">French doors swing into the room (inswing) or out toward the patio (outswing). Inswing is more common in Frisco and gives a traditional feel, but the swing eats interior floor space — a 60-inch wide pair of inswing French doors needs 30 inches of clearance inside. Outswing preserves interior floor space and provides better security against forced entry, but it eats patio space and can interfere with patio furniture. We walk through both options at the estimate so you can see how the swing will affect your specific room.</p>
+            </div>
+          </div>
+        </section>
+
+        <section className="py-16 lg:py-24 bg-cream-bg">
+          <div className="max-w-[1400px] mx-auto px-6 lg:px-10">
+            <h2 className="text-2xl lg:text-4xl font-serif text-navy-600 text-center mb-8">Glass and Grid Options</h2>
+            <div className="max-w-3xl mx-auto">
+              <p className="text-gray-600 leading-relaxed">French doors are mostly glass — that is the point. Glass treatment options include clear, low-iron clear (for the cleanest blue-tint-free view), frosted, reeded, and seedy. Grid options include true divided lites (each pane physically separated), simulated divided lites (grids on both sides of insulating glass), grilles between glass (in the airspace), and no grids. For traditional Frisco facades we usually recommend simulated divided lites for the most authentic look. For modern facades, no grids or single-pane appearance reads cleanest.</p>
+            </div>
+          </div>
+        </section>
+
+      <section className="py-12 lg:py-16 bg-cream-100">
+        <div className="max-w-[1200px] mx-auto px-6 lg:px-10">
+          <div className="max-w-3xl mx-auto">
+            <p className="text-gray-600 leading-relaxed">Frisco French door installations are common on master bedroom garden access, breakfast nook to courtyard transitions, and home office to balcony connections. The traditional charm of a hinged French door pair fits brick traditional facades better than the contemporary look of a sliding panel system. We install Andersen, Pella, Marvin, and JELD-WEN French doors with multi-point locking, properly tuned weatherstripping, and tempered safety glass per code.</p>
+          </div>
+        </div>
+      </section>
+
+<section className="py-16 lg:py-24 bg-navy-600">
           <div className="max-w-[1400px] mx-auto px-6 lg:px-10 text-center">
             <h2 className="text-2xl lg:text-4xl font-serif text-white mb-6">
               Ready for Beautiful French Doors?

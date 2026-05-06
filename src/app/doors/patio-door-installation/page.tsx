@@ -185,7 +185,41 @@ export default function PatioDoorPage() {
         </section>
 
         {/* CTA */}
-        <section className="py-16 lg:py-24 bg-navy-600">
+                <section className="py-16 lg:py-24 bg-cream-bg">
+          <div className="max-w-[1400px] mx-auto px-6 lg:px-10">
+            <h2 className="text-2xl lg:text-4xl font-serif text-navy-600 text-center mb-8">Patio Door Configurations for Frisco Rear Elevations</h2>
+            <div className="max-w-3xl mx-auto">
+              <p className="text-gray-600 leading-relaxed">Patio doors come in three main configurations: sliding (panels glide horizontally), swinging French (hinged panels), and multi-slide systems (multiple panels that stack to one side). Sliding is the most common and most affordable. Swinging French is more traditional. Multi-slide is the premium option that opens 8 to 16 feet of glass for true indoor-outdoor connection — increasingly popular in Frisco custom homes in Newman Village, Stonebriar, and Edgestone at Legacy. We install all three configurations from Andersen, Pella, Marvin, and JELD-WEN.</p>
+            </div>
+          </div>
+        </section>
+
+        <section className="py-16 lg:py-24 bg-cream-bg">
+          <div className="max-w-[1400px] mx-auto px-6 lg:px-10">
+            <h2 className="text-2xl lg:text-4xl font-serif text-navy-600 text-center mb-8">Sliding vs Swinging Trade-Offs</h2>
+            <div className="max-w-3xl mx-auto">
+              <p className="text-gray-600 leading-relaxed">Sliding patio doors save floor space (no swing) and are easier to operate with hands full. Swinging French doors offer more traditional charm and seal tighter against air infiltration. Multi-slide systems are the highest-end option but require more careful installation and structural framing. For most Frisco homeowners, the choice comes down to aesthetic preference and how much wall space the rear elevation has — sliding fits into less wall area, swinging French needs more clearance for the swing path.</p>
+            </div>
+          </div>
+        </section>
+
+      <section className="py-12 lg:py-16 bg-cream-100">
+        <div className="max-w-[1200px] mx-auto px-6 lg:px-10">
+          <div className="max-w-3xl mx-auto">
+            <p className="text-gray-600 leading-relaxed">Patio door projects in Frisco run the full spectrum from basic 6-foot vinyl sliders to 16-foot multi-slide custom systems. The 6-foot vinyl slider is the right answer for most full-home replacements where the existing patio door has aged out. The multi-slide is the right answer for high-end custom builds in Newman Village, Edgestone at Legacy, and Stonebriar where the homeowner wants a true indoor-outdoor connection. We size and spec to fit the home and the homeowner&apos;s lifestyle.</p>
+          </div>
+        </div>
+      </section>
+
+      <section className="py-12 lg:py-16 bg-white">
+        <div className="max-w-[1200px] mx-auto px-6 lg:px-10">
+          <div className="max-w-3xl mx-auto">
+            <p className="text-gray-600 leading-relaxed">Patio door replacement is a single-day project for most Frisco homeowners. The original aluminum-frame slider comes out, the rough opening gets cleaned and properly flashed, and the new vinyl, fiberglass, or wood-clad slider drops in. We finish exterior trim and interior casing the same day and have you operational by evening. For multi-slide systems and oversized custom doors, the project may run a day and a half to two days.</p>
+          </div>
+        </div>
+      </section>
+
+<section className="py-16 lg:py-24 bg-navy-600">
           <div className="max-w-[1400px] mx-auto px-6 lg:px-10 text-center">
             <h2 className="text-2xl lg:text-4xl font-serif text-white mb-6">
               Ready for a New Patio Door?

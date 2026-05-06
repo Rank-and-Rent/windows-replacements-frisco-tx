@@ -8,98 +8,102 @@ import CtaBanner from '@/components/cta-banner'
 import ContactSection from '@/components/contact-section'
 
 export const metadata: Metadata = {
-  title: 'Vinyl Windows Replacement Garland TX | Low Maintenance, Energy Efficient',
-  description: 'Premium vinyl replacement windows in Garland, TX. Low-maintenance, energy-efficient, and durable. Andersen, Pella & JELD-WEN vinyl options. Everything priced including installation. Call 817-592-8870.',
-  keywords: 'vinyl windows Garland TX, vinyl replacement windows, low maintenance windows, energy efficient vinyl windows, Andersen vinyl windows, Pella vinyl windows, JELD-WEN vinyl windows',
+  title: 'Vinyl Windows Replacement Frisco TX | Low Maintenance, Energy Efficient',
+  description: 'Premium vinyl replacement windows in Frisco, TX. Low-maintenance, energy-efficient, and built for Texas heat and storm season. Andersen, Pella, JELD-WEN, and Marvin vinyl options.',
+  keywords: 'vinyl windows Frisco TX, vinyl replacement windows, low maintenance windows, energy efficient vinyl windows',
 }
 
 export default function VinylWindowsPage() {
   const content = {
-    title: 'Vinyl Windows Replacement in Garland, TX',
-    subtitle: 'Low-Maintenance Excellence with Superior Energy Performance',
+    title: 'Vinyl Windows in Frisco, TX',
+    subtitle: 'Low-Maintenance, Energy-Efficient Replacement Windows',
     heroImage: '/window-types/vinyl-frisco-tx.jpg',
 
-    intro: "Garland homeowners are embracing vinyl windows for their perfect blend of modern efficiency and Texas durability. Located near near downtown and home to major corporations, Garland demands windows that perform reliably in a busy, fast-paced environment. Vinyl windows deliver exceptional energy efficiency, minimal maintenance, and lasting beauty that suits Garland&apos;s mix of established neighborhoods and growing communities. Whether in Rowlett' upscale developments or Garland&apos;s family-friendly suburbs, vinyl windows provide the quality and value that discerning Garland homeowners expect.",
+    intro: "Vinyl is the most popular replacement-window material in Frisco, and for good reason. Multi-chambered fusion-welded frames deliver excellent thermal performance in our hot, humid summers and short cold snaps. The non-porous surface shrugs off North Texas heat, UV, and the occasional dust storm without needing paint or stain. And the price-to-performance ratio is hard to beat — particularly for the master-planned neighborhoods of Phillips Creek Ranch, Lone Star Ranch, The Trails, and Heritage Lakes where production-builder windows are now hitting the 15- to 25-year replacement window. As an authorized Andersen, Pella, JELD-WEN, and Marvin dealer in Frisco, we install vinyl windows from each brand based on what fits your home, your facade, and your budget.",
 
     sections: [
       {
-        heading: 'Airport Proximity and Sound Performance',
-        content: "Garland\&apos;s proximity to near downtown creates unique challenges that vinyl windows address with superior sound dampening properties. The material\&apos;s density and multi-pane construction significantly reduce aircraft noise compared to single-pane alternatives. Vinyl windows with laminated glass options can achieve sound transmission class (STC) ratings of 35-40, effectively minimizing airport noise while maintaining energy efficiency. For Garland homeowners in busy streets or near busy roads, vinyl windows provide the acoustic comfort needed for peaceful living in a transportation hub. This sound performance makes vinyl windows particularly valuable in Garland\&apos;s urban neighborhoods.",
+        heading: 'How Vinyl Holds Up in Frisco Heat and Storm Season',
+        content: "Frisco summers run hot, with afternoon highs above 100 degrees from June through early September. UV intensity is high, humidity is real, and the temperature swing between a 105 degree afternoon and a 78 degree air-conditioned interior puts thermal stress on every window in the home. Quality vinyl handles all of it. Modern formulations include UV inhibitors that prevent yellowing and chalking even after fifteen Texas summers. Multi-chambered frame design provides built-in thermal breaks that keep the interior frame cool even when the exterior frame sits in direct afternoon sun. Fusion-welded corners hold up to wind-driven rain better than mechanically joined frames, which matters during spring storm season when Frisco regularly sees pea-to-quarter-size hail and sustained winds above 40 mph.",
       },
       {
-        heading: 'Low Maintenance for Busy Garland Professionals',
-        content: "Garland\&apos;s business environment and proximity to major business centers means residents lead demanding schedules. Vinyl windows respect this lifestyle by requiring virtually no maintenance, unlike wood windows that demand regular refinishing or aluminum windows that need periodic painting. The smooth, non-porous vinyl surface resists Garland\&apos;s urban pollutants and occasional dust storms, staying looking new with minimal effort. This makes vinyl windows ideal for Garland professionals who want beautiful, efficient windows without the time commitment of traditional materials. Focus on career and community rather than home maintenance with vinyl windows that maintain their appearance indefinitely.",
+        heading: 'Energy Performance That Pays Off on Your Coserv or Oncor Bill',
+        content: "Vinyl frames are inherent thermal insulators — the chambered hollow construction does not conduct heat the way aluminum does, and the wall thickness is enough to stop most conductive heat transfer. Pair that with a soft-coat triple-silver Low-E glass package, argon fill, and warm-edge spacers, and you have a window that delivers Energy Star ratings well below 0.30 U-factor and below 0.25 solar heat gain coefficient. For a Frisco two-story with 22 windows facing a mix of east, south, and west, that translates to a 25 to 30 percent reduction in summer cooling load — typically a few hundred dollars a year off your Coserv or Oncor bill, plus a noticeably more comfortable upstairs. Most Frisco vinyl projects pay back the energy delta within seven to ten years.",
       },
       {
-        heading: 'Energy Efficiency in North Texas Climate',
-        content: "Garland\&apos;s North Texas location brings hot summers and cool winters that vinyl windows handle with exceptional efficiency. The multi-chambered construction creates superior thermal barriers that reduce heating and cooling costs by 25-35%. Low-E coatings and argon gas fills optimize performance for Garland\&apos;s climate, keeping homes comfortable during summer heat waves and winter chills. Many vinyl window models qualify for North Texas energy rebates, making them an economical choice for Garland homeowners. The material\&apos;s stability ensures consistent performance year-round, unlike wood that can warp with humidity changes.",
+        heading: 'Color, Finish, and HOA Coordination',
+        content: "Vinyl is no longer just white. Premium lines from Andersen, Pella, JELD-WEN, and Marvin offer dark exterior options including bronze, black, and earth tones that complement the brick-and-stone facades found across Stonebriar, Newman Village, and Hollyhock. We bring physical finish samples to the in-home estimate so you can hold each option against your existing brick or stucco rather than guessing from product photography. For HOA-governed neighborhoods — Stonebriar, Phillips Creek Ranch, The Trails, Plantation Resort, and most others — we pull the architectural review board palette and submit the application paperwork as part of the project. The board approval process generally takes one to three weeks and we manage the timeline so it does not delay install.",
       },
       {
-        heading: 'Contemporary and Traditional Styling',
-        content: "Garland\&apos;s diverse architecture ranges from the modern glass-and-steel aesthetic of Rowlett to traditional neighborhoods with established homes. Vinyl windows adapt beautifully to both styles with versatile design options. For contemporary Garland developments, vinyl offers sleek lines and large glass areas that maximize natural light. In traditional neighborhoods, wood-grain finishes blend seamlessly with existing architecture. The material accepts unlimited color options, allowing customization for Garland\&apos;s varied architectural preferences. From the urban sophistication of downtown Garland to the suburban appeal of family neighborhoods, vinyl windows provide design flexibility that complements any Garland home style.",
+        heading: 'Quiet Interiors for Two-Story Homes Near Major Corridors',
+        content: "Frisco homes near the Dallas North Tollway, Sam Rayburn Tollway, Preston Road, or Toyota Stadium events frequently ask about sound reduction. Standard dual-pane vinyl insulating glass sits at roughly STC 28. Add a laminated outer pane in asymmetric thickness and the rating climbs to STC 34 to 38 — a difference an average person can clearly hear in a master bedroom or home office. We add laminated glass selectively on the elevations that need it rather than blanket-pricing the whole home. For Frisco homes near schools, sports facilities, or rail lines, the upgrade is one of the highest-value glass package decisions homeowners make.",
       },
       {
-        heading: 'Corporate Neighbor Quality Standards',
-        content: "Garland\&apos;s business presence and proximity to major business districts influence local quality expectations. Vinyl windows from Andersen, Pella, and JELD-WEN meet these high standards with comprehensive warranties and proven performance. These established brands serve commercial and residential clients across Texas, bringing professional-grade quality to Garland homeowners. The windows\' durability and low maintenance align with the quality standards of Garland\&apos;s business community. Investing in premium vinyl windows reflects the same commitment to excellence that drives Garland\&apos;s economic success.",
+        heading: 'Easy Cleaning and Long Service Life',
+        content: "Tilt-in sashes are standard on every double-hung and most single-hung vinyl windows we install. From inside the home you unlock the latches, tilt the sash inward, and clean the exterior glass without ladders or window-cleaning services. For Frisco two-stories — most production-built homes in Lone Star Ranch and The Trails — that ease is a major quality-of-life upgrade over the original aluminum or builder-grade vinyl. Vinyl frames also do not need the periodic sanding, painting, and resealing that wood frames demand. The total time investment over the next 25 years is essentially zero. Manufacturer warranties on premium vinyl lines run 20 to 30 years on frames and 10 to 20 years on the insulating glass unit, with most claims handled directly by the manufacturer if you registered the warranty at install.",
       },
       {
-        heading: 'Community and Environmental Responsibility',
-        content: "Garland\&apos;s commitment to environmental stewardship aligns perfectly with vinyl windows\' sustainable qualities. The material is 100% recyclable, and many manufacturers inbusiness recycled content in their formulations. Superior energy efficiency reduces carbon emissions from heating and cooling, contributing to Garland\&apos;s environmental goals. Long service life means fewer replacements over time, reducing material consumption. Vinyl windows support Garland\&apos;s growing green initiatives while providing homeowners with comfortable, efficient living spaces. Choose vinyl windows to align personal comfort with community environmental responsibility.",
+        heading: 'Best Brands for Frisco Vinyl Replacement',
+        content: "We are an authorized dealer for Andersen, Pella, JELD-WEN, and Marvin and install vinyl from each of them. Andersen 100 Series uses Fibrex composite (technically a vinyl-wood blend) with industry-leading thermal performance and a slim profile that suits modern Frisco facades. Pella 250 Series and Lifestyle vinyl deliver premium aesthetics with the EnduraClad exterior finish system and broad color selection. JELD-WEN Premium Vinyl is the strongest budget-to-quality value play, with fusion-welded multi-chambered construction and tilt-in sashes standard. Marvin Elements vinyl bridges the gap between vinyl pricing and Marvin's premium reputation. We pick the brand that matches your home and your priorities rather than pushing one line on every customer.",
       },
     ],
 
     features: [
-      'Superior sound dampening for airport proximity',
-      'Multi-chambered frames for superior insulation',
-      'Never needs painting or staining',
-      'Resists urban pollutants and dust',
-      '20-25 year manufacturer warranties',
-      'Available in all window styles and sizes',
-      'ENERGY STAR certified models available',
-      'UV-resistant formulations for Texas sun',
-      'Smooth, easy-to-clean surfaces',
-      'Environmentally friendly and recyclable',
+      'Multi-chambered fusion-welded frames for superior insulation',
+      'Tilt-in sashes for easy interior cleaning',
+      'Soft-coat triple-silver Low-E glass with argon fill standard',
+      'Dark exterior color options on premium lines',
+      '20-30 year manufacturer warranties on frames',
+      'Energy Star certified configurations available',
+      'UV-stable formulations for Texas sun',
+      'Laminated glass options for sound reduction',
+      'Compatible with simulated divided lite grids',
+      'Recyclable end of life',
     ],
 
     brands: [
       {
-        name: 'Andersen 200 Series Vinyl',
-        description: 'Andersen\&apos;s entry-level vinyl line offers exceptional value with their signature Fibrex composite construction. These windows feature multi-chambered frames, fusion-welded corners, and advanced weatherstripping for superior performance in Garland\&apos;s climate.',
+        name: 'Andersen 100 Series (Fibrex)',
+        description: 'Andersen\'s composite-vinyl Fibrex line is twice as strong as standard vinyl and 38 percent stronger than fiberglass. Slim profiles with maximum glass area suit modern Frisco facades, and the dark exterior options carry a 20-year color warranty.',
       },
       {
-        name: 'Pella 150 Series Vinyl',
-        description: 'Pella\&apos;s vinyl windows combine affordability with premium features like their exclusive EnduraClad finish and multi-pane insulated glass. The smooth vinyl surfaces resist fading and staining while providing excellent energy efficiency.',
+        name: 'Pella 250 Series and Lifestyle Vinyl',
+        description: 'Pella\'s premium vinyl lines pair fusion-welded chambered frames with the proprietary EnduraClad exterior finish. Broad palette of stock and custom colors, integrated blind options, and excellent thermal performance.',
       },
       {
         name: 'JELD-WEN Premium Vinyl',
-        description: 'JELD-WEN\&apos;s Premium Vinyl collection delivers outstanding performance with fusion-welded frames and advanced glass packages. Their AuraLast wood-grain finish provides authentic wood appearance with vinyl\&apos;s low-maintenance benefits.',
+        description: 'The best value-tier vinyl on the market. Fusion-welded multi-chambered frames, tilt-in sashes standard, and Low-E366 triple-silver glass available. The Hartford XT line is our most-installed JELD-WEN configuration in Frisco.',
+      },
+      {
+        name: 'Marvin Elements Vinyl',
+        description: 'Marvin\'s vinyl line brings the brand\'s reputation for tight tolerances and quality control to a competitive price point. Crisp profiles, durable hardware, and excellent factory finishing on dark exterior options.',
       },
     ],
 
     faq: [
       {
-        question: 'Do vinyl windows reduce airport noise in Garland?',
-        answer: 'Yes, vinyl windows with laminated glass options provide superior sound dampening that significantly reduces aircraft noise. They achieve STC ratings of 35-40, making them ideal for Garland homes near near downtown.',
+        question: 'How long do vinyl windows last in Frisco?',
+        answer: 'Quality vinyl windows from Andersen, Pella, JELD-WEN, or Marvin last 25 to 30 years in our climate when properly installed and registered. The frame warranty on most premium lines is 20 to 30 years, and the insulating glass unit warranty is 10 to 20 years.',
       },
       {
-        question: 'Are vinyl windows suitable for Garland\&apos;s business neighborhoods?',
-        answer: 'Absolutely. Vinyl windows from premium brands like Andersen, Pella, and JELD-WEN meet the quality standards expected in Garland\&apos;s business environment, providing professional-grade performance for discerning homeowners.',
+        question: 'Will dark vinyl exterior frames warp in Texas sun?',
+        answer: 'Premium dark vinyl frames use heat-resistant formulations specifically engineered for direct sun exposure. Andersen\'s 100 Series Fibrex, Pella\'s EnduraClad, and Marvin\'s factory-finish darks all carry the warranty in Frisco\'s climate. Budget vinyl from no-name manufacturers can warp — which is why we only install premium-brand product.',
       },
       {
-        question: 'How do vinyl windows handle Garland\&apos;s urban environment?',
-        answer: 'Vinyl windows excel in urban settings with their smooth, non-porous surfaces that resist pollutants, dust, and environmental contaminants. They maintain their appearance longer in Garland\&apos;s busy environment.',
+        question: 'How much do vinyl windows cost installed in Frisco?',
+        answer: 'Pricing varies by brand, size, and glass package. Standard double-hung vinyl windows installed start around $850 for smaller bedroom units and run to about $1,800 for larger living-room or kitchen units. Custom shapes, oversized openings, and premium glass packages move the price up. Every quote is line-item with installation included.',
       },
       {
-        question: 'Do vinyl windows work well in Rowlett developments?',
-        answer: 'Yes, vinyl windows complement Rowlett\' contemporary architecture perfectly with their sleek lines, large glass areas, and modern styling options that enhance the upscale aesthetic.',
+        question: 'Can vinyl windows match the look of wood?',
+        answer: 'Yes. Premium vinyl lines now offer wood-grain interior finishes and traditional sash proportions that read as wood from the street. For homes where the historic look matters more than ease of maintenance, we still recommend wood-clad — but vinyl has closed most of the aesthetic gap.',
       },
       {
-        question: 'Are vinyl windows environmentally friendly?',
-        answer: 'Yes, modern vinyl windows are environmentally responsible. The material is 100% recyclable, many contain recycled content, and their superior energy efficiency reduces carbon emissions from heating and cooling.',
+        question: 'Do you handle HOA approval for Stonebriar, Phillips Creek Ranch, or other Frisco communities?',
+        answer: 'Yes. We pull architectural review board palettes, fill out the spec sheet, and submit the application paperwork as part of the project. There is no extra fee for HOA coordination.',
       },
       {
-        question: 'How much do vinyl windows cost with installation?',
-        answer: 'Vinyl window costs with installation vary by style and features. Everything is priced including installation. Pricing starts at around $850 for small vinyl windows and goes up to $3500 per window depending on frame material. We do not sell windows without installation.',
+        question: 'Are vinyl windows recyclable?',
+        answer: 'Yes. Modern vinyl is 100 percent recyclable, and many manufacturers (including Andersen and Pella) include recycled content in current formulations. End-of-life recycling programs are available through the manufacturer and several DFW-area waste services.',
       },
     ],
   }
@@ -114,13 +118,13 @@ export default function VinylWindowsPage() {
             <ol className="flex items-center space-x-2 text-sm text-navy-500">
               <li><Link href="/" className="hover:text-navy-700">Home</Link></li>
               <li>/</li>
-              <li><Link href="/materials" className="hover:text-navy-700">Materials</Link></li>
+              <li><Link href="/windows" className="hover:text-navy-700">Windows</Link></li>
               <li>/</li>
               <li className="text-navy-700 font-medium">Vinyl Windows</li>
             </ol>
           </div>
         </nav>
-        
+
         <ServiceHero
           title={content.title}
           subtitle={content.subtitle}

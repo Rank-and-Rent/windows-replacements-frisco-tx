@@ -19,12 +19,12 @@ export default function WoodCladWindowsPage() {
     subtitle: 'Authentic Wood Interior Beauty with Weather-Resistant Exterior Protection',
     heroImage: '/window-types/wood-clad-frisco-tx.jpg',
 
-    intro: "Frisco homeowners seeking the ultimate combination of traditional wood beauty and modern durability discover that wood clad windows provide the perfect balance. With authentic wood interiors that bring natural warmth to your home and weather-resistant exteriors that withstand Frisco&apos;s challenging climate, wood clad windows represent the gold standard in window performance and aesthetics.",
+    intro: "Frisco homeowners seeking the ultimate combination of traditional wood beauty and modern durability discover that wood clad windows provide the perfect balance. With authentic wood interiors that bring natural warmth to your home and weather-resistant exteriors that withstand Frisco's challenging climate, wood clad windows represent the gold standard in window performance and aesthetics.",
 
     sections: [
       {
         heading: 'Best of Both Worlds: Wood Inside, Durability Outside',
-        content: "Wood clad windows feature genuine wood interiors that provide authentic natural beauty, warmth, and character. The interior wood can be stained or painted to match any décor, from traditional stains to contemporary colors. The exterior cladding—typically aluminum or vinyl—protects the wood from Frisco\&apos;s weather extremes, eliminating the maintenance burdens of traditional wood windows while preserving interior beauty.",
+        content: "Wood clad windows feature genuine wood interiors that provide authentic natural beauty, warmth, and character. The interior wood can be stained or painted to match any décor, from traditional stains to contemporary colors. The exterior cladding—typically aluminum or vinyl—protects the wood from Frisco's weather extremes, eliminating the maintenance burdens of traditional wood windows while preserving interior beauty.",
       },
       {
         heading: 'Weather Protection for Frisco Climate',
@@ -32,7 +32,7 @@ export default function WoodCladWindowsPage() {
       },
       {
         heading: 'Superior Energy Efficiency',
-        content: "Wood\&apos;s natural insulating properties combined with modern cladding technology create exceptional thermal performance. Wood clad windows typically achieve U-factors of 0.25-0.30, significantly better than aluminum and comparable to premium vinyl. Frisco homeowners see 30-40% reductions in energy costs compared to older windows, with the added benefit of wood\&apos;s thermal mass that moderates temperature swings.",
+        content: "Wood's natural insulating properties combined with modern cladding technology create exceptional thermal performance. Wood clad windows typically achieve U-factors of 0.25-0.30, significantly better than aluminum and comparable to premium vinyl. Frisco homeowners see 30-40% reductions in energy costs compared to older windows, with the added benefit of wood's thermal mass that moderates temperature swings.",
       },
       {
         heading: 'Design Flexibility and Customization',
@@ -44,7 +44,7 @@ export default function WoodCladWindowsPage() {
       },
       {
         heading: 'Investment in Home Value',
-        content: "Wood clad windows significantly enhance home value and appeal in Frisco\&apos;s luxury real estate market. The natural wood interior creates warmth and character that buyers value, while the low-maintenance exterior appeals to practical considerations. Wood clad windows are often cited as a key selling feature in premium Frisco properties.",
+        content: "Wood clad windows significantly enhance home value and appeal in Frisco's luxury real estate market. The natural wood interior creates warmth and character that buyers value, while the low-maintenance exterior appeals to practical considerations. Wood clad windows are often cited as a key selling feature in premium Frisco properties.",
       },
     ],
 
@@ -68,11 +68,11 @@ export default function WoodCladWindowsPage() {
       },
       {
         name: 'Pella Architect Series Wood Clad',
-        description: 'Pella\&apos;s wood clad windows combine authentic wood beauty with their proprietary EnduraClad protection system. The result is windows that perform beautifully in Frisco\&apos;s challenging climate while maintaining traditional appeal.',
+        description: 'Pella\'s wood clad windows combine authentic wood beauty with their proprietary EnduraClad protection system. The result is windows that perform beautifully in Frisco\'s challenging climate while maintaining traditional appeal.',
       },
       {
         name: 'JELD-WEN Siteline Wood Clad',
-        description: 'JELD-WEN\&apos;s Siteline collection offers premium wood clad windows with exceptional customization options. Their AuraLast wood protection system ensures longevity even in demanding Texas climate conditions.',
+        description: 'JELD-WEN\'s Siteline collection offers premium wood clad windows with exceptional customization options. Their AuraLast wood protection system ensures longevity even in demanding Texas climate conditions.',
       },
     ],
 
@@ -87,7 +87,7 @@ export default function WoodCladWindowsPage() {
       },
       {
         question: 'Are wood clad windows energy efficient?',
-        answer: 'Yes, wood clad windows are highly energy efficient. Wood\&apos;s natural insulating properties combined with modern glass technology can reduce energy costs by 30-40% in Frisco\&apos;s climate.',
+        answer: 'Yes, wood clad windows are highly energy efficient. Wood\'s natural insulating properties combined with modern glass technology can reduce energy costs by 30-40% in Frisco\'s climate.',
       },
       {
         question: 'How long do wood clad windows last?',
@@ -95,7 +95,7 @@ export default function WoodCladWindowsPage() {
       },
       {
         question: 'Can I paint the interior wood?',
-        answer: 'Absolutely. Wood clad window interiors accept any stain or paint, allowing perfect color matching with your Frisco home\&apos;s interior design. Many homeowners change interior finishes over time.',
+        answer: 'Absolutely. Wood clad window interiors accept any stain or paint, allowing perfect color matching with your Frisco home\'s interior design. Many homeowners change interior finishes over time.',
       },
       {
         question: 'How much do wood clad windows cost with installation?',
@@ -127,10 +127,35 @@ export default function WoodCladWindowsPage() {
           image={content.heroImage}
         />
         <ServiceContent content={content} />
-        <CtaBanner />
+              <section className="py-20 lg:py-28 bg-cream-100">
+        <div className="max-w-[1200px] mx-auto px-6 lg:px-10">
+          <h2 className="font-serif text-3xl lg:text-5xl text-navy-600 text-center mb-12">Why Wood-Clad Is the Premium Choice for Frisco Custom Homes</h2>
+          <div className="max-w-3xl mx-auto">
+            <p className="text-gray-600 leading-relaxed">Wood-clad windows pair the warmth of authentic wood interiors with the low-maintenance protection of aluminum, vinyl, or Fibrex on the exterior. For Frisco custom homes in Newman Village, Edgestone at Legacy, Stonebriar, and Hollyhock, the look is hard to match with any synthetic alternative. The wood interior accepts stain or paint to match interior trim and millwork. The exterior cladding handles Texas UV, rain, and hail without the maintenance demands of all-wood construction. Premium wood-clad lines from Andersen, Pella, Marvin, and JELD-WEN deliver 30+ year service life with proper installation.</p>
+          </div>
+        </div>
+      </section>
+
+<CtaBanner />
         <ContactSection />
       </main>
-      <Footer />
+                      <section className="py-12 lg:py-16 bg-white">
+          <div className="max-w-[1200px] mx-auto px-6 lg:px-10">
+            <div className="max-w-3xl mx-auto">
+              <p className="text-gray-600 leading-relaxed">Wood-clad on the Pella Reserve and Marvin Signature lines is the upper-tier option for Frisco custom builds. Both lines accept full custom dimensioning, multiple wood species, and dark exterior finishes that hold their color through Texas summers. Pricing runs $1,800 to $4,500 per opening installed depending on size and configuration. We provide line-item written quotes that hold for 30 days.</p>
+            </div>
+          </div>
+        </section>
+
+<section className="py-12 lg:py-16 bg-cream-100">
+          <div className="max-w-[1200px] mx-auto px-6 lg:px-10">
+            <div className="max-w-3xl mx-auto">
+              <p className="text-gray-600 leading-relaxed">For Frisco homeowners who want the warmth of authentic wood interiors without the maintenance demands of pure wood, wood-clad is the answer. Andersen 400 Series, A-Series, Pella Reserve, Marvin Signature, and JELD-WEN Siteline all deliver in this category. We bring physical wood samples to every wood-clad estimate so you can see exactly how each species reads in your home&apos;s lighting before committing.</p>
+            </div>
+          </div>
+        </section>
+
+<Footer />
     </>
   )
 }

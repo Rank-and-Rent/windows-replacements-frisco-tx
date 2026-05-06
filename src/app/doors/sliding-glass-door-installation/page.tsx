@@ -185,7 +185,49 @@ export default function SlidingGlassDoorPage() {
         </section>
 
         {/* CTA */}
-        <section className="py-16 lg:py-24 bg-navy-600">
+                <section className="py-16 lg:py-24 bg-cream-bg">
+          <div className="max-w-[1400px] mx-auto px-6 lg:px-10">
+            <h2 className="text-2xl lg:text-4xl font-serif text-navy-600 text-center mb-8">Replacing Old Aluminum Sliders in Frisco Production Homes</h2>
+            <div className="max-w-3xl mx-auto">
+              <p className="text-gray-600 leading-relaxed">The original sliding patio doors on 1990s and early 2000s Frisco production homes — particularly The Trails, Heritage Lakes, and Plantation Resort — were aluminum-framed with single-pane glass and basic rolling hardware. Twenty-plus years later, those doors leak air, conduct summer heat, and often will not lock properly. The rollers wear out, the weatherstripping turns brittle, and the security latch becomes unreliable. Replacement is one of the highest-impact upgrades these homes can receive — typical Frisco homeowners report 30 to 40 percent reduction in cooling load in the affected room and noticeably better security after install.</p>
+            </div>
+          </div>
+        </section>
+
+        <section className="py-16 lg:py-24 bg-cream-bg">
+          <div className="max-w-[1400px] mx-auto px-6 lg:px-10">
+            <h2 className="text-2xl lg:text-4xl font-serif text-navy-600 text-center mb-8">Glass Package Recommendations</h2>
+            <div className="max-w-3xl mx-auto">
+              <p className="text-gray-600 leading-relaxed">Sliding patio doors get the same glass package decisions as windows — and the same Frisco-specific recommendations. Soft-coat triple-silver Low-E with argon fill is the default. For west-facing patio doors, we add laminated glass for impact resistance and UV blocking. The laminated upgrade typically pays for itself the first time a hailstorm rolls through. We also recommend tempered glass on both panes per code, which is standard on all premium product lines.</p>
+            </div>
+          </div>
+        </section>
+
+      <section className="py-12 lg:py-16 bg-cream-100">
+        <div className="max-w-[1200px] mx-auto px-6 lg:px-10">
+          <div className="max-w-3xl mx-auto">
+            <p className="text-gray-600 leading-relaxed">Sliding glass door replacement in Frisco is the highest-volume door project we do — most production homes built between 1990 and 2015 had a sliding patio door installed as standard equipment, and twenty-plus years later those doors leak air, conduct summer heat, and often will not lock properly. The replacement runs $2,500 to $7,000 depending on size, brand, and glass package. Most installs wrap in a single day with a two-person crew.</p>
+          </div>
+        </div>
+      </section>
+
+      <section className="py-12 lg:py-16 bg-white">
+        <div className="max-w-[1200px] mx-auto px-6 lg:px-10">
+          <div className="max-w-3xl mx-auto">
+            <p className="text-gray-600 leading-relaxed">Sliding glass door projects are often the highest-value single-line item in a Frisco home replacement. The original aluminum slider that came with a 1995 production home was the cheapest part of the build envelope. Twenty-plus years later, that door is the worst air leak and worst thermal performer in the home. Replacing it with a fusion-welded vinyl or fiberglass slider with triple-silver Low-E argon glass typically cuts cooling load on that elevation by 30 to 40 percent.</p>
+          </div>
+        </div>
+      </section>
+
+      <section className="py-12 lg:py-16 bg-cream-100">
+        <div className="max-w-[1200px] mx-auto px-6 lg:px-10">
+          <div className="max-w-3xl mx-auto">
+            <p className="text-gray-600 leading-relaxed">Slider replacement projects pair well with full-home window replacement projects in Frisco. The original aluminum slider, the original aluminum windows, and the original entry door usually came from the same builder package and aged out at roughly the same time. Replacing them together delivers a coordinated facade refresh and a coordinated thermal performance upgrade. We provide line-item written quotes for combined window-and-door projects with everything detailed transparently.</p>
+          </div>
+        </div>
+      </section>
+
+<section className="py-16 lg:py-24 bg-navy-600">
           <div className="max-w-[1400px] mx-auto px-6 lg:px-10 text-center">
             <h2 className="text-2xl lg:text-4xl font-serif text-white mb-6">
               Ready for New Sliding Glass Doors?

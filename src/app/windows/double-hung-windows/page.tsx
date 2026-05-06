@@ -130,7 +130,58 @@ export default function DoubleHungWindowsPage() {
         </div>
       </section>
 
-      <section className="py-20 lg:py-24 bg-navy-600">
+      <section className="py-20 lg:py-28 bg-cream-100">
+        <div className="max-w-[1200px] mx-auto px-6 lg:px-10">
+          <h2 className="font-serif text-3xl lg:text-5xl text-navy-600 text-center mb-12">Why Double-Hung Dominates Frisco Replacement Projects</h2>
+          <div className="max-w-3xl mx-auto">
+            <p className="text-gray-600 leading-relaxed mb-4">
+              Double-hung is the most-installed window style in Frisco. Almost every brick traditional we replace in The Trails, Phillips Creek Ranch, Heritage Lakes, Plantation Resort, Stonebriar, and Newman Village uses double-hungs as the dominant style on bedroom and primary-living openings. Two reasons: the tilt-in sashes make cleaning second-story exterior glass safe, and the traditional six-over-six or one-over-one sash proportions read correctly on the brick-and-stone facades that dominate Frisco architecture.
+            </p>
+            <p className="text-gray-600 leading-relaxed mb-4">
+              For master bedrooms, top-only operation is a meaningful comfort feature. You can vent the room from above for cooling without exposing the lower sash to a curious pet or toddler. For two-story foyers and stair landings, the cleaning advantage is real — most of those upper windows have not been cleaned since installation because reaching them from outside requires a lift or a ladder. Tilt-in sashes solve that problem permanently.
+            </p>
+            <p className="text-gray-600 leading-relaxed">
+              The energy performance gap between modern double-hung and casement is smaller than it used to be. Premium double-hung from Andersen 400 Series, Pella Lifestyle, Marvin Elevate, and JELD-WEN Premium Vinyl all hit U-factor 0.28 to 0.30 with triple-silver Low-E and argon — close enough to casement that for most Frisco openings, the visual fit and cleaning advantage of double-hung wins. We will walk you through the trade-offs at the estimate.
+            </p>
+          </div>
+        </div>
+      </section>
+
+            <section className="py-20 lg:py-28 bg-cream-100">
+        <div className="max-w-[1200px] mx-auto px-6 lg:px-10">
+          <h2 className="font-serif text-3xl lg:text-5xl text-navy-600 text-center mb-12">Cost and Lead Time for Frisco Projects</h2>
+          <div className="max-w-3xl mx-auto">
+            <p className="text-gray-600 leading-relaxed">Standard double-hung vinyl windows installed in Frisco run from $850 to $1,800 per opening depending on size, brand, and glass package. Premium wood-clad like Andersen 400 Series or Marvin Elevate fiberglass typically runs $1,400 to $2,800. Custom dark exterior finishes, simulated divided lite grids, and oversized openings move pricing up. Lead times are four to six weeks for standard configurations and six to ten weeks for custom finishes. We provide line-item written quotes that hold for 30 days.</p>
+          </div>
+        </div>
+      </section>
+
+      <section className="py-20 lg:py-28 bg-cream-100">
+        <div className="max-w-[1200px] mx-auto px-6 lg:px-10">
+          <h2 className="font-serif text-3xl lg:text-5xl text-navy-600 text-center mb-12">Architectural Fit Across Frisco Neighborhoods</h2>
+          <div className="max-w-3xl mx-auto">
+            <p className="text-gray-600 leading-relaxed">Double-hung is the consistent default across Frisco master-planned communities. The brick traditionals of The Trails, Heritage Lakes, and Plantation Resort use one-over-one and six-over-six grid patterns. The newer transitional builds in Phillips Creek Ranch and Lone Star Ranch use simpler one-over-one with cleaner sash proportions. Stonebriar and Newman Village custom homes frequently use eight-over-eight or twelve-over-twelve grids on the front elevation for traditional character. We bring full grid samples to the estimate so you can see exactly how each option will read on your facade.</p>
+          </div>
+        </div>
+      </section>
+
+      <section className="py-12 lg:py-16 bg-cream-100">
+        <div className="max-w-[1200px] mx-auto px-6 lg:px-10">
+          <div className="max-w-3xl mx-auto">
+            <p className="text-gray-600 leading-relaxed">For Frisco production-builder homes that need a balance of traditional aesthetics and modern performance, double-hung is the workhorse. Most full-home Frisco replacements use double-hung as the dominant style with selective casement, picture, and awning units mixed in for specific room needs. We coordinate the entire mix to read as a cohesive facade refresh rather than a piecemeal upgrade.</p>
+          </div>
+        </div>
+      </section>
+
+      <section className="py-12 lg:py-16 bg-white">
+        <div className="max-w-[1200px] mx-auto px-6 lg:px-10">
+          <div className="max-w-3xl mx-auto">
+            <p className="text-gray-600 leading-relaxed">Hardware variety on double-hungs is the widest of any window style. Sash locks come in cam-action, sweep, and integrated automatic configurations. Lifts, finger pulls, and integrated sash handles are all options. We coordinate hardware finish with door handles and interior lighting fixtures so the home reads as a coordinated design rather than a parts-bin assembly. For Frisco custom homes where this attention matters, the small touches add up to a noticeably higher-quality result.</p>
+          </div>
+        </div>
+      </section>
+
+<section className="py-20 lg:py-24 bg-navy-600">
         <div className="max-w-[1000px] mx-auto px-6 lg:px-10 text-center">
           <h2 className="font-serif text-3xl lg:text-5xl text-white mb-6">Install Double-Hung Windows in Your Frisco Home</h2>
           <p className="text-lg text-white/90 mb-10">

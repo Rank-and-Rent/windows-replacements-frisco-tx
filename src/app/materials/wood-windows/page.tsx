@@ -155,7 +155,67 @@ export default function WoodWindowsPage() {
         </section>
 
         {/* CTA */}
-        <section className="py-16 lg:py-24 bg-navy-600">
+                <section className="py-16 lg:py-24 bg-cream-bg">
+          <div className="max-w-[1400px] mx-auto px-6 lg:px-10">
+            <h2 className="text-2xl lg:text-4xl font-serif text-navy-600 text-center mb-8">Pure Wood Windows in Frisco</h2>
+            <div className="max-w-3xl mx-auto">
+              <p className="text-gray-600 leading-relaxed">Pure wood windows (no exterior cladding) are right for two specific Frisco scenarios: historic preservation and certain very-high-end custom builds where the architectural intent demands wood inside and out. Historic preservation projects are rare in Frisco proper — the city is too new — but adjacent McKinney and Plano have neighborhoods where the homeowner association or HPC requires wood. For everyone else in Frisco, wood-clad delivers the same interior aesthetic with far less exterior maintenance. We will walk through the trade-off at the estimate.</p>
+            </div>
+          </div>
+        </section>
+
+        <section className="py-16 lg:py-24 bg-cream-bg">
+          <div className="max-w-[1400px] mx-auto px-6 lg:px-10">
+            <h2 className="text-2xl lg:text-4xl font-serif text-navy-600 text-center mb-8">Wood Window Maintenance Reality</h2>
+            <div className="max-w-3xl mx-auto">
+              <p className="text-gray-600 leading-relaxed">Pure wood windows require periodic exterior repainting or restaining — typically every 4 to 6 years in Frisco&apos;s climate to prevent UV damage and moisture infiltration. The interval shortens to every 3 to 4 years on west-facing elevations. Skip the maintenance and the wood degrades quickly: peeling paint, raised grain, water staining, eventual rot in 15 to 20 years. For homeowners who view this exterior maintenance as part of the home&apos;s upkeep, wood is satisfying. For homeowners who want a set-and-forget product, wood-clad is a better fit.</p>
+            </div>
+          </div>
+        </section>
+
+        <section className="py-16 lg:py-24 bg-cream-bg">
+          <div className="max-w-[1400px] mx-auto px-6 lg:px-10">
+            <h2 className="text-2xl lg:text-4xl font-serif text-navy-600 text-center mb-8">Wood Species and Construction</h2>
+            <div className="max-w-3xl mx-auto">
+              <p className="text-gray-600 leading-relaxed">Premium pure-wood lines from Andersen, Pella, Marvin, and JELD-WEN use vertical-grain pine, fir, or mahogany with mortise-and-tenon corner joinery. The species and joinery details matter — cheaper wood windows use finger-jointed pine with butt-joined corners, which fails much faster in Frisco humidity than properly joined premium product. We only install premium wood windows that ship with mortise-and-tenon joinery and full-grain species selection.</p>
+            </div>
+          </div>
+        </section>
+
+        <section className="py-16 lg:py-24 bg-cream-bg">
+          <div className="max-w-[1400px] mx-auto px-6 lg:px-10">
+            <h2 className="text-2xl lg:text-4xl font-serif text-navy-600 text-center mb-8">Wood Window Warranty Considerations</h2>
+            <div className="max-w-3xl mx-auto">
+              <p className="text-gray-600 leading-relaxed">Wood windows carry shorter warranties than wood-clad or fiberglass — typically 10 years on glass and 5 years on non-glass components, with the wood itself covered against rot for 10 to 20 years depending on the brand. The shorter warranty reflects the higher maintenance demands of pure wood. We register every warranty in your name on completion day, but we also tell every wood customer up-front that the warranty is contingent on proper exterior maintenance.</p>
+            </div>
+          </div>
+        </section>
+
+      <section className="py-12 lg:py-16 bg-cream-100">
+        <div className="max-w-[1200px] mx-auto px-6 lg:px-10">
+          <div className="max-w-3xl mx-auto">
+            <p className="text-gray-600 leading-relaxed">Pure wood window projects in Frisco are rare. The maintenance reality (exterior repaint every 4 to 6 years) and the cost premium over wood-clad both push most homeowners toward the wood-clad alternative. For the small subset of Frisco projects where pure wood is the right answer — historic preservation in adjacent jurisdictions or very high-end custom builds with specific architectural intent — we install premium pure wood lines from Andersen, Pella, Marvin, and JELD-WEN with proper installation and full warranty registration.</p>
+          </div>
+        </div>
+      </section>
+
+      <section className="py-12 lg:py-16 bg-white">
+        <div className="max-w-[1200px] mx-auto px-6 lg:px-10">
+          <div className="max-w-3xl mx-auto">
+            <p className="text-gray-600 leading-relaxed">Pure wood window installations in Frisco proper are rare. The maintenance reality (exterior repaint every 4 to 6 years) and the cost premium over wood-clad both push most homeowners toward the wood-clad alternative. Adjacent McKinney historic district projects and a few high-end Frisco custom builds with specific architectural intent are the typical use cases. We will tell you honestly whether pure wood is the right answer for your specific situation or whether wood-clad delivers the same aesthetic with far less long-term maintenance.</p>
+          </div>
+        </div>
+      </section>
+
+      <section className="py-12 lg:py-16 bg-cream-100">
+        <div className="max-w-[1200px] mx-auto px-6 lg:px-10">
+          <div className="max-w-3xl mx-auto">
+            <p className="text-gray-600 leading-relaxed">Pure wood window installation requires careful pre-project conversation about long-term commitment. The maintenance schedule (exterior repaint every 4 to 6 years on west elevations, every 6 to 8 years on east and north elevations) is real and unavoidable. Skip it and the wood degrades quickly. For homeowners committed to that maintenance and willing to budget for it, pure wood delivers an architectural aesthetic nothing else matches. We will be honest at the estimate about whether the maintenance reality fits your lifestyle before you commit.</p>
+          </div>
+        </div>
+      </section>
+
+<section className="py-16 lg:py-24 bg-navy-600">
           <div className="max-w-[1400px] mx-auto px-6 lg:px-10 text-center">
             <h2 className="text-2xl lg:text-4xl font-serif text-white mb-6">
               Ready for Wood Windows?

@@ -16,35 +16,35 @@ export const metadata: Metadata = {
 export default function FibrexWindowsPage() {
   const content = {
     title: 'Fibrex Windows Replacement in Frisco, TX',
-    subtitle: 'Andersen\&apos;s Premium Composite Technology for Ultimate Performance',
+    subtitle: 'Andersen\'s Premium Composite Technology for Ultimate Performance',
     heroImage: '/window-types/fibrex-frisco-tx.jpg',
 
-    intro: "Frisco homeowners seeking the ultimate in window performance discover that Andersen&apos;s Fibrex composite material perfectly balances traditional wood aesthetics with modern durability. As a major affluent suburb with luxury developments, Frisco attracts homeowners who appreciate Fibrex windows' combination of wood-like beauty, exceptional strength, and superior energy efficiency. Whether in modern estates or contemporary developments, Fibrex windows provide the premium quality and lasting performance that Frisco homeowners demand. With the area&apos;s mix of traditional and modern architecture, Fibrex windows offer versatile design that enhances Frisco&apos;s architectural heritage.",
+    intro: "Frisco homeowners seeking the ultimate in window performance discover that Andersen's Fibrex composite material perfectly balances traditional wood aesthetics with modern durability. As a major affluent suburb with luxury developments, Frisco attracts homeowners who appreciate Fibrex windows' combination of wood-like beauty, exceptional strength, and superior energy efficiency. Whether in modern estates or contemporary developments, Fibrex windows provide the premium quality and lasting performance that Frisco homeowners demand. With the area's mix of traditional and modern architecture, Fibrex windows offer versatile design that enhances Frisco's architectural heritage.",
 
     sections: [
       {
         heading: 'Advanced Composite Construction for Frisco Durability',
-        content: "Fibrex represents Andersen\&apos;s revolutionary approach to window frame technology, blending wood fibers with advanced polymers to create a material that outperforms both traditional wood and modern synthetics. The wood fibers provide natural insulation and aesthetic appeal, while the polymer matrix delivers exceptional strength and moisture resistance. Unlike traditional wood that warps in Frisco&apos;s humidity or vinyl that lacks structural integrity, Fibrex maintains perfect dimensional stability year-round. The material&apos;s advanced formulation resists UV degradation from intense Texas sun, ensuring Fibrex windows maintain their performance and appearance indefinitely in Frisco&apos;s challenging climate.",
+        content: "Fibrex represents Andersen's revolutionary approach to window frame technology, blending wood fibers with advanced polymers to create a material that outperforms both traditional wood and modern synthetics. The wood fibers provide natural insulation and aesthetic appeal, while the polymer matrix delivers exceptional strength and moisture resistance. Unlike traditional wood that warps in Frisco's humidity or vinyl that lacks structural integrity, Fibrex maintains perfect dimensional stability year-round. The material's advanced formulation resists UV degradation from intense Texas sun, ensuring Fibrex windows maintain their performance and appearance indefinitely in Frisco's challenging climate.",
       },
       {
         heading: 'Authentic Wood Aesthetics Without Maintenance Burdens',
-        content: "Fibrex windows capture the natural warmth and character of real wood while eliminating the maintenance headaches that plague traditional wood windows in Frisco. The material accepts stains and finishes that replicate authentic wood tones, from golden oak to deep walnut, creating seamless continuity with Frisco&apos;s historic architecture. Unlike wood windows that require annual painting and sealing in Frisco&apos;s climate, Fibrex maintains its finish indefinitely without fading or weathering. Homeowners can enjoy the traditional appeal of wood windows—the natural grain patterns, the tactile warmth—without the time, expense, and environmental impact of maintaining authentic wood in Frisco&apos;s demanding environment.",
+        content: "Fibrex windows capture the natural warmth and character of real wood while eliminating the maintenance headaches that plague traditional wood windows in Frisco. The material accepts stains and finishes that replicate authentic wood tones, from golden oak to deep walnut, creating seamless continuity with Frisco's historic architecture. Unlike wood windows that require annual painting and sealing in Frisco's climate, Fibrex maintains its finish indefinitely without fading or weathering. Homeowners can enjoy the traditional appeal of wood windows—the natural grain patterns, the tactile warmth—without the time, expense, and environmental impact of maintaining authentic wood in Frisco's demanding environment.",
       },
       {
         heading: 'Structural Superiority for Frisco Homes',
-        content: "Fibrex&apos;s composite construction delivers strength that surpasses both wood and vinyl alternatives, making it ideal for Frisco&apos;s diverse housing stock. The material resists impact damage from severe weather, hail, or accidental impacts far better than traditional wood. Fibrex frames maintain perfect alignment and smooth operation even in Frisco&apos;s temperature extremes, where wood might warp and vinyl might become brittle. The material&apos;s dimensional stability ensures weatherstripping maintains perfect contact year-round, preventing air infiltration that compromises energy efficiency. For Frisco homeowners who demand quality and longevity, Fibrex provides the structural integrity required for windows that perform flawlessly in Texas weather.",
+        content: "Fibrex's composite construction delivers strength that surpasses both wood and vinyl alternatives, making it ideal for Frisco's diverse housing stock. The material resists impact damage from severe weather, hail, or accidental impacts far better than traditional wood. Fibrex frames maintain perfect alignment and smooth operation even in Frisco's temperature extremes, where wood might warp and vinyl might become brittle. The material's dimensional stability ensures weatherstripping maintains perfect contact year-round, preventing air infiltration that compromises energy efficiency. For Frisco homeowners who demand quality and longevity, Fibrex provides the structural integrity required for windows that perform flawlessly in Texas weather.",
       },
       {
         heading: 'Energy Performance That Saves in Frisco Climate',
-        content: "Fibrex&apos;s unique material properties create exceptional thermal performance that delivers measurable savings in Frisco&apos;s hot climate. The wood fiber content provides natural insulation, while the polymer matrix prevents heat conduction, resulting in U-factors that rival premium fiberglass. When combined with Andersen&apos;s advanced multi-pane insulated glass, Fibrex windows can reduce heating and cooling costs by 30-40% compared to older windows. The material&apos;s stability ensures optimal weatherstripping performance year-round, maintaining energy efficiency even during Frisco&apos;s dramatic temperature swings. Many Fibrex window configurations qualify for energy rebates, making them an economical choice despite their premium positioning.",
+        content: "Fibrex's unique material properties create exceptional thermal performance that delivers measurable savings in Frisco's hot climate. The wood fiber content provides natural insulation, while the polymer matrix prevents heat conduction, resulting in U-factors that rival premium fiberglass. When combined with Andersen's advanced multi-pane insulated glass, Fibrex windows can reduce heating and cooling costs by 30-40% compared to older windows. The material's stability ensures optimal weatherstripping performance year-round, maintaining energy efficiency even during Frisco's dramatic temperature swings. Many Fibrex window configurations qualify for energy rebates, making them an economical choice despite their premium positioning.",
       },
       {
         heading: 'Design Flexibility for Frisco Architecture',
-        content: "Fibrex&apos;s workability allows it to be formed into virtually any window style and configuration, making it ideal for Frisco&apos;s architectural diversity. The material can be stained to match traditional wood tones for historic Frisco homes or finished in contemporary colors for modern developments. Fibrex accommodates complex custom designs that would be difficult with other materials, from arched windows in historic restorations to large fixed panels in contemporary architecture. The material&apos;s strength enables innovative applications while maintaining the wood-like aesthetics that Frisco homeowners value. Whether preserving architectural heritage or embracing modern design, Fibrex provides the versatility required in Frisco&apos;s diverse real estate market.",
+        content: "Fibrex's workability allows it to be formed into virtually any window style and configuration, making it ideal for Frisco's architectural diversity. The material can be stained to match traditional wood tones for historic Frisco homes or finished in contemporary colors for modern developments. Fibrex accommodates complex custom designs that would be difficult with other materials, from arched windows in historic restorations to large fixed panels in contemporary architecture. The material's strength enables innovative applications while maintaining the wood-like aesthetics that Frisco homeowners value. Whether preserving architectural heritage or embracing modern design, Fibrex provides the versatility required in Frisco's diverse real estate market.",
       },
       {
         heading: 'Environmental Responsibility and Longevity',
-        content: "Fibrex represents a sustainable approach to window manufacturing that resonates with Frisco&apos;s growing environmental consciousness. The wood fiber content comes from responsibly harvested sources, and the advanced polymer technology reduces the environmental impact compared to traditional wood treated with chemical preservatives. Fibrex windows require no toxic sealants or paints, maintaining their appearance naturally. The exceptional longevity means fewer replacements over time, reducing material consumption and landfill impact. For environmentally aware Frisco homeowners, Fibrex windows provide premium performance with a significantly lower ecological footprint than traditional wood windows, supporting the city&apos;s commitment to sustainable development.",
+        content: "Fibrex represents a sustainable approach to window manufacturing that resonates with Frisco's growing environmental consciousness. The wood fiber content comes from responsibly harvested sources, and the advanced polymer technology reduces the environmental impact compared to traditional wood treated with chemical preservatives. Fibrex windows require no toxic sealants or paints, maintaining their appearance naturally. The exceptional longevity means fewer replacements over time, reducing material consumption and landfill impact. For environmentally aware Frisco homeowners, Fibrex windows provide premium performance with a significantly lower ecological footprint than traditional wood windows, supporting the city's commitment to sustainable development.",
       },
     ],
 
@@ -64,15 +64,15 @@ export default function FibrexWindowsPage() {
     brands: [
       {
         name: 'Andersen 100 Series Fibrex',
-        description: 'Andersen\&apos;s premium Fibrex line offers the ultimate in window performance with their signature composite technology. These windows feature multi-pane insulated glass, advanced weatherstripping, and comprehensive warranties.',
+        description: 'Andersen\'s premium Fibrex line offers the ultimate in window performance with their signature composite technology. These windows feature multi-pane insulated glass, advanced weatherstripping, and comprehensive warranties.',
       },
       {
         name: 'Andersen 200 Series Fibrex',
-        description: 'Andersen\&apos;s mid-range Fibrex windows provide exceptional value with the same composite construction and performance features as higher-end lines. Perfect for homeowners seeking premium quality at accessible pricing.',
+        description: 'Andersen\'s mid-range Fibrex windows provide exceptional value with the same composite construction and performance features as higher-end lines. Perfect for homeowners seeking premium quality at accessible pricing.',
       },
       {
         name: 'Andersen 300 Series Fibrex',
-        description: 'Andersen\&apos;s luxury Fibrex collection offers the most advanced features available, including impact-resistant glass options, premium hardware, and unlimited customization for discerning Frisco homeowners.',
+        description: 'Andersen\'s luxury Fibrex collection offers the most advanced features available, including impact-resistant glass options, premium hardware, and unlimited customization for discerning Frisco homeowners.',
       },
     ],
 
@@ -91,7 +91,7 @@ export default function FibrexWindowsPage() {
       },
       {
         question: 'Are Fibrex windows energy efficient?',
-        answer: 'Absolutely. Fibrex\&apos;s composite construction provides excellent insulation, and when combined with Andersen\&apos;s advanced glass packages, Fibrex windows can reduce energy costs by 35-45% in Frisco\&apos;s climate.',
+        answer: 'Absolutely. Fibrex\'s composite construction provides excellent insulation, and when combined with Andersen\'s advanced glass packages, Fibrex windows can reduce energy costs by 35-45% in Frisco\'s climate.',
       },
       {
         question: 'Do Fibrex windows require maintenance?',

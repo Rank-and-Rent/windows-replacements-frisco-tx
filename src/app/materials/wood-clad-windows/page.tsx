@@ -155,7 +155,67 @@ export default function WoodCladWindowsPage() {
         </section>
 
         {/* CTA */}
-        <section className="py-16 lg:py-24 bg-navy-600">
+                <section className="py-16 lg:py-24 bg-cream-bg">
+          <div className="max-w-[1400px] mx-auto px-6 lg:px-10">
+            <h2 className="text-2xl lg:text-4xl font-serif text-navy-600 text-center mb-8">Why Wood-Clad Is the Premium Choice for Frisco Custom Homes</h2>
+            <div className="max-w-3xl mx-auto">
+              <p className="text-gray-600 leading-relaxed">Wood-clad windows pair the warmth of authentic wood interiors with the low-maintenance protection of aluminum, vinyl, or Fibrex on the exterior. For Frisco custom homes in Newman Village, Edgestone at Legacy, Stonebriar, and Hollyhock, the look is hard to match with any synthetic alternative. The wood interior accepts stain or paint to match interior trim and millwork. The exterior cladding handles Texas UV, rain, and hail without the maintenance demands of all-wood construction. Premium wood-clad lines from Andersen, Pella, Marvin, and JELD-WEN deliver 30+ year service life with proper installation.</p>
+            </div>
+          </div>
+        </section>
+
+        <section className="py-16 lg:py-24 bg-cream-bg">
+          <div className="max-w-[1400px] mx-auto px-6 lg:px-10">
+            <h2 className="text-2xl lg:text-4xl font-serif text-navy-600 text-center mb-8">Wood Species and Interior Finish Options</h2>
+            <div className="max-w-3xl mx-auto">
+              <p className="text-gray-600 leading-relaxed">Wood-clad windows ship with a range of interior species — pine is standard, but most premium lines also offer fir, cherry, oak, and mahogany. Pine is the value tier and accepts stain or paint readily. Cherry and mahogany are upscale options for premium Frisco custom homes where the wood becomes a focal element of the room. Marvin Signature, Andersen A-Series, and Pella Reserve all offer the broadest species selection. We bring physical wood samples to every wood-clad estimate so you can see exactly how each species takes stain in your home&apos;s lighting.</p>
+            </div>
+          </div>
+        </section>
+
+        <section className="py-16 lg:py-24 bg-cream-bg">
+          <div className="max-w-[1400px] mx-auto px-6 lg:px-10">
+            <h2 className="text-2xl lg:text-4xl font-serif text-navy-600 text-center mb-8">Wood-Clad Maintenance</h2>
+            <div className="max-w-3xl mx-auto">
+              <p className="text-gray-600 leading-relaxed">The exterior cladding (aluminum, vinyl, or Fibrex) requires almost no maintenance — periodic cleaning is the extent of it. The interior wood requires the same care as any other wood millwork in the home — periodic dusting and cleaning, occasional touch-up if the finish gets scuffed, and a refinish every 15 to 25 years if the homeowner wants to refresh the look. For most Frisco custom-home owners, this maintenance level is consistent with the rest of the home&apos;s woodwork.</p>
+            </div>
+          </div>
+        </section>
+
+        <section className="py-16 lg:py-24 bg-cream-bg">
+          <div className="max-w-[1400px] mx-auto px-6 lg:px-10">
+            <h2 className="text-2xl lg:text-4xl font-serif text-navy-600 text-center mb-8">Wood-Clad Service Life</h2>
+            <div className="max-w-3xl mx-auto">
+              <p className="text-gray-600 leading-relaxed">Properly installed wood-clad windows last 30 to 40+ years. The cladding protects the wood from moisture and UV indefinitely, and the wood interior — protected from weather — does not degrade over time. Premium lines from Andersen, Pella, and Marvin all carry 20-year glass warranties and 10-year non-glass component warranties. We register every warranty in your name on completion day and back our installation labor with our own multi-year written warranty.</p>
+            </div>
+          </div>
+        </section>
+
+      <section className="py-12 lg:py-16 bg-cream-100">
+        <div className="max-w-[1200px] mx-auto px-6 lg:px-10">
+          <div className="max-w-3xl mx-auto">
+            <p className="text-gray-600 leading-relaxed">Wood-clad projects in Frisco are typically high-end custom-home installations rather than production-builder replacements. The price premium over vinyl runs 50 to 100 percent on equivalent configurations, which is a real budget consideration. For Newman Village, Edgestone at Legacy, Stonebriar, and Hollyhock custom builds where the homeowner wants the warmth of wood interiors paired with low-maintenance exteriors, wood-clad is the right answer. We bring physical samples and walk through the species, finish, and grid options at the in-home estimate.</p>
+          </div>
+        </div>
+      </section>
+
+      <section className="py-12 lg:py-16 bg-white">
+        <div className="max-w-[1200px] mx-auto px-6 lg:px-10">
+          <div className="max-w-3xl mx-auto">
+            <p className="text-gray-600 leading-relaxed">Wood-clad projects are the second-most-common Frisco full-home replacement material after vinyl. The price premium runs 50 to 100 percent over vinyl — typically $30,000 to $55,000 for a full-home wood-clad replacement vs $20,000 to $30,000 for vinyl. Homeowners who choose wood-clad value the warmth of authentic wood interiors over the lower price of vinyl. For Newman Village, Edgestone at Legacy, Stonebriar, and Hollyhock custom builds, wood-clad is often the right answer.</p>
+          </div>
+        </div>
+      </section>
+
+      <section className="py-12 lg:py-16 bg-cream-100">
+        <div className="max-w-[1200px] mx-auto px-6 lg:px-10">
+          <div className="max-w-3xl mx-auto">
+            <p className="text-gray-600 leading-relaxed">Wood-clad installation projects in Frisco span a wide design range. Andersen 400 Series wood-clad with white interior and bronze exterior reads as classic traditional. Pella Reserve mahogany interior with black exterior reads as contemporary upscale. Marvin Signature pine interior with simulated divided lite grids reads as authentic period-correct. JELD-WEN Siteline cherry interior with bronze exterior reads as warm modern. We bring physical samples to every wood-clad estimate so you can see exactly how each combination reads in your home.</p>
+          </div>
+        </div>
+      </section>
+
+<section className="py-16 lg:py-24 bg-navy-600">
           <div className="max-w-[1400px] mx-auto px-6 lg:px-10 text-center">
             <h2 className="text-2xl lg:text-4xl font-serif text-white mb-6">
               Ready for Wood Clad Windows?
