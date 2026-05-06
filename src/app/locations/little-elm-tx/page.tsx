@@ -5,7 +5,7 @@ import { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'Window Replacement Little Elm TX | Window Installation | Window Replacements of Frisco',
-  description: 'Window replacement and installation in Little Elm, TX. Energy-efficient windows for Paloma Creek, Sunset Pointe, Lakeview, and every Little Elm neighborhood. Free estimates.',
+  description: 'Frisco-based installer serving Little Elm — Paloma Creek, Sunset Pointe, Lakeview, Frisco Lakes-adjacent. Lakefront UV exposures, hail-rated frames, ARB-submission ready.',
   keywords: 'window replacement Little Elm TX, Paloma Creek windows, Sunset Pointe windows, Little Elm window installation',
 }
 

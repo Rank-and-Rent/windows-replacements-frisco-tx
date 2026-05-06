@@ -5,7 +5,7 @@ import { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'Window Replacement Richardson TX | Window Installation | Window Replacements of Frisco',
-  description: 'Window replacement and installation in Richardson, TX. Energy-efficient windows for Canyon Creek, Cottonwood Heights, Heights Park, and every Richardson neighborhood. Free estimates.',
+  description: 'Frisco-based installer serving Richardson — Canyon Creek, Cottonwood Heights, Heights Park. 1960s-80s brick ranches with rough-opening repairs priced upfront.',
   keywords: 'window replacement Richardson TX, Canyon Creek windows, Heights Park windows, Richardson window installation',
 }
 

@@ -5,7 +5,7 @@ import { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'Specialty Shape Windows Frisco TX | Custom Architectural Shapes | Window Replacements of Frisco',
-  description: 'Specialty shape window installation in Frisco, TX. Arched, half-round, octagon, trapezoid, and custom architectural shapes. Andersen, Pella, Marvin, and JELD-WEN.',
+  description: 'Arched, half-round, and trapezoid shapes for Frisco two-story foyers in Stonebriar, Newman Village, and Edgestone at Legacy. Custom builds matched exactly.',
   keywords: 'specialty shape windows Frisco TX, arched windows, half round windows, custom shape windows',
 }
 

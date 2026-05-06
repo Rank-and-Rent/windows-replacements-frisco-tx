@@ -5,7 +5,7 @@ import { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'Window Replacement Flower Mound TX | Window Installation | Window Replacements of Frisco',
-  description: 'Window replacement and installation in Flower Mound, TX. Energy-efficient windows for Bridlewood, Wellington, Lakeside DFW, and every Flower Mound neighborhood. Free estimates.',
+  description: 'Frisco-based installer serving Flower Mound — Bridlewood, Wellington, Lakeside DFW. Equestrian-estate elevations, big-glass picture units, line-item written quote.',
   keywords: 'window replacement Flower Mound TX, Flower Mound window installation, Bridlewood windows',
 }
 

@@ -5,7 +5,7 @@ import { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'Window Replacement Allen TX | Window Installation Allen | Window Replacements of Frisco',
-  description: 'Window replacement and installation in Allen, TX. Energy-efficient windows for Twin Creeks, Watters Creek, Star Creek, and every Allen neighborhood. Free estimates.',
+  description: 'Frisco-based installer serving Allen — Twin Creeks, Star Creek, Watters Creek, Cottonwood Bend. Master-planned 15-25yr replacement cycle, HOA palette handled.',
   keywords: 'window replacement Allen TX, Allen window installation, residential windows Allen',
 }
 

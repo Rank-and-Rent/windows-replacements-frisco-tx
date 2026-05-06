@@ -5,7 +5,7 @@ import { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'Window Replacement Denton TX | Window Installation Denton | Window Replacements of Frisco',
-  description: 'Window replacement and installation in Denton, TX. Energy-efficient windows for Robson Ranch, downtown Denton, Eagle Creek, and every Denton neighborhood. Free estimates.',
+  description: 'Frisco-based installer serving Denton — Robson Ranch, downtown Denton, Eagle Creek, Wildwood. Mixed era housing stock, careful trim work, line-item pricing.',
   keywords: 'window replacement Denton TX, Denton window installation, downtown Denton windows, Robson Ranch windows',
 }
 

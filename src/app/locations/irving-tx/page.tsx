@@ -5,7 +5,7 @@ import { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'Window Replacement Irving TX | Window Installation | Window Replacements of Frisco',
-  description: 'Window replacement and installation in Irving, TX. Energy-efficient windows for Las Colinas, Valley Ranch, Hackberry Creek, and every Irving neighborhood. Free estimates.',
+  description: 'Frisco-based installer serving Irving — Las Colinas, Valley Ranch, Hackberry Creek. DFW airport-corridor STC packages, mixed-era housing, written workmanship warranty.',
   keywords: 'window replacement Irving TX, Las Colinas windows, Valley Ranch windows, Irving window installation',
 }
 

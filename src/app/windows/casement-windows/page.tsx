@@ -5,7 +5,7 @@ import { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'Casement Windows Frisco TX | Installation & Replacement | Window Replacements of Frisco',
-  description: 'Casement window installation and replacement in Frisco, TX. Crank-out side-hinged windows with the tightest seal of any operable style. Andersen, Pella, Marvin, JELD-WEN.',
+  description: 'Crank-out casements for Heritage Lakes kitchens and Frisco Lakes single-stories. Tightest seal of any operable style, easy reach over sinks, hail-rated frames.',
   keywords: 'casement windows Frisco TX, crank windows, casement window installation, side hinged windows',
 }
 

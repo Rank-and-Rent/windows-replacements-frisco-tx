@@ -5,7 +5,7 @@ import { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'Window Replacement Coppell TX | Window Installation | Window Replacements of Frisco',
-  description: 'Window replacement and installation in Coppell, TX. Energy-efficient windows for Old Town Coppell, Magnolia Park, Riverchase, and every neighborhood. Free estimates.',
+  description: 'Frisco-based installer serving Coppell — Old Town Coppell, Magnolia Park, Riverchase, the Lakes. DFW airport-corridor STC packages, line-item pricing, written warranty.',
   keywords: 'window replacement Coppell TX, Coppell window installation, Old Town Coppell windows',
 }
 

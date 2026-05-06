@@ -5,7 +5,7 @@ import Footer from '@/components/footer'
 
 export const metadata: Metadata = {
   title: 'Andersen Windows & Doors Frisco TX',
-  description: 'Authorized Andersen Windows and Doors dealer in Frisco, TX. Professional installation of Andersen products. Call (469) 908-2440 for free estimate.',
+  description: 'Andersen 400 Series and A-Series for Stonebriar, Newman Village, and Edgestone luxury elevations. Authorized Frisco dealer, Fibrex composite, design service.',
   keywords: 'Andersen windows Frisco TX, Andersen doors, Andersen dealer, Fibrex windows, Andersen installation',
   alternates: {
     canonical: 'https://windowreplacementfrisco.com/brands/andersen-windows-doors',

@@ -9,7 +9,7 @@ import ContactSection from '@/components/contact-section'
 
 export const metadata: Metadata = {
   title: 'Fiberglass Windows Replacement Frisco TX | Ultimate Strength & Insulation',
-  description: 'Premium fiberglass replacement windows in Frisco, TX. Maximum strength, superior insulation, and authentic wood appearance. Everything priced including installation.',
+  description: 'Fiberglass windows for Frisco two-stories near Toyota Stadium, The Star, and PGA HQ. 8x stronger than vinyl, narrow sightlines, 20-year factory color in Texas UV.',
   keywords: 'fiberglass windows Frisco TX, fiberglass replacement windows, strong windows, insulated fiberglass windows',
 }
 
@@ -19,7 +19,7 @@ export default function FiberglassWindowsPage() {
     subtitle: 'Ultimate Strength and Insulation with Authentic Wood-Like Beauty',
     heroImage: '/window-types/fiberglass-frisco-tx.jpg',
 
-    intro: "Frisco homeowners seeking the pinnacle of window performance choose fiberglass for its unmatched combination of structural strength, superior thermal efficiency, and authentic wood aesthetics. In a city with luxury architecture from historic bungalows to modern developments, fiberglass windows provide the ultimate durability and energy performance that discerning Frisco residents demand.",
+    intro: "Fiberglass is the strongest residential window frame on the market — about eight times stronger than vinyl and roughly the same thermal expansion rate as the glass it holds. That last detail matters in Frisco, where a 105 degree summer afternoon and a 25 degree January morning put real thermal stress on every seal. Fiberglass frames do not warp, crack, or pull out of square the way wood and budget vinyl can over fifteen Texas summers. The narrow sightlines suit two-story Frisco homes in The Trails, Phillips Creek Ranch, and Plantation Resort where homeowners want the look of authentic wood frames without the maintenance. Premium lines now offer factory dark exterior finishes with 20-year color warranties — which is what makes fiberglass the right choice for west-facing elevations on Stonebriar, Newman Village, and Edgestone homes that take direct afternoon sun.",
 
     sections: [
       {

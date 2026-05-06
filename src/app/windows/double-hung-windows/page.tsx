@@ -5,7 +5,7 @@ import { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'Double-Hung Windows Frisco TX | Installation & Replacement | Window Replacements of Frisco',
-  description: 'Double-hung window installation in Frisco, TX. Both sashes operate, tilt-in for easy cleaning. Energy-efficient, classic design. Expert installation.',
+  description: 'Double-hung tilt-and-clean for Frisco Lakes Del Webb 55+ active adults and two-story Phillips Creek Ranch homes. Easy operation, lifetime hardware, 25-year warranty.',
   keywords: 'double-hung windows Frisco TX, double hung window installation, replacement windows',
 }
 

@@ -5,7 +5,7 @@ import Footer from '@/components/footer'
 
 export const metadata: Metadata = {
   title: 'French Door Installation Frisco TX | Andersen, Pella, JELD-WEN, Marvin',
-  description: 'Professional French door installation in Frisco, TX. Classic double doors with glass panels for elegant transitions. Call (469) 908-2440 for free estimate.',
+  description: 'French doors for Newman Village studies, Starwood patios, and Heritage Lakes garden rooms. Wood-clad and fiberglass, divided lites, HOA-approved profiles.',
   keywords: 'French door installation Frisco TX, double doors, glass panel doors, Andersen French doors, Pella French doors',
 }
 

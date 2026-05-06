@@ -5,7 +5,7 @@ import { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'Window Replacement McKinney TX | Window Installation McKinney | Window Replacements of Frisco',
-  description: 'Window replacement and installation in McKinney, TX. Energy-efficient windows for Stonebridge Ranch, Craig Ranch, downtown McKinney, and every neighborhood. Free estimates.',
+  description: 'Frisco-based installer serving McKinney — Stonebridge Ranch, Craig Ranch, Tucker Hill, downtown. Master-planned 15-25yr replacement cycle, HOA palette pulled.',
   keywords: 'window replacement McKinney TX, Stonebridge Ranch windows, Craig Ranch windows, McKinney window installation',
 }
 

@@ -9,7 +9,7 @@ import ContactSection from '@/components/contact-section'
 
 export const metadata: Metadata = {
   title: 'Aluminum Windows Replacement Frisco TX | Durable, Modern Design',
-  description: 'High-quality aluminum replacement windows in Frisco, TX. Durable, sleek, and energy-efficient. Andersen, Pella & JELD-WEN aluminum options. Everything priced including installation. Call 817-592-8870.',
+  description: 'Aluminum windows for contemporary Frisco custom builds in Hollyhock and Edgestone at Legacy. Slim sightlines, thermally broken frames, big-glass elevations.',
   keywords: 'aluminum windows Frisco TX, aluminum replacement windows, durable windows, modern aluminum windows, Andersen aluminum windows, Pella aluminum windows, JELD-WEN aluminum windows',
 }
 
@@ -19,7 +19,7 @@ export default function AluminumWindowsPage() {
     subtitle: 'Sleek, Durable Performance with Modern Thermal Efficiency',
     heroImage: '/window-types/aluminum-frisco-tx.jpg',
 
-    intro: "Frisco's affluent suburban growth and modern architectural trends make aluminum windows an excellent choice for homeowners seeking sophisticated performance. As one of North Texas' fastest-growing affluent communities, Frisco attracts families who appreciate aluminum windows' combination of sleek contemporary styling, exceptional strength, and thermal break efficiency. Whether in luxury developments or established neighborhoods, aluminum windows provide the modern aesthetic and lasting performance that Frisco homeowners demand. With the area's focus on quality and innovation, aluminum windows offer cutting-edge design that enhances Frisco's upscale character.",
+    intro: "Aluminum is the right call for the contemporary custom builds going up across Edgestone at Legacy, Hollyhock, and the modern infills near The Star and PGA HQ. The frame profiles are slimmer than vinyl or wood, which means more glass and less frame on the elevations Frisco architects are spec'ing now — flush stucco walls, oversized fixed picture units, and steel-look casement grids. Modern thermally broken aluminum closes most of the energy gap that historically made aluminum a bad choice for Texas heat, and the structural strength makes it the only honest pick for openings above about eight feet of unsupported span. We install thermally broken aluminum in Frisco from a short list of premium brands whose finishes carry a genuine Texas-UV warranty rather than a stock color promise.",
 
     sections: [
       {

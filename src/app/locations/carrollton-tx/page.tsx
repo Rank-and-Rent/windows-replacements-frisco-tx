@@ -5,7 +5,7 @@ import { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'Window Replacement Carrollton TX | Window Installation | Window Replacements of Frisco',
-  description: 'Window replacement and installation in Carrollton, TX. Energy-efficient windows for Hebron, Castle Hills, Old Downtown Carrollton, and every neighborhood. Free estimates.',
+  description: 'Frisco-based installer serving Carrollton — Hebron, Castle Hills, Country Place, Old Downtown. 1980s-90s brick traditionals hitting replacement cycle, line-item quote.',
   keywords: 'window replacement Carrollton TX, Carrollton window installation, Hebron windows, Castle Hills windows',
 }
 

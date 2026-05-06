@@ -5,7 +5,7 @@ import { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'Window Replacement Plano TX | Window Installation Plano | Window Replacements of Frisco',
-  description: 'Professional window replacement and installation in Plano, TX. Serving West Plano, Legacy, Willow Bend, and all Plano neighborhoods. Free estimates. Call (469) 908-2440.',
+  description: 'Frisco-based installer serving Plano — West Plano, Legacy, Willow Bend. 1970s ranches with rough-opening repairs priced upfront, Tollway STC packages on west elevations.',
   keywords: 'window replacement Plano TX, Plano window installation, windows Plano, Plano TX windows, West Plano windows',
 }
 
@@ -40,7 +40,7 @@ export default function PlanoPage() {
               Window Replacement & Installation in Plano, Texas
             </h1>
             <p className="text-lg lg:text-xl text-white/90 leading-relaxed mb-8">
-              Window Replacements of Frisco has served Plano homeowners for over 15 years with expert window installation, replacement, and repair services. From West Plano&apos;s established neighborhoods to Legacy&apos;s newer developments, we understand the unique window needs of Plano homes.
+              Window Replacements of Frisco serves Plano homeowners across West Plano, Willow Bend, Legacy West, and the established neighborhoods between Preston Road and Custer. We install Andersen, Pella, Marvin, and JELD-WEN windows — sized and finished for everything from 1970s brick ranches to Legacy custom builds. Free in-home estimates and clear, line-item pricing.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link href="/contact" className="btn-outline-light px-8 py-4 text-center">

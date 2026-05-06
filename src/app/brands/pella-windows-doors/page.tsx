@@ -5,7 +5,7 @@ import Footer from '@/components/footer'
 
 export const metadata: Metadata = {
   title: 'Pella Windows & Doors Frisco TX',
-  description: 'Authorized Pella Windows and Doors dealer in Frisco, TX. Professional installation of Pella products. Call (469) 908-2440 for free estimate.',
+  description: 'Pella Lifestyle, Reserve, and 250 Series for Phillips Creek Ranch, The Trails, and Heritage Lakes Frisco homes. Authorized dealer, integrated blinds, broad palette.',
   keywords: 'Pella windows Frisco TX, Pella doors, Pella dealer, InsulShield glass, Pella installation',
   alternates: {
     canonical: 'https://windowreplacementfrisco.com/brands/pella-windows-doors',

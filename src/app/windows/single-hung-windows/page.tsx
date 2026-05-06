@@ -5,7 +5,7 @@ import { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'Single-Hung Windows Frisco TX | Installation & Replacement | Window Replacements of Frisco',
-  description: 'Single-hung window installation and replacement in Frisco, TX. Classic design, energy efficiency, affordable pricing. Expert installation by certified professionals.',
+  description: 'Single-hung windows for Lone Star Ranch and Hillcrest Estates production-builder homes. Classic profile to match HOA spec, energy-efficient, value-priced.',
   keywords: 'single-hung windows Frisco TX, single hung window installation, single pane windows replacement',
 }
 

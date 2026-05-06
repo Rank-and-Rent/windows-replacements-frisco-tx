@@ -5,7 +5,7 @@ import Footer from '@/components/footer'
 
 export const metadata: Metadata = {
   title: 'Marvin Windows & Doors Frisco TX',
-  description: 'Marvin Windows and Doors in Frisco, TX. Professional installation of premium Marvin products. Call (469) 908-2440 for free estimate.',
+  description: 'Marvin Signature and Elevate for Newman Village, Starwood, and Eldorado custom Frisco homes. Tight tolerances, big-glass elevations, dark factory finishes.',
   keywords: 'Marvin windows Frisco TX, Marvin doors, Marvin dealer, custom windows, Marvin installation',
   alternates: {
     canonical: 'https://windowreplacementfrisco.com/brands/marvin-windows-doors',

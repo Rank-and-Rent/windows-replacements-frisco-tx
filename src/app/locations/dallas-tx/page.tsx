@@ -5,7 +5,7 @@ import { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'Window Replacement Dallas TX | North Dallas Windows | Window Replacements of Frisco',
-  description: 'Window replacement and installation in North Dallas, TX. Energy-efficient windows for Preston Hollow, Lake Highlands, Far North Dallas, and surrounding neighborhoods. Free estimates.',
+  description: 'Frisco-based installer serving North Dallas — Preston Hollow, Lake Highlands, Far North Dallas. Mid-century rough openings, premium-brand product, line-item quote.',
   keywords: 'window replacement Dallas TX, North Dallas windows, Preston Hollow windows',
 }
 

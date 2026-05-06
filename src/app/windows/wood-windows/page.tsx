@@ -9,7 +9,7 @@ import ContactSection from '@/components/contact-section'
 
 export const metadata: Metadata = {
   title: 'Wood Windows Replacement Frisco TX | Authentic Natural Beauty',
-  description: 'Premium solid wood replacement windows in Frisco, TX. Timeless natural beauty, superior craftsmanship, and authentic character. Everything priced including installation.',
+  description: 'Solid wood windows for Newman Village, Starwood, and Eldorado Country Club Frisco custom homes. Authentic millwork, divided lites, factory-finish for HOA approval.',
   keywords: 'wood windows Frisco TX, solid wood windows, traditional wood windows, authentic wood windows, custom wood windows',
 }
 
@@ -19,7 +19,7 @@ export default function WoodWindowsPage() {
     subtitle: 'Timeless Beauty and Authentic Craftsmanship in Solid Wood',
     heroImage: '/window-types/wood-frisco-tx.jpg',
 
-    intro: "Frisco homeowners who appreciate authentic traditional craftsmanship and timeless natural beauty choose solid wood windows. Nothing matches the warmth, character, and architectural authenticity that genuine wood provides. For historic Frisco homes and discerning homeowners who prioritize traditional quality, solid wood windows offer unparalleled beauty and lasting value.",
+    intro: "Solid wood windows are the right pick for Frisco custom homes in Newman Village, Starwood, and around the Eldorado Country Club golf-course corridor — properties where the homeowner wants real wood frame profiles, true divided lites, and the kind of millwork detail that production wood-clad cannot match. Wood demands a maintenance commitment in our climate (refinish every six to eight years, inspect glazing seals annually) but delivers an authenticity nothing else does. We install solid wood from Marvin Signature Ultimate and Andersen A-Series with factory finishes that hold up in Texas sun for the longest possible interval before refinishing.",
 
     sections: [
       {

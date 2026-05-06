@@ -5,7 +5,7 @@ import { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'Window Replacement The Colony TX | Window Installation | Window Replacements of Frisco',
-  description: 'Window replacement and installation in The Colony, TX. Energy-efficient windows for Tribute, Stewart Peninsula, Castle Hills North, and every Colony neighborhood. Free estimates.',
+  description: 'Frisco-based window installer serving The Colony — Tribute, Stewart Peninsula, Castle Hills North. Lakeview elevations, hail-rated frames, HOA palette submission.',
   keywords: 'window replacement The Colony TX, Tribute windows, Stewart Peninsula windows, Colony window installation',
 }
 

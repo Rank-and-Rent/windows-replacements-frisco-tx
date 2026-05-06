@@ -5,7 +5,7 @@ import { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'Window Replacement Grand Prairie TX | Window Installation | Window Replacements of Frisco',
-  description: 'Window replacement and installation in Grand Prairie, TX. Energy-efficient windows for Mira Lagos, Lake Ridge, Westchester, and every Grand Prairie neighborhood. Free estimates.',
+  description: 'Frisco-based installer serving Grand Prairie — Mira Lagos, Lake Ridge, Westchester. Lakefront UV exposures, hail-rated frames, written workmanship warranty.',
   keywords: 'window replacement Grand Prairie TX, Grand Prairie window installation, Mira Lagos windows',
 }
 

@@ -5,7 +5,7 @@ import { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'Window Replacement Euless TX | Window Installation | Window Replacements of Frisco',
-  description: 'Window replacement and installation in Euless, TX. Energy-efficient windows for HEB-area homes. Free estimates and authorized Andersen, Pella, Marvin, and JELD-WEN dealer.',
+  description: 'Frisco-based window installer serving Euless — Glade Parks, Bear Creek, Euless North. DFW airport-corridor sound packages, hail-rated frames, written warranty.',
   keywords: 'window replacement Euless TX, Euless window installation, HEB windows',
 }
 

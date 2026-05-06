@@ -5,7 +5,7 @@ import { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'Window Replacement Celina TX | New Construction Windows | Window Replacements of Frisco',
-  description: 'Window replacement and installation in Celina, TX. Energy-efficient windows for Light Farms, Mustang Lakes, Cambridge Crossing, and every Celina neighborhood. Free estimates.',
+  description: 'Frisco-based installer serving Celina — Light Farms, Mustang Lakes, Cambridge Crossing. New-build big-glass elevations, ARB submission handled, written warranty.',
   keywords: 'window replacement Celina TX, Celina window installation, Light Farms windows, Mustang Lakes windows',
 }
 

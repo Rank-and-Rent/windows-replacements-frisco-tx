@@ -9,7 +9,7 @@ import ContactSection from '@/components/contact-section'
 
 export const metadata: Metadata = {
   title: 'Fibrex Windows Replacement Frisco TX | Andersen Premium Composite',
-  description: 'Andersen Fibrex composite replacement windows in Frisco, TX. Premium performance with wood-like beauty. Energy-efficient and durable. Everything priced including installation.',
+  description: 'Andersen Fibrex composite for Stonebriar, Newman Village, and Hollyhock luxury elevations. 2x stronger than vinyl, dark exteriors, 20-year color warranty in Frisco sun.',
   keywords: 'Fibrex windows Frisco TX, Andersen Fibrex windows, composite windows, premium replacement windows, energy efficient Fibrex windows, durable composite windows',
 }
 
@@ -19,7 +19,7 @@ export default function FibrexWindowsPage() {
     subtitle: 'Andersen\'s Premium Composite Technology for Ultimate Performance',
     heroImage: '/window-types/fibrex-frisco-tx.jpg',
 
-    intro: "Frisco homeowners seeking the ultimate in window performance discover that Andersen's Fibrex composite material perfectly balances traditional wood aesthetics with modern durability. As a major affluent suburb with luxury developments, Frisco attracts homeowners who appreciate Fibrex windows' combination of wood-like beauty, exceptional strength, and superior energy efficiency. Whether in modern estates or contemporary developments, Fibrex windows provide the premium quality and lasting performance that Frisco homeowners demand. With the area's mix of traditional and modern architecture, Fibrex windows offer versatile design that enhances Frisco's architectural heritage.",
+    intro: "Fibrex is Andersen's proprietary wood-fiber-and-thermoplastic composite — twice as strong as vinyl, 38 percent stronger than fiberglass, and engineered with a coefficient of thermal expansion close enough to glass that the seals stay tight through Frisco's full annual temperature swing. For luxury master-planned neighborhoods like Stonebriar, Newman Village, and Edgestone at Legacy where the HOA architectural review board cares about authentic-looking frames and dark factory finishes, Fibrex sits in a sweet spot the standard vinyl lines simply do not reach. Andersen 100 Series and Renewal both use Fibrex; we install the standard Andersen line, which generally delivers better price-to-performance value for full-home Frisco replacements.",
 
     sections: [
       {

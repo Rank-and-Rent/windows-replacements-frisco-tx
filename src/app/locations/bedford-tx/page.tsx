@@ -5,7 +5,7 @@ import { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'Window Replacement Bedford TX | Window Installation | Window Replacements of Frisco',
-  description: 'Window replacement and installation in Bedford, TX. Energy-efficient vinyl, fiberglass, and Fibrex windows for HEB-area homes. Free estimates.',
+  description: 'Frisco-based installer serving Bedford — Stonegate, Meadow Park, Bedford Heights. HEB-corridor brick traditionals, replacement-cycle vinyl and Fibrex options.',
   keywords: 'window replacement Bedford TX, Bedford window installation, HEB windows',
 }
 

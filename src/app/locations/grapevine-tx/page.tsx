@@ -5,7 +5,7 @@ import { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'Window Replacement Grapevine TX | Window Installation | Window Replacements of Frisco',
-  description: 'Window replacement and installation in Grapevine, TX. Energy-efficient windows for Historic Grapevine, Stonebridge, Glade Crossing, and every Grapevine neighborhood. Free estimates.',
+  description: 'Frisco-based installer serving Grapevine — Historic Grapevine, Stonebridge, Glade Crossing. Heritage-district profiles, divided-lite grids, careful trim integration.',
   keywords: 'window replacement Grapevine TX, Grapevine window installation, historic Grapevine windows',
 }
 

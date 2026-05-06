@@ -5,7 +5,7 @@ import Footer from '@/components/footer'
 
 export const metadata: Metadata = {
   title: 'Custom Door Installation Frisco TX | Andersen, Pella, JELD-WEN, Marvin',
-  description: 'Professional custom door installation in Frisco, TX. Fully customized doors designed to your specifications. Call (469) 908-2440 for free estimate.',
+  description: 'Custom doors for Newman Village, Eldorado Country Club, and Edgestone at Legacy estates. Mahogany, knotty alder, bronze-clad; oversized; ARB-submission ready.',
   keywords: 'custom door installation Frisco TX, custom doors, bespoke doors, Marvin custom doors, custom entry doors',
 }
 

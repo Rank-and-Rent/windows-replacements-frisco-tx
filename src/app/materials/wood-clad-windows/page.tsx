@@ -5,7 +5,7 @@ import Footer from '@/components/footer'
 
 export const metadata: Metadata = {
   title: 'Wood Clad Windows Replacement Frisco TX | Authentic Wood Interiors',
-  description: 'Premium wood-clad replacement windows in Frisco, TX. Authentic wood interiors with weather-resistant exterior protection. Everything priced including installation.',
+  description: 'Wood-clad windows for Heritage Lakes, Plantation Resort, and Hillcrest Estates traditionals. Real wood interior, aluminum or fiberglass exterior, HOA-approved profiles.',
   keywords: 'wood clad windows Frisco TX, wood clad replacement windows, wood windows, aluminum clad windows',
 }
 

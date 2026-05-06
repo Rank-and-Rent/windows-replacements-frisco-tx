@@ -5,7 +5,7 @@ import Footer from '@/components/footer'
 
 export const metadata: Metadata = {
   title: 'Wood Windows Replacement Frisco TX | Traditional Beauty & Insulation',
-  description: 'Premium wood replacement windows in Frisco, TX. Traditional wood windows with natural beauty and superior insulation. Everything priced including installation.',
+  description: 'Solid wood windows for Newman Village, Starwood, and Eldorado custom Frisco homes. Traditional millwork, divided lites, factory finish options for HOA boards.',
   keywords: 'wood windows Frisco TX, wood replacement windows, traditional windows, natural wood windows',
 }
 

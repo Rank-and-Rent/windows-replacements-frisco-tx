@@ -9,7 +9,7 @@ import ContactSection from '@/components/contact-section'
 
 export const metadata: Metadata = {
   title: 'Wood Clad Windows Replacement Frisco TX | Traditional Beauty, Modern Protection',
-  description: 'Premium wood clad replacement windows in Frisco, TX. Real wood interior beauty with durable exterior protection. Everything priced including installation.',
+  description: 'Wood-clad windows for Heritage Lakes, Plantation Resort, and Westridge Frisco traditionals. Real wood inside, aluminum or fiberglass outside, HOA-board profiles.',
   keywords: 'wood clad windows Frisco TX, wood clad replacement windows, traditional windows, Andersen wood clad windows, Pella wood clad windows',
 }
 
@@ -19,7 +19,7 @@ export default function WoodCladWindowsPage() {
     subtitle: 'Authentic Wood Interior Beauty with Weather-Resistant Exterior Protection',
     heroImage: '/window-types/wood-clad-frisco-tx.jpg',
 
-    intro: "Frisco homeowners seeking the ultimate combination of traditional wood beauty and modern durability discover that wood clad windows provide the perfect balance. With authentic wood interiors that bring natural warmth to your home and weather-resistant exteriors that withstand Frisco's challenging climate, wood clad windows represent the gold standard in window performance and aesthetics.",
+    intro: "Wood-clad windows pair a real wood interior — pine, oak, or mahogany — with an aluminum, fiberglass, or vinyl exterior that takes the Texas weather. For Frisco's brick traditionals across Heritage Lakes, Plantation Resort, Westridge, and Hillcrest Estates, wood-clad reads exactly the way the original builder windows did from the curb while solving the maintenance problem that pushed those original frames out at the 20-year mark. Most Frisco wood-clad orders go to Andersen 400 Series or Pella Reserve, both of which carry HOA-friendly factory finishes in dark bronze, black, and earth tones. We submit the architectural review board paperwork as part of the project rather than handing it back to the homeowner.",
 
     sections: [
       {

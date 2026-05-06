@@ -9,7 +9,7 @@ import ContactSection from '@/components/contact-section'
 
 export const metadata: Metadata = {
   title: 'Vinyl Windows Replacement Frisco TX | Low Maintenance, Energy Efficient',
-  description: 'Premium vinyl replacement windows in Frisco, TX. Low-maintenance, energy-efficient, and built for Texas heat and storm season. Andersen, Pella, JELD-WEN, and Marvin vinyl options.',
+  description: 'Vinyl replacement for Phillips Creek Ranch, Lone Star Ranch, and The Trails. Production-builder homes hitting 15-25yr cycle, multi-chamber frames, Low-E argon.',
   keywords: 'vinyl windows Frisco TX, vinyl replacement windows, low maintenance windows, energy efficient vinyl windows',
 }
 

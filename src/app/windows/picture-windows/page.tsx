@@ -5,7 +5,7 @@ import { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'Picture Windows Frisco TX | Installation & Replacement | Window Replacements of Frisco',
-  description: 'Picture window installation and replacement in Frisco, TX. Fixed-pane windows for unobstructed views and maximum daylight. Andersen, Pella, Marvin, JELD-WEN.',
+  description: 'Fixed-pane picture windows for Frisco two-story foyers in Stonebriar and Edgestone at Legacy. Unobstructed glass, triple-silver Low-E for west-facing walls.',
   keywords: 'picture windows Frisco TX, fixed windows, picture window installation, large fixed windows',
 }
 

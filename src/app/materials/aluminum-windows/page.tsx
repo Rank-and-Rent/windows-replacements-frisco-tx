@@ -5,7 +5,7 @@ import Footer from '@/components/footer'
 
 export const metadata: Metadata = {
   title: 'Aluminum Windows Replacement Frisco TX | Durable & Modern',
-  description: 'Premium aluminum replacement windows in Frisco, TX. Durable, modern thermal efficiency, and sleek contemporary styling. Everything priced including installation.',
+  description: 'Aluminum windows for modern Frisco custom builds in Edgestone at Legacy and Hollyhock. Slim profiles, big glass, thermally broken frames built for Texas heat.',
   keywords: 'aluminum windows Frisco TX, aluminum replacement windows, durable windows, modern windows',
 }
 

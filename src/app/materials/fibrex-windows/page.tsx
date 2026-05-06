@@ -5,7 +5,7 @@ import Footer from '@/components/footer'
 
 export const metadata: Metadata = {
   title: 'Fibrex Windows Replacement Frisco TX | Andersen Premium Composite',
-  description: 'Premium Fibrex replacement windows in Frisco, TX. Andersen\'s composite material combining wood-like beauty with advanced durability. Everything priced including installation.',
+  description: 'Andersen Fibrex composite for Stonebriar and Newman Village luxury elevations. 2x stronger than vinyl, dark exterior options, 20-year color warranty in Texas sun.',
   keywords: 'fibrex windows Frisco TX, fibrex replacement windows, Andersen fibrex, composite windows',
 }
 

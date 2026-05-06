@@ -5,7 +5,7 @@ import { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'Window Replacement Addison TX | Residential Windows | Window Replacements of Frisco',
-  description: 'Window replacement and installation in Addison, TX. Energy-efficient vinyl, fiberglass, wood, and Fibrex windows for Addison homes. Free in-home estimates.',
+  description: 'Frisco-based window installer serving Addison — Vitruvian Park, Addison Circle, Belt Line patio homes. Tollway sound packages, hail-rated, HOA-friendly profiles.',
   keywords: 'window replacement Addison TX, Addison window installation, residential windows Addison',
 }
 

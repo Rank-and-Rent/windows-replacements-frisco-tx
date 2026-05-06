@@ -5,7 +5,7 @@ import Footer from '@/components/footer'
 
 export const metadata: Metadata = {
   title: 'JELD-WEN Windows & Doors Frisco TX',
-  description: 'Authorized JELD-WEN Windows and Doors dealer in Frisco, TX. Professional installation of JELD-WEN products. Call (469) 908-2440 for free estimate.',
+  description: 'JELD-WEN Hartford XT vinyl and AuraLast wood for Lone Star Ranch, Hillcrest Estates, and Frisco Lakes Del Webb. Best value-tier brand, fusion-welded frames.',
   keywords: 'JELD-WEN windows Frisco TX, JELD-WEN doors, JELD-WEN dealer, AuraLast wood, JELD-WEN installation',
   alternates: {
     canonical: 'https://windowreplacementfrisco.com/brands/jeld-wen-windows-doors',

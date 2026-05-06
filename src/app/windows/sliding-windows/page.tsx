@@ -5,7 +5,7 @@ import { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'Sliding Windows Frisco TX | Installation & Replacement | Window Replacements of Frisco',
-  description: 'Sliding window installation and replacement in Frisco, TX. Horizontal sliders for wide low-profile openings. Andersen, Pella, Marvin, and JELD-WEN options.',
+  description: 'Horizontal sliders for Frisco Lakes Del Webb patios and Phillips Creek Ranch breakfast nooks. Wide low-profile openings, easy operation, certified install.',
   keywords: 'sliding windows Frisco TX, gliding windows, horizontal sliders, sliding window installation',
 }
 

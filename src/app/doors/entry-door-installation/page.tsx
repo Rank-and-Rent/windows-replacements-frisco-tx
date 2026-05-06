@@ -5,7 +5,7 @@ import Footer from '@/components/footer'
 
 export const metadata: Metadata = {
   title: 'Entry Door Installation Frisco TX | Andersen, Pella, JELD-WEN, Marvin',
-  description: 'Professional entry door installation in Frisco, TX. Fiberglass, steel, and wood entry doors from top manufacturers. Enhanced security, energy efficiency, and curb appeal. Call (469) 908-2440.',
+  description: 'Entry doors for Stonebriar, Newman Village, and Phillips Creek Ranch facades. Fiberglass, steel, mahogany; HOA-approved finishes; multi-point locks; Texas-rated.',
   keywords: 'entry door installation Frisco TX, front door replacement, Andersen doors, Pella doors, JELD-WEN doors, Marvin doors',
 }
 

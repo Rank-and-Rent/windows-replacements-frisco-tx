@@ -5,7 +5,7 @@ import { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'Window Replacement Prosper TX | Luxury Window Installation | Window Replacements of Frisco',
-  description: 'Window replacement and installation in Prosper, TX. Premium windows for Windsong Ranch, Star Trail, Lakes of Prosper, and every Prosper neighborhood. Free estimates.',
+  description: 'Frisco-based installer serving Prosper — Windsong Ranch, Star Trail, Lakes of Prosper. Luxury elevations, dark-clad frames, ARB submissions handled.',
   keywords: 'window replacement Prosper TX, Windsong Ranch windows, Star Trail windows, luxury Prosper windows',
 }
 

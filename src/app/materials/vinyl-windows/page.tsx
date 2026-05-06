@@ -5,7 +5,7 @@ import Footer from '@/components/footer'
 
 export const metadata: Metadata = {
   title: 'Vinyl Windows Replacement Frisco TX | Low Maintenance, Energy Efficient',
-  description: 'Premium vinyl replacement windows in Frisco, TX. Low-maintenance, energy-efficient, and durable. Everything priced including installation.',
+  description: 'Vinyl replacement for Phillips Creek Ranch, Lone Star Ranch, and The Trails homes hitting the 15-25 year window. Multi-chamber frames, Low-E argon, 25-year warranty.',
   keywords: 'vinyl windows Frisco TX, vinyl replacement windows, low maintenance windows, energy efficient vinyl windows',
 }
 

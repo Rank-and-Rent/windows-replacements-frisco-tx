@@ -5,7 +5,7 @@ import Footer from '@/components/footer'
 
 export const metadata: Metadata = {
   title: 'Storm Door Installation Frisco TX | Andersen, Pella, JELD-WEN, Marvin',
-  description: 'Professional storm door installation in Frisco, TX. Protective doors for added security and energy efficiency. Call (469) 908-2440 for free estimate.',
+  description: 'Andersen and Larson storm doors for Frisco Lakes, Heritage Lakes, and The Trails. Hail-rated glass, full-view options, low-E coatings to protect entry doors from sun.',
   keywords: 'storm door installation Frisco TX, storm doors, protective doors, Andersen storm doors, Larson storm doors',
 }
 

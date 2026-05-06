@@ -5,7 +5,7 @@ import Footer from '@/components/footer'
 
 export const metadata: Metadata = {
   title: 'Patio Door Installation Frisco TX | Andersen, Pella, JELD-WEN, Marvin',
-  description: 'Professional patio door installation in Frisco, TX. Sliding and hinged patio doors for seamless indoor-outdoor living. Call (469) 908-2440 for free estimate.',
+  description: 'Patio doors for Stonebriar pool decks, Frisco Lakes covered patios, and Phillips Creek Ranch outdoor kitchens. Sliding and hinged, multi-panel options, low sill.',
   keywords: 'patio door installation Frisco TX, sliding patio doors, hinged patio doors, Andersen patio doors, Pella patio doors',
 }
 

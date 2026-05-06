@@ -5,7 +5,7 @@ import { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'Bay & Bow Windows Frisco TX | Installation & Replacement | Window Replacements of Frisco',
-  description: 'Bay and bow window installation and replacement in Frisco, TX. Add square footage, daylight, and curb appeal with Andersen, Pella, Marvin, and JELD-WEN configurations.',
+  description: 'Bay and bow windows for The Trails breakfast rooms and Plantation Resort family rooms. Adds square footage and daylight, HOA-friendly profiles for Frisco facades.',
   keywords: 'bay windows Frisco TX, bow windows, bay window installation, projection windows',
 }
 

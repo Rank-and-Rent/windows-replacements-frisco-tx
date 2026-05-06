@@ -5,7 +5,7 @@ import { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'Awning Windows Frisco TX | Installation & Replacement | Window Replacements of Frisco',
-  description: 'Awning window installation and replacement in Frisco, TX. Top-hinged windows that open outward — ventilation even during rain. Energy-efficient design from Andersen, Pella, Marvin, and JELD-WEN.',
+  description: 'Awning windows for Frisco bathrooms, basements, and above-counter kitchen ventilation. Top-hinged so spring storms cannot drive rain in. Hail-rated frames.',
   keywords: 'awning windows Frisco TX, top hinged windows, awning window installation, kitchen awning windows',
 }
 

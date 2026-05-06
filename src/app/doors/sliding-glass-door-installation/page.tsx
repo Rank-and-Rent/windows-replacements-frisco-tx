@@ -5,7 +5,7 @@ import Footer from '@/components/footer'
 
 export const metadata: Metadata = {
   title: 'Sliding Glass Door Installation Frisco TX | Andersen, Pella, JELD-WEN, Marvin',
-  description: 'Professional sliding glass door installation in Frisco, TX. Space-saving doors with expansive glass panels. Call (469) 908-2440 for free estimate.',
+  description: 'Sliding glass doors for Frisco Lakes Del Webb patios, Phillips Creek Ranch covered porches, and modern Hollyhock builds. Big-glass, smooth roller, hail-rated.',
   keywords: 'sliding glass door installation Frisco TX, glass doors, sliding doors, Andersen sliding doors, Pella sliding doors',
 }
 

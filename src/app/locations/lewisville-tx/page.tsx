@@ -5,7 +5,7 @@ import { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'Window Replacement Lewisville TX | Window Installation | Window Replacements of Frisco',
-  description: 'Window replacement and installation in Lewisville, TX. Energy-efficient windows for Castle Hills, Valley Ridge, Highland Village edge, and every Lewisville neighborhood. Free estimates.',
+  description: 'Frisco-based installer serving Lewisville — Castle Hills, Valley Ridge, Highland Village edge. Lake-corridor UV exposures, line-item pricing, HOA palette submission.',
   keywords: 'window replacement Lewisville TX, Castle Hills windows, Valley Ridge windows, Lewisville window installation',
 }
 

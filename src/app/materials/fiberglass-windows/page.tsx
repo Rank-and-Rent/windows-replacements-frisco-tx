@@ -5,7 +5,7 @@ import Footer from '@/components/footer'
 
 export const metadata: Metadata = {
   title: 'Fiberglass Windows Replacement Frisco TX | Ultimate Strength & Insulation',
-  description: 'Premium fiberglass replacement windows in Frisco, TX. Maximum strength, superior insulation, and authentic wood appearance. Everything priced including installation.',
+  description: 'Fiberglass replacement windows for Frisco two-stories near Toyota Stadium and The Star. 8x stronger than vinyl, narrow sightlines, 20-year color in Texas UV.',
   keywords: 'fiberglass windows Frisco TX, fiberglass replacement windows, strong windows, insulated fiberglass windows',
 }
 
